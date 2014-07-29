@@ -1,0 +1,205 @@
+#autodiagnosis_form{
+    
+    #microinjerto_auto_diagnosis{
+        
+        article{
+            @extend .clearfix;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            width: 698px;
+            .browse{
+                cursor: pointer;
+                position: absolute;
+                top: 20%;
+            }
+            a.prev{ @extend .flecha_izq_triangle; left: -38px; }
+            a.next{ @extend .flecha_der_triangle; right: -39px; }
+            .disabled{ display: none !important; }
+            #auto_diagnostic{
+                clear: both;
+                display: block;
+                margin: 0 auto;
+                padding: 15px 0 0;
+                position: relative;
+                width: 698px;
+                h3{
+                    @include font-mask( $white, em( 25, 16 ), em( 31, 25 ), normal, $Helvetica_Neue_LT_STD_Light_Condensed );
+                    background: $text_gray;
+                    letter-spacing: 0.1px;
+                    margin: 0;
+                    padding: 10px 0 3px;
+                    text-indent: 27px;
+                    text-transform: uppercase;
+                    strong{ font-family: $Helvetica_Neue_LT_STD_Bold_Condensed; font-weight: normal; }
+                }
+                .diagnosis_scrollable{
+                    background: $yellow;
+                    height: em( 225, 16 );
+                    overflow: hidden;
+                    position: relative;
+                    width: em( 698, 16 );
+                    .diagnosis_items{
+                        @extend .clearfix;
+                        position: relative;
+                        width: 20000em;
+                        .levels{
+                            float: left;
+                            img{ float: left; }
+                            .profile{ padding: 18px 0 0 36px; }
+                            .top{ padding: 23px 0 0 75px; }
+                            > div{
+                                float: left;
+                                height: 225px;
+                                padding: 0 0 0 32px;
+                                position: relative;
+                                width: 270px;
+                                h4{
+                                    @include font-mask( $text_gray, em( 64, 16 ), em( 64, 64 ), normal, $Helvetica_Neue_LT_STD_Light_Condensed );
+                                    letter-spacing: 0.1px;
+                                    margin: 0;
+                                    padding: 54px 0 64px;
+                                    text-align: left;
+                                    text-indent: 24px;
+                                    text-transform: uppercase;
+                                    strong{ font-family: $Helvetica_Neue_LT_STD_Bold_Condensed; font-weight: normal; }
+                                }
+                                div.input_radio{
+                                    @extend .clearfix;
+                                    bottom: em( 5, 16 );
+                                    position: absolute;
+                                    width: em( 270, 16 );
+                                    label{
+                                        @include font-mask( $text_gray, em( 16, 16 ), em( 32, 16 ), normal, $Helvetica_Neue_LT_STD_Condensed );
+                                        display: inline-block;
+                                        left: -10px;
+                                        letter-spacing: 0.1px;
+                                        padding: 0 12px 0 0;
+                                        position: absolute;
+                                        text-transform: uppercase;
+                                        strong{ font-family: $Helvetica_Neue_LT_STD_Bold_Condensed; font-size: em( 14, 16 ); font-weight: normal; }
+                                    }
+                                    .radio{
+                                        display: inline-block;
+                                        float: right;
+                                        padding: 0 10px 0 0;
+                                        span{
+                                            @extend .seleccion;
+                                            left: 0;
+                                            position: relative;
+                                            top: 2px;
+                                            .select_level{
+                                                background: none transparent;
+                                                border: 0 none transparent;
+                                                display: block;
+                                                filter: alpha(opacity=0);
+                                                height: 100%;
+                                                margin: 0;
+                                                opacity: 0;
+                                                padding: 0;
+                                                width: 100%;
+                                            }
+                                        }
+                                        .checked{
+                                            @extend .seleccion_over;
+                                        }
+                                    }//Cmv2014+$
+                                }
+                            }
+                        }
+                        &:last-child{
+                            font-size: em( 58, 64 );
+                        }
+                        .V{
+                            
+                            > div{
+                                
+                                h4{
+                                    font-size: em( 31, 16 );
+                                    line-height: em( 36, 31 );
+                                    text-indent: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .diagnosis_budget{
+                clear: both;
+                display: block;
+                height: 278px;
+                margin: em( 28, 16 ) auto 0;
+                width: 421px;
+                z-index: 0;
+                h4{
+                    @include font-mask( $text_gray, em( 28, 16 ), em( 30, 28 ), normal, $Helvetica_Neue_LT_STD_Light_Condensed );
+                    display: inline-block;
+                    letter-spacing: em( 0.5, 28 );
+                    margin: 0;
+                    padding: em( 13.33, 28 ) 0 0;
+                    text-indent: em( 35, 28 );
+                    text-transform: uppercase;
+                    width: 100%;
+                    strong{ font-family: $Helvetica_Neue_LT_STD_Bold_Condensed; font-weight: normal; }
+                }
+                form{
+                    display: block;
+                    height: 70px;
+                    margin: 0 auto;
+                    padding: 17px 0 12px 50px;
+                    fieldset{
+                        height: 100%;
+                        position: relative;
+                        .text{
+                            float: left;
+                            padding: 3px 15px 3px 0;
+                            position: relative;
+                            width: 280px;
+                            .error{
+                                @include font-mask( $text_gray, em( 13, 16 ), em( 22, 13 ), normal, $Helvetica_Neue_LT_STD_Light_Condensed );
+                                position: absolute;
+                                right: em( 28, 13 );
+                                text-align: right;
+                                top:em( 7, 13 );
+                            }
+                            input{
+                                @include font-mask( $text_gray, em( 13, 16 ), em( 13, 13 ), normal, $Helvetica_Neue_LT_STD_Light_Condensed );
+                                background-color: #E9E9E9;
+                                border: 0 none transparent;
+                                letter-spacing: 0.5px;
+                                padding: 0 5px;
+                                width: 260px;
+                            }
+                            &:first-child{
+                                padding: 0 15px 1px 0;
+                                .error{
+                                    top: em( 1, 13 );
+                                }
+                            }
+                            &:last-child{ padding: 1px 15px 0 0; }
+                        }
+                        .submit{
+                            display: inline-block;
+                            float: left;
+                            height: 65px;
+                            position: absolute;
+                            top: 0;
+                            right: 15px;
+                            width: 65px;
+                            input{
+                                @extend .enviar;
+                                border: 0 none transparent;
+                                color: transparent;
+                                display: block;
+                                height: 65px;
+                                text-indent: 2000em;
+                                width: 65px;
+                                &:hover{ @extend .enviar_over; }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

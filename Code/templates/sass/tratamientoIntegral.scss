@@ -1,0 +1,206 @@
+#integral_treatment{
+    
+    .reveal{
+        top: 30px !important;
+        .slides{
+            
+            section{
+                height: 515px;
+            }
+            #integral_treatment_landing{
+                position: relative;
+                .browse{ cursor: pointer; position: absolute; top: 210px; }
+                .disabled{ display: none; }
+                .prev{ @extend .flecha_izq; left: -20px; }
+                .integral_scrollable{
+                    display: block;
+                    height: 515px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    width: 940px;
+                    .integral_items{
+                        position: absolute;
+                        width: 2000em;
+                        div{
+                            @extend .clearfix;
+                            float: left;
+                            height: 515px;
+                            width: 940px;
+                            .cuadros{
+                                background-color: #2c2c2c;
+                                height: 250px;
+                                margin: 2px;
+                                position: relative;
+                                width: 49.5%;
+                                .titulo{
+                                    height: 100%;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    width: 219px;
+                                    p{ color: #000; }
+                                    span{ display: none; }
+                                }
+                                .imagen{
+                                    float: right;
+                                    width: 50%;
+                                    height: 100%;
+                                    background-color: gray;
+                                }
+                                &:hover,&.current{
+                                    background-color: #edd304;
+                                    .titulo{
+                                        position: relative;
+                                        p{ color: #000 !important; }
+                                        span{
+                                            @extend .triangle;
+                                            display: block;
+                                            right: -23px;
+                                            top: 40%;
+                                        }
+                                    }
+                                }
+                            }
+                            #tratamiento_medico{
+                                float: left;
+                                .titulo {
+                                    position: relative;
+                                    p{
+                                        @include font-mask( #CCC, em( 25, 16 ), em( 25, 25 ), normal, $Fira_Sans_Ot_Light );
+                                        padding: 98px 20px 0;
+                                        text-align: left;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                                #imagenTratamiento{ @extend .formulas_magistrales_menu; }
+                                &:hover{
+                                    
+                                    #imagenTratamiento{ @extend .formulas_magistrales_menu; right: -30px; }
+                                }
+                            }
+                            #microinjerto{
+                                float: right;
+                                margin-top: 5px;
+                                .titulo {
+                                    
+                                    p{
+                                        @include font-mask( #CCC, em( 27, 16 ), em( 35, 27 ), normal, $Fira_Sans_Ot_Light );
+                                        padding: 118px 30px 0;
+                                        text-align: left;
+                                        text-transform: uppercase;
+                                        width: 195px;
+                                    }
+                                }
+                                #imagenMicroinjerto{ @extend .microinjerto_home_over; }
+                                &:hover{
+                                    
+                                    #imagenMicroinjerto{ @extend .microinjerto_home; right: -30px; }
+                                }
+                            }
+                            #mesoterapia{
+                                float: right;
+                                .titulo {
+                                    
+                                    p {
+                                        @include font-mask( #CCC, em( 28, 16 ), em( 28, 28 ), normal, $Fira_Sans_Ot_Light );
+                                        padding: 110px 0 0 23px;
+                                        text-align: left;
+                                        width: em( 173, 28 );
+                                        &:hover{ color: #333; }
+                                    }
+                                }
+                                #imagenMesoterapia{ @extend .mesoterapia_menu_BN; }
+                                &:hover{
+                                    
+                                    #imagenMesoterapia{ @extend .mesoterapia_menu; right: -30px;  }
+                                }
+                            }
+                            #capilar{
+                                float: right;
+                                margin-top: 5px;
+                                .titulo {
+                                    
+                                    p{
+                                        @include font-mask( #CCC, em( 19, 16 ), em( 19, 19 ), normal, $Fira_Sans_Ot_Light );
+                                        display: block;
+                                        float: left;
+                                        padding: 99px 25px 0;
+                                        text-align: left;
+                                        width: 177px;
+                                        &.big_title{
+                                            font-size: 45px;
+                                            line-height: 1em;
+                                            padding: 0 em( 25, 45 );
+                                        }
+                                    }
+                                }
+                                #imagenCapilar{ @extend .electroporacion_menu_BN; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                    }
+                                    #imagenCapilar{ @extend .electroporacion_menu; right: -30px; }
+                                }
+                            }
+                            #plasma{
+                                float: none !important;
+                                .titulo{
+                                    
+                                    p{
+                                        @include font-mask( #CCC, em( 28, 16 ), em( 28, 28 ), normal, $Fira_Sans_Ot_Light );
+                                        padding: 110px 0 0 23px;
+                                        text-align: left;
+                                        width: em( 173, 28 );
+                                    }
+                                    span{}
+                                }
+                                #imagenPlasma{ @extend .plaquetas; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                        span{}
+                                    }
+                                    #imagenPlasma{ @extend .plaquetas_over; right: -30px; }
+                                }
+                            }
+                            #clasificacion_de_la_calvicie{
+                                float: none !important;
+                                margin: 5px 0 0;
+                                .titulo{
+                                    
+                                    p{
+                                        @include font-mask( #CCC, em( 28, 16 ), em( 28, 28 ), normal, $Fira_Sans_Ot_Light );
+                                        margin: 0;
+                                        padding: 100px 0 0 15px;
+                                        text-align: left;
+                                        width: em( 173, 28 );
+                                    }
+                                    .big_title{
+                                        font-size: 33px;
+                                        margin: 0;
+                                        padding: 0 15px;
+                                    }
+                                }
+                                #imagenClasificacion{ @extend .alopecia_menu_BN; right: -30px; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                        span{}
+                                    }
+                                    #imagenClasificacion{ @extend .alopecia_menu; right: -30px; }
+                                }
+                            }
+                        }
+                    }
+                }
+                .next{ @extend .flecha_der; right: -20px; }
+            }
+        }
+    }
+}

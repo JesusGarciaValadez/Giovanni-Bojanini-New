@@ -1,0 +1,106 @@
+#who_are_we{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .reveal{ top: 60px !important; }
+    section{
+        
+        .who_are_we_title, article{ box-sizing: border-box; width: 100%; }
+        .who_are_we_title{
+            height: 75%;
+            padding: 47% 0 !important;
+            h1{
+                font-size: em( 45, 16 );
+                margin: 0 auto;
+                text-align: center;
+                width: em( 220, 45 );
+                strong{ font-size: em( 40, 45 ); font-weight: normal; }
+            }
+        }
+        article{
+            height: auto !important;
+            padding: 50px 0;
+            p{
+                @include font-mask( $text_gray, em( 12.5, 16 ), em( 18, 12.5 ), normal );
+                padding: 0 30px;
+                text-align: center;
+                &:first-child{ font-weight: bold; }
+            }
+            h2{
+                padding: 0 30px;
+                text-align: center;
+            }
+            ul{
+                margin: 10px 0 0;
+                padding: 0 15px;
+                li{
+                    list-style: outside none;
+                    text-align: left;
+                    &:before{
+                        content: "* ";
+                    }
+                }
+            }
+        }
+        >article.mobile{
+            background-color: #2B2B2B;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            ul{
+                box-sizing: border-box;
+                float: none;
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+                width: 53%;
+                li{
+                    float: left;
+                    list-style: none inside;
+                    &:before{ content: none; }
+                    a{}
+                }
+                .google_plus{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .twitter{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .facebook{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .youtube{
+                    
+                    a{}
+                    &:hover{  }
+                }
+            }
+            #internal_footer{
+                background-color: #161616;
+                height: 30px;
+                a{
+                    @include font-mask( $yellow, em( 10, 16 ), em( 30, 10 ), normal );
+                    float: left;
+                    margin: 0 0 0 10px;
+                    padding: 0;
+                }
+                p{
+                    @include font-mask( $white, em( 10, 16 ), em( 30, 10 ), normal );
+                    float: right;
+                    margin: 0 10px 0 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

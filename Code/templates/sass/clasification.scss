@@ -1,0 +1,278 @@
+#clasification_of_baldness{
+    
+    .reveal{
+        height: 488px;
+        top: 20px;
+    }
+    section{
+        height: 488px;
+    }
+    #gallery_of_scales{
+        
+        #hombreAmarillo{
+            background: url(../img/home/triangulo_cuadro_chico.png) no-repeat 0px 90px #edd304;
+            float: right;
+            height: 50%;
+            position: relative;
+            width: 470px;
+            span {
+                @extend .btn_mas;
+                bottom: 10px;
+                position: absolute;
+                right: 10px;
+                &:hover{ @extend .btn_mas_over; }
+            }
+        }
+        #hombreTexto{
+            float: right;
+            width: 240px;
+            height: 50%;
+            background-color: #232323;
+            text-align: center;
+            p#escala{
+                @include font-mask( $white, em( 27.48, 16 ), em( 27.48, 27.48 ), normal, $Fira_Sans_Ot_Light );
+                margin-top: 90px;
+            }
+            p#norwood{
+                @include font-mask( $yellow, em( 20, 16 ), em( 20, 20 ), normal, $Fira_Sans_Ot_Light );
+            }
+        }
+        #mujerGris{
+            background: url(../img/home/triangulo_cuadro_chico_Over.png) no-repeat 0px 90px #232323;
+            float: right;
+            height: 50%;
+            position: relative;
+            width: 470px;
+            span {
+                @extend .btn_mas;
+                bottom: 10px;
+                position: absolute;
+                right: 10px;
+                &:hover { @extend .btn_mas_over; }
+            }
+        }
+        #mujerTexto{
+            float: right;
+            width: 240px;
+            height: 50%;
+            background-color: #edd304;
+            position: relative;
+            text-align: center;
+            p#escala1{
+                @include font-mask( #333, em( 32, 16 ), em( 32, 32 ), normal, $Fira_Sans_Ot_Light );
+                margin-top: 70px;
+            }
+            p#ludwig{
+                @include font-mask( #333, em( 46, 16 ), 1em, bold, $Nobile_Bold );
+            }
+        }
+        #section12texto1{
+            width: 250px;
+            height: 100%;
+            background-color: #535353;
+            text-align: center;
+            p {
+                @include font-mask( $white, em( 29, 22 ), em( 29, 29 ), normal, $Fira_Sans_Ot_Light );
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 235px;
+                a{
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+    #baldness_classification{
+        
+        .section13texto1 {
+            background-color: #232323;
+            float: left;
+            height: 100%;
+            text-align: center;
+            width: 250px;
+            p {
+                @include font-mask( $white, em( 24, 16 ), 1em, normal, $Fira_Sans_Ot_Light );
+                float: left;
+                margin: 0;
+                padding: 200px 0 0 25px;
+                text-align: left;
+                strong{
+                    @include font-mask( $yellow, em( 20, 21 ), em( 25, 20 ), bold, $Nobile_Bold );
+                    clear: both;
+                    display: block;
+                }
+            }
+        }
+        .section13galeria {
+            float: left;
+            width: 650px;
+            height: 100%;
+            position: relative;
+            .browse {
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+            }
+            .left {
+                background-image:url(../img/home/flecha_izq.png);
+                width:40px;
+                height:128px;
+                left:-20px;
+                background-repeat:no-repeat;
+                z-index:100;
+            }
+            .right {
+                background-image:url(../img/home/flecha_der.png);
+                width:40px;
+                height:128px;
+                right:-40px;
+                background-repeat:no-repeat;
+            }
+            .disabled{ display: none; }
+            .scrollable_integral{
+                /* required settings */
+                position:relative;
+                overflow:hidden;
+                width: 650px;
+                height:100%;
+                .items_scale {
+                    /* this cannot be too large */
+                    width:20000em;
+                    position:absolute;
+                    height: 100%;
+                    >div {
+                        float:left;
+                        height: 100%;
+                        width: 650px;
+                        .item_wrapper{
+                            clear: both;
+                            display: block;
+                            .textoGaleria {
+                                float: left;
+                                height: 50%;
+                                text-align: left;
+                                width: 300px;
+                                .tipo {
+                                    @include font-mask( #333, em( 27, 16 ), em( 27, 27 ), bold, $Nobile_Bold );
+                                    margin-top: 110px;
+                                }
+                                p {
+                                    @include font-mask( #333, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                                    margin-left: 35px;
+                                    text-align: justify;
+                                }
+                            }
+                            .imagenGaleria {
+                                float: right;
+                                width: 350px;
+                                height: 50%;
+                                img {
+                                    width: 115px;
+                                    padding-top: 0px;
+                                    padding-left: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .internal_navigation_menu{
+            
+            ul{
+                width: 570px;
+                li{
+                    
+                    a{
+                        
+                        p{}
+                        &:hover{
+                            
+                            p{
+                                left: -95px;
+                                width: 210px;
+                            }
+                        }
+                    }
+                    .current{
+                        
+                        p{
+                            left: -95px;
+                            width: 210px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .internal_navigation_menu{
+        margin: 0 auto;
+        width: 145px;
+        ol{
+            float: left;
+            width: 95px;
+            li{
+                float: left;
+                list-style: none inside;
+                margin: 0 10px;
+                a{
+                    @extend .icono_menu;
+                    display: block;
+                    margin: 0 auto;
+                    text-decoration: none;
+                    p{
+                        @include font-mask( $text_gray, em( 12, 16 ), em( 12, 12 ), bold, $HelveticaArial );
+                        display: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    &:hover{
+                        
+                        p{
+                            display: block;
+                            left: -55px;
+                            margin: 0 auto;
+                            position: relative;
+                            text-align: center;
+                            top: -17px;
+                            width: 135px;
+                        }
+                    }
+                }
+            }
+            .separator{
+                border: 0 solid transparent;
+                border-top: 1px solid $text_gray;
+                height: 1px;
+                margin: 12px 0 0;
+                width: 50px;
+            }
+        }
+        ul{
+            float: left;
+            width: 30px;
+            li{
+                
+                a{
+                    @extend .cuadro_seccion;
+                    &:hover{ @extend .cuadro_seccion_over; }
+                }
+                .current{ @extend .cuadro_seccion_over; }
+                &:first-child{
+                    float: left;
+                    height: 18px;
+                    list-style: none inside none;
+                    margin: 3px 10px 0;
+                    width: 18px;
+                    a{
+                        @extend .cuadro_seccion;
+                        &:hover{ @extend .cuadro_seccion_over; }
+                    }
+                    .current{ @extend .cuadro_seccion_over; }
+                }
+            }
+        }
+    }
+}

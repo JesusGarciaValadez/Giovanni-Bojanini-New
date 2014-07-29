@@ -1,0 +1,255 @@
+#dermocosmetics{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .reveal{ top: 60px !important; }
+    #dermocosmetics_landing{
+        
+        .promo{
+            background: $text_gray;
+            display: none;
+            float: left;
+            height: 160px;
+            position: relative;
+            width: 50%;
+            h3{
+                @include font-mask( #CDCDCD, em( 30, 16 ), em( 30, 30 ), normal, $Fira_Sans_Ot_Light );
+                margin: -17.5px auto 0;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                top: 50%;
+            }
+        }
+        .dermocosmetics_title{
+            height: 100%;
+            width: 100%;
+            a{
+                
+                .principal_section{
+                    box-sizing: border-box;
+                    height: 200px;
+                    margin: 0;
+                    padding: 0;
+                    top: 0;
+                    width: 100%;
+                    h1{
+                        display: block;
+                        left: 50%;
+                        margin: -38px auto 0 -35%;
+                        top: 50%;
+                        width: 70%;
+                        strong{}
+                    }
+                    p{}
+                    span{}
+                }
+                .image{
+                    display: none;
+                    float: left;
+                    height: 160px;
+                    width: 50%;
+                    img{
+                        max-height: 100%;
+                        max-width: 100%;
+                    }
+                    figcaption{
+                        
+                        strong{}
+                        .big{}
+                    }
+                }
+            }
+        }
+        .dermocosmetics_subsection{
+            display: none;
+            height: auto;
+            width: 100%;
+            .subsection{
+                height: 160px;
+                a{
+                    
+                    .promotions{
+                        @extend .promo;
+                        h3{}
+                        p{}
+                    }
+                }
+                figure{
+                    background: url("../img/dermocosmeticos/ojo.jpg") no-repeat scroll center center transparent;
+                    float: left;
+                    height: 160px;
+                    width: 50%;
+                    figcaption{
+                        display: none;
+                        visibility: hidden;
+                        a{
+                            
+                            strong{}
+                            &:after{}
+                        }
+                    }
+                    &:hover{
+                        background: url("../img/dermocosmeticos/ojo.jpg") no-repeat scroll center center transparent;
+                        float: left;
+                        height: inherit;
+                        width: 160px;
+                    }
+                }
+                &:nth-child( 1n + 2 ){
+                    
+                    .promotions{
+                        
+                        h3{
+                            font-size: 20px;
+                            margin: -10.5px auto 0;
+                        }
+                        p{ @extend .putDesktop; }
+                    }
+                    .promo_image{
+                        @extend .electroporacion_mobile_over;
+                        display: inline-block;
+                        float: left;
+                        height: 160px;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    #dermocosmetics_procedures{
+        
+        article{
+            
+            dl{
+                
+                dt{
+                    border-bottom: 1px solid #CDCDCD;
+                    cursor: pointer;
+                    margin: 0 !important;
+                    width: 100%;
+                    h3{
+                        
+                        strong{}
+                    }
+                    span{}
+                    &:first-child{ }
+                    &:nth-child( 1n + 0 ){}
+                    &:nth-child( 3n + 0 ){}
+                    &:nth-child( 5n + 0 ){
+                        
+                        h3{
+                            
+                            strong{}
+                        }
+                    }
+                    &:nth-child( 7n + 0 ){}
+                    &:nth-child( 9n + 0 ){
+                        
+                        h3{
+                            
+                            strong{}
+                        }
+                    }
+                }
+                dd{
+                    display: none;
+                    height: auto;
+                    padding: 0 10px;
+                    width: 100%;
+                    p{
+                        
+                        strong{}
+                    }
+                    &:nth-child( 2n + 0 ){  }
+                    &:nth-child( 4n + 0 ){  }
+                    &:nth-child( 6n + 0 ){  }
+                    &:nth-child( 8n + 0 ){  }
+                    &:nth-child( 5n + 0 ){  }
+                }
+            }
+        }
+    }
+    #dermocosmetics_promotions{
+        
+        article{
+            
+            div,figure{  }
+            div{
+                
+                h4,h5{  }
+                span{}
+            }
+            figure{
+                
+                img{}
+            }
+        }
+        #dermocosmetics_packages_wrapper{
+            
+            div{
+                
+                h4{}
+                span{}
+            }
+        }
+        #dermocosmetics_actual_promotions_wrapper{
+            
+            .promotions_title{
+                height: 200px;
+                width: 100%;
+                h4{
+                    left: 0;
+                    margin: -5% auto 0;
+                    text-align: center;
+                    top: 50%;
+                }
+                span{}
+            }
+            .promotions_description{
+                height: 100%;
+                width: 100%;
+                p{
+                    @extend .text_for_mobile;
+                    width: 100%;
+                    &:first-child{  }
+                }
+                figure{
+                    clear: both;
+                    display: block;
+                    float: none;
+                    height: 378px;
+                    margin: 0 auto;
+                    padding: 10px 0 0;
+                    position: static;
+                    width: 100% !important;
+                    img{
+                        margin: 0;
+                        max-height: 100%;
+                        max-width: 100%;
+                        position: static;
+                        top: auto;
+                    }
+                }
+            }
+        }
+    }
+    .internal_navigation_menu{
+        
+        ul{
+            
+            li{
+                
+                a{
+                    
+                    p{}
+                }
+            }
+        }
+    }
+}

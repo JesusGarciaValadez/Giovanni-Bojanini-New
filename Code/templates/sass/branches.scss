@@ -1,0 +1,168 @@
+#branches{
+    min-width: em( 960, 16 );
+    .map{
+        display: block;
+        //height: em( 628, 16 );
+        //left: em( 43, 16 );
+        position: absolute;
+        right: auto !important;
+        top: em( 96, 16 );
+        width: 100%;
+        z-index: 0;
+        .branch_infoWindow{
+            box-sizing: border-box;
+            padding: em( 28, 16 ) em( 17, 16 );
+            min-width: em( 290, 16 );
+            .branch_name{
+                @include font-mask( $yellow, em( 16, 13 ), em( 16, 16 ), normal, $Nobile_Bold );
+                display: block;
+                margin: 0 0 9px;
+                padding: 0;
+            }
+            .branch_location{
+                @include font-mask( #515151, em( 10, 13 ), em( 13, 10 ), normal, $Nobile_Bold );
+                display: block;
+                margin: 9px 0 10px;
+                padding: 0;
+                text-align: justify;
+            }
+            .branch_phone{
+                @include font-mask( #515151, em( 10, 13 ), em( 13, 10 ), normal, $Nobile_Bold );
+                display: block;
+                margin: 10px 0;
+                padding: 0;
+                text-align: justify;
+            }
+            .branch_mail{
+                @include font-mask( $yellow, em( 10, 13 ), em( 13, 10 ), normal, $Nobile_Bold );
+                display: block;
+                margin: 10px 0;
+                padding: 0;
+                text-decoration: underline;
+            }
+        }
+    }
+    .branches_wrapper{
+        background-color: #232323;
+        display: inline-block;
+        height: auto;
+        left: em( 56, 16 );
+        position: relative;
+        top: em( 45, 16 );
+        width: em( 223, 16 );
+        z-index: 1;
+        h1{
+            @include font-mask( $white, em( 20, 16 ), em( 20, 20 ), normal, $Nobile_Bold );
+            margin: em( 10, 20 ) 0 em( 5, 20 ) em( 32, 20 );
+            padding: 0;
+            text-transform: uppercase;
+        }
+        > hr{
+            border-top: 2px solid $yellow;
+            display: block;
+            height: 0px;
+            margin: 0 0 0 em( 32, 16 );
+            padding: 0;
+            width: em( 150, 16 );
+        }
+        .branches_list{
+            height: auto;
+            margin: 0 auto;
+            padding: em( 8, 16 ) 0 0;
+            width: 100%;
+            h2{
+                @include font-mask( #515151, em( 15, 16 ), em( 15, 15 ), normal, $Nobile_Bold );
+                box-sizing: border-box;
+                display: block;
+                cursor:pointer;
+                margin:0;
+                padding:em( 5, 15 ) 0 em( 5, 15 ) em( 28, 15 );
+                text-transform:uppercase;
+                width: em( 195, 15 );
+                &:first-child{ padding:em( 2, 15 ) 0 em( 5, 15 ) em( 28, 15 ); }
+                &:last-child{ padding:em( 5, 15 ) 0 em( 2, 15 ) em( 28, 15 ); }
+            }
+            .current{
+                @include font-mask( #232323, em( 20, 16 ), em( 36, 20 ), normal, $Nobile_Bold );
+                animation: 1s state infinite;
+                background: $yellow;
+                cursor:default;
+                height: em( 36, 20 );
+                margin: 0;
+                padding: 0 0 0 em( 31, 20 ) !important;
+                position: relative;
+                width: 223px;
+                span{
+                    @extend .triangle;
+                    border-width: em( 18, 20 ) 0 em( 18, 20 ) em( 18, 20 );
+                    right: -17px;
+                    top: em( 0, 16 );
+                }
+            }
+            @keyframes state{
+                0%{
+                    background: red;
+                }
+                100%{
+                    background: orange;
+                }
+            }
+            .pane{
+                background: #3A3A3A;
+                box-sizing: border-box;
+                display:none;
+                //height:180px;
+                padding:em( 5, 16 ) em( 31, 16 );
+                ol{
+                    display: block;
+                    margin: 0;
+                    padding: 0 0 em( 5, 16 );
+                    li{
+                        @include font-mask( $white, em( 10, 16 ), em( 16, 10 ), normal, $Nobile_Bold );
+                        list-style: upper-latin inside;
+                        text-transform: uppercase;
+                        a{
+                            @include font-mask( $yellow, em( 10, 10 ), em( 10, 10 ), normal, $Nobile_Bold );
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            &:hover{ text-decoration: underline; }
+                        }
+                        .clicked{ text-decoration: underline; }
+                    }
+                }
+                hr{
+                    border-top: 3px solid #494949;
+                    display: block;
+                    height: 0px;
+                    margin: 0;
+                    padding: 0;
+                    width: em( 140, 16 );
+                }
+                ul{
+                    @extend .clearfix;
+                    display: block;
+                    margin: 0;
+                    padding: em( 5, 16 ) 0 0;
+                    li{
+                        clear: both;
+                        display: block;
+                        float: left;
+                        list-style: none inside;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        a{
+                            @include font-mask( #B8B8B8, em( 10, 16 ), em( 10, 10 ), normal, $Nobile_Bold );
+                            margin: 0;
+                            padding: 0;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            &:hover{ text-decoration: underline; }
+                        }
+                        .clicked{ text-decoration: underline; }
+                    }
+                }
+            }
+        }
+    }
+}

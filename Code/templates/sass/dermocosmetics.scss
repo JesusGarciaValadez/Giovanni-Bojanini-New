@@ -1,0 +1,328 @@
+#dermocosmetics{
+    
+    .reveal{
+        top: 30px !important;
+    }
+    #dermocosmetics_landing{
+        
+        .dermocosmetics_title{
+            float: left;
+            height: em( 447, 16 );
+            width: em( 696, 16 );
+            a{
+                @extend .clearfix;
+                text-decoration: underline;
+                .principal_section{
+                    background: $yellow;
+                    display: inline-block;
+                    float: left;
+                    height: em( 447, 16 );
+                    position: relative;
+                    width: em( 244, 16 );
+                    z-index: 1;
+                    h1{
+                        @include font-mask( $text_gray, em( 40, 16 ), em( 38, 40 ), normal, $Fira_Sans_Ot_Light );
+                        left: 13px;
+                        position: relative;
+                        text-align: left;
+                        text-transform: uppercase;
+                        top: 185px;
+                        z-index: 1;
+                        strong{
+                            clear: both;
+                            display: block;
+                            font-family: $Nobile_Bold;
+                            font-size: em( 30, 40 );
+                        }
+                    }
+                    p{
+                        @include font-mask( $text_gray, em( 14, 16 ), em( 15, 14 ), normal, $Fira_Sans_Ot_Light );
+                        left: 15px;
+                        position: relative;
+                        text-align: left;
+                        top: 190px;
+                        z-index: 1;
+                    }
+                    span{
+                        @extend .triangle;
+                        top: em( 190, 16 );
+                        right: -31px;
+                    }
+                }
+                .image{
+                    float: left;
+                    height: em( 447, 16 );
+                    width: em( 452, 16 );
+                    img{
+                        left: 0;
+                        max-height: none;
+                        max-width: none;
+                        position: absolute;
+                        top: 0;
+                        z-index: 0;
+                    }
+                    figcaption{
+                        @include font-mask( $text_gray, em( 30, 16 ), em( 5, 30 ), normal, $Fira_Sans_Ot_Light );
+                        left: 55px;
+                        position: relative;
+                        text-align: left;
+                        top: 200px;
+                        z-index: 1;
+                        strong{
+                            font-family: $Nobile_Bold;
+                            font-size: 31px;
+                        }
+                        .big{
+                            clear: both;
+                            display: block;
+                            font-size: 68px;
+                            line-height: 1em;
+                            margin: 15px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+        .dermocosmetics_subsection{
+            float: left;
+            height: em( 447, 16 );
+            width: em( 222, 16 );
+            .subsection{
+                background-color: #232323;
+                display: block;
+                height: 50%;
+                width: 100%;
+                a{
+                    display: block;
+                    height: 100%;
+                    text-align: left;
+                    text-decoration: none;
+                    width: 100%;
+                    .promotions{
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        h3{
+                            @include font-mask( $yellow, em( 23, 16 ), em( 23, 23 ), normal, $Nobile_Bold );
+                            position: relative;
+                            text-align: center;
+                            text-transform: uppercase;
+                            top: 46%;
+                            strong{ font-weight: normal; }
+                        }
+                        p{
+                            @include font-mask( $white, em( 14, 16 ), em( 14, 14 ), normal, $Helvetica_Neue_LT_STD_Condensed );
+                            left: 18px;
+                            position: relative;
+                            top: 48%;
+                        }
+                    }
+                }
+                figure{
+                    @extend .ojo_bn;
+                    position: relative;
+                    figcaption{
+                        bottom: 0;
+                        box-sizing: border-box;
+                        display: block;
+                        left: 0;
+                        position: absolute;
+                        width: 100%;
+                        a{
+                            @include font-mask( $white, em( 18, 16 ), em( 65, 18 ), normal );
+                            background-color: rgba(0,0,0,0.6);
+                            box-sizing: border-box;
+                            display: block;
+                            padding: 0;
+                            text-align: left;
+                            text-indent: 20px;
+                            text-transform: uppercase;
+                            width: 100%;
+                            strong{ color: $yellow; font-weight: bold; }
+                            &:after{
+                                @extend .link;
+                                bottom: 20px;
+                                content:"";
+                            }
+                        }
+                    }
+                    &:hover{ @extend .ojo; }
+                }
+            }
+        }
+    }
+    #dermocosmetics_procedures{
+        
+        article{
+            @extend .clearfix;
+            dl{
+                @extend .clearfix;
+                dt{
+                    background: #222;
+                    float: left;
+                    height: 85px;
+                    margin: 5px 0;
+                    position: relative;
+                    width: 245px;
+                    h3{
+                        @include font-mask( $white, em( 20, 16 ), em( 25, 20 ), normal, $Fira_Sans_Ot_Light );
+                        left: 10px;
+                        position: relative;
+                        text-align: left;
+                        top: 32px;
+                        z-index: 1;
+                        strong{
+                            color: $yellow;
+                            font-family: $Nobile_Bold;
+                            font-weight: normal;
+                        }
+                    }
+                    span{
+                        @extend .triangle;
+                        border-left-color: #222;
+                        right: -30px;
+                        top: 14%;
+                        z-index: 0;
+                    }
+                    &:first-child{ margin: 0 0 5px; }
+                    &:nth-child( 1n + 0 ){}
+                    &:nth-child( 3n + 0 ){}
+                    &:nth-child( 5n + 0 ){
+                        
+                        h3{
+                            top: 20px;
+                            strong{
+                                clear: both;
+                                display: block;
+                            }
+                        }
+                    }
+                    &:nth-child( 7n + 0 ){}
+                    &:nth-child( 9n + 0 ){
+                        margin: 5px 0 0;
+                        h3{
+                            top: 20px;
+                            strong{
+                                clear: both;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                dd{
+                    box-sizing: border-box;
+                    clear: right;
+                    display: inline-block;
+                    float: left;
+                    height: 85px;
+                    margin: 5px 0;
+                    padding: 0 30px 0 50px;
+                    width: 715px;
+                    p{
+                        @include font-mask( $text_gray, em( 14, 16 ), em( 16, 14 ), normal, $Fira_Sans_Ot_Light );
+                        text-align: justify;
+                        strong{}
+                    }
+                    &:nth-child( 2n + 0 ){ padding-top: 0; }
+                    &:nth-child( 4n + 0 ){ padding-top: 0px; }
+                    &:nth-child( 6n + 0 ){ padding-top: 15px; }
+                    &:nth-child( 8n + 0 ){ padding-top: 0px; }
+                    &:nth-child( 5n + 0 ){ padding-top: 7px; }
+                }
+            }
+        }
+    }
+    #dermocosmetics_promotions{
+        
+        article{
+            box-sizing:border-box;
+            display: inline-block;
+            height: 495px;
+            float: left;
+            width: 50%;
+            div,figure{ float: left; height: 100%; position: relative; width: 50%; }
+            div{
+                
+                h4,h5{ position: relative; text-align:left; z-index: 2; }
+                span{
+                    @extend .triangle;
+                    right: -30px;
+                    top: 41%;
+                    z-index: 1;
+                }
+            }
+            figure{
+                background: #E3E3E3;
+                img{}
+            }
+        }
+        #dermocosmetics_packages_wrapper{
+            
+            div{
+                background: $yellow;
+                h4{
+                    @include font-mask( $text_gray, em( 37, 16 ), em( 37, 37 ), normal, $Nobile_Bold );
+                    left: 30px;
+                    top: 42%;
+                }
+                span{}
+            }
+        }
+        #dermocosmetics_actual_promotions_wrapper{
+            width: 100%;
+            .promotions_title{
+                background: #222;
+                position: relative;
+                width: 240px;
+                h4{
+                    @include font-mask( $yellow, em( 30, 16 ), em( 30, 30 ), normal, $Nobile_Bold );
+                    left: 20px;
+                    top: 44%;
+                }
+                span{ border-left-color: #222; }
+            }
+            .promotions_description{
+                position: relative;
+                width: 75%;
+                p{
+                    @include font-mask( $text_gray, em( 14, 16 ), em( 17, 14 ), normal, $Fira_Sans_Ot_Light );
+                    box-sizing: border-box;
+                    clear: both;
+                    display: inline-block;
+                    float: left;
+                    padding: 0 15px 0 40px;
+                    text-align: justify;
+                    width: 50%;
+                    &:first-child{ padding: 15% 15px 0 40px; }
+                }
+                figure{
+                    background: none;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    img{
+                        top: 50%;
+                        margin: -189px auto 0;
+                        max-height: inherit;
+                        max-width: inherit;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+    .internal_navigation_menu{
+        
+        ul{
+            //width: 130px;
+            width: 215px;
+            li{
+                
+                a{
+                    
+                    p{}
+                }
+            }
+        }
+    }
+}

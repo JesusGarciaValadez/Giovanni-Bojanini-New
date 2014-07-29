@@ -1,0 +1,84 @@
+#capilar_electroporation{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .reveal{
+        height: 600px !important;
+        top: 60px !important;
+        .slides{
+            height: 100% !important;
+            #sectionCapilar{
+                height: 550px !important;
+                #sectio9gris{ @extend .putDesktop; }
+                #section9texto{
+                    background: none;
+                    box-sizing: border-box;
+                    height: auto;
+                    margin: 0 0 20px;
+                    padding: 0;
+                    position: relative;
+                    top: 200px;
+                    width: 100%;
+                    strong{}
+                    p{
+                        @extend .text_for_mobile;
+                        font-size: em( 13, 13 ) !important;
+                        margin: 10px auto;
+                        padding: 0 30px;
+                        width: 100%;
+                        &:first-child{ font-weight: bold; margin: 50px auto 0 !important; }
+                    }
+                }
+                #section9amarillo{
+                    box-sizing: border-box;
+                    height: 200px;
+                    margin: 0;
+                    padding: 0;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    h2{
+                        left: 0;
+                        margin: -43.5px auto 0;
+                        padding: 0;
+                        position: relative;
+                        right: 0;
+                        text-align: center;
+                        top: 50%;
+                        a{ padding: 0; }
+                        strong{}
+                    }
+                }
+            }
+            .internal_navigation_menu{
+                bottom: 0;
+                display: block;
+                height: 23px;
+                left: 0;
+                margin: 0 auto;
+                position: relative;
+                right: 0;
+                top: auto;
+                width: 23px;
+                ul{
+                    display: block;
+                    height: 100%;
+                    margin: 0 auto;
+                    padding: 0;
+                    position: relative;
+                    width: 100%;
+                    li{
+                        height: 100%;
+                        margin: 0 auto;
+                        padding: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

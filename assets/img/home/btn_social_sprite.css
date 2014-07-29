@@ -1,0 +1,10 @@
+
+/* Start Sprite Master CSS */
+.btn_twitter,.btn_twitter_Over,.btn_youtube,.btn_youtube_Over,.btn_facebook,.btn_facebook_Over{display: inline-block;background-repeat: no-repeat;background-image: url('btn_social_sprite.png');}
+.btn_twitter{background-position:-16px -16px;width:25px;height:16px;}
+.btn_twitter_Over{background-position:-16px -52px;width:25px;height:16px;}
+.btn_youtube{background-position:-61px -16px;width:25px;height:17px;}
+.btn_youtube_Over{background-position:-61px -53px;width:25px;height:17px;}
+.btn_facebook{background-position:-106px -16px;width:11px;height:21px;}
+.btn_facebook_Over{background-position:-106px -57px;width:11px;height:21px;}
+/* End Sprite Master CSS */

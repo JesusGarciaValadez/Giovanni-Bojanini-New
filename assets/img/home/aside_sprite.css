@@ -1,0 +1,16 @@
+
+/* Start Sprite Master CSS */
+.btn_quienes_somos,.btn_quienes_somos_Over,.btn_testimonios,.btn_testimonios_Over,.btn_dir_Medico,.btn_dir_Medico_Over,.btn_sucursales,.btn_sucursales,.btn_contacto,.btn_contacto_Over,.btn_chat_linea,.btn_chat_linea_Over{display: inline-block;background-repeat: no-repeat;background-image: url('aside_sprite.png');}
+.btn_quienes_somos{background-position:-2px -2px;width:42px;height:54px;}
+.btn_quienes_somos_Over{background-position:-46px -2px;width:42px;height:54px;}
+.btn_testimonios{background-position:-2px -58px;width:42px;height:54px;}
+.btn_testimonios_Over{background-position:-46px -58px;width:42px;height:54px;}
+.btn_dir_Medico{background-position:-2px -114px;width:42px;height:54px;}
+.btn_dir_Medico_Over{background-position:-46px -114px;width:42px;height:54px;}
+.btn_sucursales{background-position:-2px -170px;width:42px;height:54px;}
+.btn_sucursales{background-position:-46px -170px;width:42px;height:54px;}
+.btn_contacto{background-position:-2px -226px;width:42px;height:54px;}
+.btn_contacto_Over{background-position:-46px -226px;width:42px;height:54px;}
+.btn_chat_linea{background-position:-2px -282px;width:56px;height:56px;}
+.btn_chat_linea_Over{background-position:-60px -282px;width:56px;height:56px;}
+/* End Sprite Master CSS */

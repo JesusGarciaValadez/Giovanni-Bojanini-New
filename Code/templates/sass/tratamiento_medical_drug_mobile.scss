@@ -1,0 +1,275 @@
+#tratamiento_medical_drug{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .reveal{
+        height: 1430px !important;
+        top: 60px !important;
+        .slides{
+            height: 100%;
+            #sectionFormulas{
+                height: 523px;
+                #texto1{
+                    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+                    box-sizing: border-box;
+                    float: none;
+                    height: auto;
+                    margin: 0;
+                    padding: 30px 0;
+                    position: relative;
+                    top: 200px;
+                    width: 100%;
+                    p{
+                        @extend .text_for_mobile;
+                        font-weight: bold;
+                        margin: 20px 0 0;
+                        padding: 0 30px;
+                    }
+                    .disclaimer{
+                        @extend .putDesktop;
+                        sup{}
+                    }
+                }
+                #tratamiento{
+                    box-sizing: border-box;
+                    height: 200px;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    h3{
+                        color: $text_gray;
+                        left: 0;
+                        margin: -27px auto 0 !important;
+                        padding: 0 !important;
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        strong{ font-weight: normal; }
+                    }
+                }
+                .spacer{ @extend .putDesktop; }
+                a{
+                    @extend .putDesktop;
+                    #section7Texto2{
+                        
+                        p {}
+                    }
+                    #section7Texto3{
+                        
+                        p#magistral {}
+                        p#formula {}
+                    }
+                    #section7Texto4{
+                        
+                        p#trata {}
+                        p#consiste {}
+                    }
+                }
+            }
+            #magistral_formula{
+                height: 836px;
+                > div{
+                    background: none transparent !important;
+                    box-sizing: border-box;
+                    clear: both;
+                    display: block;
+                    height: auto !important;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    width: 100% !important;
+                    p{
+                        @extend .text_for_mobile;
+                        box-sizing: border-box;
+                        font-size: em( 13, 13 ) !important;
+                        margin: 0 !important;
+                        padding: 0 30px !important;
+                        text-align: center !important;
+                        width: 100% !important;
+                    }
+                }
+                #texto2{
+                    
+                    p#p1{}
+                    p{}
+                }
+                #texto3,#texto4{}
+                #texto3{
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    ul {
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        li{
+                            @extend .text_for_mobile;
+                            font-size: em( 13, 13 ) !important;
+                            margin: 10px 0 !important;
+                            list-style: none inside;
+                            padding: 0 30px !important;
+                        }
+                    }
+                }
+                #texto4{
+                    
+                    p{ margin: 20px 0 10px !important; }
+                }
+                #texto5{
+                    @extend .putDesktop;
+                    h2{
+                        
+                        strong{
+                            clear: none;
+                            display: inline;
+                            float: none;
+                        }
+                    }
+                    .triangle{}
+                }
+                .wrapper_formula_types{
+                    
+                    article{
+                        box-sizing: border-box;
+                        clear: both;
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        h3{
+                            box-sizing: border-box;
+                            font-size: em( 14, 16 ) !important;
+                            margin: 10px !important;
+                            text-align: center;
+                        }
+                        p{
+                            @extend .text_for_mobile;
+                            margin: 10px 0;
+                            padding: 0 10px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            #common_questions_some_myths{
+                @extend .putDesktop;
+                #section5Amarillo{
+                    
+                    h5{
+                        
+                        strong{}
+                    }
+                }
+                #section5Texto{
+                    
+                    p{}
+                    strong{}
+                }
+                #section5Gris{
+                    
+                    #section5GrisTexto1{
+                        
+                        h4{
+                            
+                            strong{}
+                        }
+                    }
+                    #section5GrisTexto2{
+                        
+                        p{}
+                    }
+                }
+            }
+            #support_contact_benefits{
+                @extend .putDesktop;
+                #section6Texto1{
+                    
+                    p{}
+                }
+                #section6Amarillo{
+                    
+                    h5 {
+                        
+                        strong{}
+                    }
+                    span{}
+                }
+                #section6Texto2{
+                    
+                    a{}
+                    img{}
+                    p{}
+                }
+                #section6Texto3{
+                    
+                    h6{}
+                }
+                #section6Texto4{
+                    
+                    p{}
+                }
+                #section6Texto5{
+                    
+                    p{}
+                }
+            }
+            .internal_navigation_menu{
+                bottom: 15px;
+                display: block;
+                height: 23px;
+                left: 0;
+                margin: 0 auto;
+                position: absolute;
+                right: 0;
+                top: auto;
+                width: 23px !important;
+                ol{
+                    display: block;
+                    height: 23px;
+                    margin: 0 auto;
+                    padding: 0;
+                    width: 23px;
+                    li{
+                        @extend .putDesktop;
+                        a{
+                            
+                            p{}
+                            &:hover{
+                                
+                                p{}
+                            }
+                        }
+                        &:first-child{
+                            display: block !important;
+                            margin: 0;
+                            padding: 0;
+                            visibility: visible !important;
+                        }
+                    }
+                    .separator{}
+                }
+                ul{
+                    @extend .putDesktop;
+                    li{
+                        
+                        a{
+                            
+                            &:hover{}
+                        }
+                        .current{}
+                        &:first-child{
+                            
+                            a{
+                                
+                                &:hover{}
+                            }
+                            .current{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

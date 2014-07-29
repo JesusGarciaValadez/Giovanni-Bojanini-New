@@ -1,0 +1,59 @@
+#mesotherapy_section{
+    
+    .reveal{
+        height: 488px;
+        top: 30px !important;
+    }
+    section{
+        height: 488px;
+    }
+    #sectionMesoterapia{
+        
+        #section8Amarillo{
+            background-color: #edd304;
+            color: #000;
+            float: left;
+            font-size: 26px;
+            height: 488px;
+            position: relative;
+            width: 224px;
+            span{
+                @extend .triangle;
+                top: 40%;
+                right: -30px;
+            }
+            h1{
+                @include font-mask( #333, em( 22, 26 ), em( 22, 22 ), normal, $Nobile_Bold );
+                margin: 235px 10px 0 0;
+            }
+            strong { font-weight: bold; }
+        }
+        #section8Texto1{
+            float: left;
+            height: 488px;
+            margin-bottom: -20;
+            padding: 0px 46px;
+            width: 235px;
+            p{
+                @include font-mask( #333, em( 13, 16 ), em( 18, 13 ), normal, $Fira_Sans_Ot_Light );
+                text-align: justify;
+            }
+        }
+        #section8Texto5{
+            background: url("../img/tratamiento_integral/mesoterapia_menu_big.jpg") no-repeat scroll left top #232323;
+            color: #FFF;
+            float: left;
+            font-size: 27px;
+            height: 488px;
+            line-height: 1em;
+            width: 400px;
+        }
+    }
+    .internal_navigation_menu{
+        top: 240px;
+        ul{
+            width: 45px;
+            li{}
+        }
+    }
+}

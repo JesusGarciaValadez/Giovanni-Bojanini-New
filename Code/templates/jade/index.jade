@@ -1,0 +1,78 @@
+include head
+    
+    body#home
+        a(href="#" title="Abrir Respuesta" target="_self" rel=".alert_box").alert_trigger
+        div#wrapper_background
+            div#timer
+                div#counter
+            figure.page
+                img(src="img/home/bg_home_1.jpg" alt="Primer fondo" width="1905" height="983")
+        div.wrapper#header
+            header
+                figure.page
+                    img(src="img/home/logo.png" alt="logo" width="132" height="80")#logo
+                    img(src="img/home/prometa_logo.png" width="370" height="68" alt="Pro-Meta")
+                h1. Pro-Meta Soluciones
+                p. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                a(href=".left" title="Anterior")
+                a(href=".right" title="Siguiente")
+        include navigation
+        div.wrapper.section.light_grey#contact_title
+            section.information
+                img(src="img/prometa/prometa_logo_interna.png" alt="Pro-Meta Soluciones" width="400" height="78")
+        div.wrapper.section.white#contact_description
+            section.information
+                h2 Contáctanos
+                p. Pro-Meta estamos siempre al pendiente de tus necesidades, por eso déjanos un mensaje o puedes visitarnos en la siguiente dirección.
+        div.wrapper.section.black#contact_form
+            section.information
+                form(action="../snippets/controller.php?action=contact" method="post" accept-charset="utf-8" name="contact_us_form")
+                    fieldset
+                        legend. Notifica en <span>correo electrónico</span>
+                        div.input
+                            input(type="text" name="contact_name" placeholder="Nombre" value="")#contact_name
+                        div.input
+                            input(type="text" name="contact_business" placeholder="Empresa" value="")#contact_business
+                        div.input
+                            input(type="text" name="contact_phone" placeholder="Teléfono" value="")#contact_phone
+                        div.input
+                            input(type="text" name="contact_mail" placeholder="Email" value="")#contact_mail
+                        div.input
+                            select(name="contact_area")#contact_area
+                                option(value=""). Área de interés
+                        div.input
+                            textarea(name="contact_message" placeholder="Mensaje" value="")#contact_message
+                        div.input
+                            input(type="submit" name="contact_submit" value="Enviar")#contact_submit
+                div#contact_map_wrapper
+                    p. Este es texto simulado para muestra de sitio web
+                    div#contact_map
+                        article.white
+                            p. Encuéntranos <strong>aquí</strong>
+                            img(src="" width="" height="" alt="")
+                        article.light_grey
+                            p#location. Av. Horacio <span>#1324</span><br />Dirección muestra C.P. 0000
+                            p#location_specification <span>Texto muestra</span> <br />especificaciones de dirección.
+                        article#map
+                    div#contact_information
+                        ul.disclaimers
+                            li
+                                a(href="aviso-de-privacidad.html" title="Aviso de Privacidad" target="_blank"). Aviso de Privacidad
+                            li
+                                p. Pro-Meta 2014 - Todos los Derechos Reservados
+                        p. Contáctanos <a href="mailto:info@pro-meta.com.mx" title="info@pro-meta.com.mx" target="_blank">info@pro-meta.com.mx <span>(720) 907-3833</span></a>
+        div.wrapper.black#footer
+            footer
+                img(src="img/home/logo_prometa_contacto.png" alt="Pro-Meta Logo" width="167" height="32").pro_meta_footer_logo
+        include alert_box_home
+        <script type="text/javascript">
+            var __lc = {};
+            __lc.license = 4306081;
+            
+            (function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+            })();
+        </script>
+        include footer

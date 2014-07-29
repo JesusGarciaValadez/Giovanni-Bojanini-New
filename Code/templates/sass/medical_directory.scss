@@ -1,0 +1,222 @@
+#medical_directory{
+    
+    #medical_directory_landing{
+        
+        .medical_directory_title{
+            background-color: #2B2B2B;
+            float: left;
+            height: 460px;
+            width: 225px;
+            .principal_section{
+                box-sizing: border-box;
+                height: 100%;
+                padding: 50px 30px;
+                width: 100%;
+                h1{
+                    @include font-mask( $white, em( 31, 16 ), em( 31, 31 ), normal, $Fira_Sans_Ot_Light );
+                    text-transform: uppercase;
+                    strong{
+                        clear: both;
+                        color: $yellow;
+                        display: block;
+                        font-family: $Nobile_Bold;
+                        font-size: em( 37, 31 );
+                        font-weight: normal;
+                        line-height: em( 37, 47 );
+                        margin: 15px 0 0;
+                    }
+                }
+                hr{
+                    border-top: 2px solid $yellow;
+                    height: 0;
+                    margin: 12px 0 8px;
+                }
+                form{
+                    width: 100%;
+                    fieldset{
+                        
+                        .input{}
+                        .text{
+                            
+                            label{
+                                float: left;
+                                margin: 10px 5px 0 0;
+                                img{}
+                            }
+                            #search_medic_input{
+                                @include font-mask( $white, em( 20, 16 ), em( 20, 20 ), normal, $Fira_Sans_Ot_Light );
+                                box-sizing: border-box;
+                                background-color: #515151;
+                                border: 0 none transparent;
+                                float: right;
+                                height: 40px;
+                                padding: 0 5px;
+                                width: 135px;
+                            }
+                        }
+                    }
+                }
+                p{
+                    @include font-mask( $yellow, em( 28, 16 ), em( 28, 28 ), normal, $Nobile_Bold );
+                    margin: 25px 0 0;
+                }
+            }
+        }
+        .medical_directory_subsection{
+            float: left;
+            height: 460px;
+            position: relative;
+            width: 735px;
+            .medical_directory_wrapper{
+                @extend .clearfix;
+                position: relative;
+                .browse{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 12em;
+                }
+                .prev{
+                    @extend .flecha_izq_testimoniales;
+                    left: 8px;
+                    &:hover{ @extend .flecha_izq_testimoniales_over; }
+                }
+                .next{
+                    @extend .flecha_der_testimoniales;
+                    right: 8px;
+                    &:hover{ @extend .flecha_der_testimoniales_Over; }
+                }
+                .disabled{ display: none; &:hover{ display: none; } }
+                .medical_directory_scrollable{
+                    height: 460px;
+                    overflow: hidden;
+                    position: relative;
+                    left: 36px;
+                    width: 663px;
+                    .medical_directory_items,
+                    .medical_directory_results{
+                        height: 100%;
+                        position: absolute;
+                        width: 2000em;
+                        .doctor{
+                            height: 100%;
+                            float: left;
+                            width: 663px;
+                            figure{
+                                float: left;
+                                margin: 0 3px 0 0;
+                                position: relative;
+                                img{ max-height: none; max-width: none; }
+                                .normal,.active{ display: block; }
+                                .hover,.inactive{ display: none; }
+                                figcaption{
+                                    @extend .clearfix;
+                                    background-color: rgba( 0, 0, 0, 0.4 );
+                                    bottom: 0;
+                                    left: 0;
+                                    position: absolute;
+                                    width: 219px;
+                                    p{
+                                        @include font-mask( $white, em( 16, 16 ), em( 16, 16 ), normal, $Fira_Sans_Ot_Light );
+                                        box-sizing: border-box;
+                                        margin: 10px 0 6px;
+                                        padding: 0 0 0 10px;
+                                        text-align: left;
+                                        width: 156px;
+                                        span{
+                                            clear: both;
+                                            color: $yellow;
+                                            display: block;
+                                        }
+                                    }
+                                    .link{ @extend .link; cursor: pointer; }
+                                }
+                                &:hover{
+                                    
+                                    .normal{ display: none; }
+                                    .hover{ display: block; }
+                                }
+                                &:last-child{ margin: 0; }
+                            }
+                        }
+                    }
+                    .medical_directory_results{
+                        display: none;
+                        width: 100%;
+                    }
+                }
+            }
+            .medical_bio{
+                background-color: #EEE;
+                display: none;
+                height: 460px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 477px;
+                z-index: 10;
+                .close{
+                    @extend .cierra_over;
+                    cursor: pointer;
+                    position: absolute;
+                    text-indent: -2000em;
+                    top: 10px;
+                    right: 10px;
+                    &:hover{ @extend .cierra; }
+                }
+                .bio{
+                    display: none;
+                    box-sizing: border-box;
+                    .hgroup{
+                        background-color: #2B2B2B;
+                        margin: 50px 0 0;
+                        padding: 15px 20px;
+                        h2{
+                            @include font-mask( $white, em( 20, 16 ), em( 20, 20 ), normal, $Nobile_Bold );
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            text-align: left;
+                            text-transform: uppercase;
+                            white-space: nowrap;
+                        }
+                        h3,
+                        h4{
+                            @include font-mask( $yellow, em( 14, 16 ), em( 14, 16 ), normal, $Nobile_Bold );
+                            margin: 5px 0;
+                            text-align: left;
+                        }
+                    }
+                    p{
+                        @include font-mask( $text_gray, em( 14, 16 ), em( 14, 14 ), normal, $Fira_Sans_Ot_Light );
+                        box-sizing: border-box;
+                        margin: 18px 20px 0;
+                        text-align: justify;
+                    }
+                    ul{
+                        display:block;
+                        margin: 0 20px;
+                        padding: 0;
+                        li{
+                            @include font-mask( $text_gray, em( 14, 16 ), em( 14, 14 ), normal, $Fira_Sans_Ot_Light );
+                            list-style: none outside;
+                            margin: 0;
+                            padding: 0;
+                            text-align: justify;
+                        }
+                    }
+                    .branch,a{
+                        @include font-mask( $text_gray, em( 15, 16 ), em( 16, 15 ), normal, $Nobile_Bold );
+                        display:block;
+                        margin: 0 20px;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                    .branch{
+                        margin: 18px 20px 0;
+                    }
+                    .phone{ }
+                    &.active{ display: block; }
+                }
+            }
+        }
+    }
+}

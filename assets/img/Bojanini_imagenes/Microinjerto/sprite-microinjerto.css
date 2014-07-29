@@ -1,0 +1,8 @@
+
+/* Start Sprite Master CSS */
+.animacion_menu_BN,.animacion_menu,.testimonios_BN_menu,.testimonios_Menu{display: inline-block;background-repeat: no-repeat;background-image: url('sprite-microinjerto.png');}
+.animacion_menu_BN{background-position:0px 0px;width:246px;height:242px;}
+.animacion_menu{background-position:-247px 0px;width:246px;height:242px;}
+.testimonios_BN_menu{background-position:-494px 0px;width:246px;height:242px;}
+.testimonios_Menu{background-position:-741px 0px;width:246px;height:242px;}
+/* End Sprite Master CSS */

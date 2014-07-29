@@ -1,0 +1,95 @@
+#who_are_we{
+    
+    .reveal{ top:30px; }
+    section{
+        
+        .who_are_we_title{
+            @extend .clearfix;
+            background-color: $text_gray;
+            float: left;
+            height: em( 102, 16 );
+            margin: 0;
+            padding: em( 191, 16 ) em( 28, 16 ) em( 203, 16 ) em( 32, 16 );
+            width: em( 178, 16 );
+            h1{
+                @include font-mask( #FFF, em( 34.42, 16 ), em( 34.42, 34.42 ), normal, $Fira_Sans_Ot_Light );
+                text-align: left;
+                text-transform: uppercase;
+                strong{ 
+                    @include font-mask( $yellow, em( 38, 34.42 ), em( 38, 38 ), bold, $Nobile_Bold );
+                    clear: both;
+                }
+            }
+        }
+        article{
+            @extend .clearfix;
+            float: left;
+            height: em( 366, 16 );
+            margin: 0;
+            padding: em( 53, 16 ) em( 23, 16 ) em( 77, 16 ) em( 48, 16 );
+            width: em( 650, 16 );
+            p{
+                @include font-mask( $text_gray, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                text-align: justify;
+                &:first-child{ margin-top: 0; }
+            }
+            h2{
+                @include font-mask( #232323, em( 23, 16 ), em( 26, 23 ), normal, $Nobile_Bold );
+                margin: em( 44, 23 ) 0 em( 20, 23 );
+                padding: 0;
+                text-align: justify;
+            }
+            ul{
+                @extend .clearfix;
+                float: left;
+                margin: 0 0 0 em( 5, 16 );
+                li{
+                    @include font-mask( $text_gray, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                    list-style: none inside;
+                    margin: 0;
+                    padding: 0;
+                    text-align: justify;
+                }
+            }
+        }
+        >article.mobile{
+            @extend .clearfix;
+            ul{
+                @extend .social_networks;
+                li{
+                    
+                    a{}
+                }
+                .google_plus{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .twitter{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .facebook{
+                    
+                    a{}
+                    &:hover{  }
+                }
+                .youtube{
+                    
+                    a{}
+                    &:hover{  }
+                }
+            }
+            #internal_footer{
+                @extend .clearfix;
+                a{
+                    
+                }
+                p{
+                    
+                }
+            }
+        }
+    }
+}

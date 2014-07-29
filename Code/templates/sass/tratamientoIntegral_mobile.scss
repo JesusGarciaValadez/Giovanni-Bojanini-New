@@ -1,0 +1,204 @@
+#integral_treatment{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    position: static;
+    .reveal{
+        top: 55px !important;
+        .slides{
+            
+            section{}
+            #integral_treatment_landing{
+                height: auto;
+                width: 100%;
+                .browse{ @extend .putDesktop; }
+                .disabled{}
+                .prev{}
+                .integral_scrollable{
+                    display: block;
+                    height: auto;
+                    width: 100%;
+                    .integral_items{
+                        display: block;
+                        height: auto;
+                        position: relative;
+                        width: 100%;
+                        div{
+                            clear: both;
+                            display: block;
+                            float: none;
+                            height: auto;
+                            width: 100%;
+                            .cuadros{
+                                box-sizing: border-box;
+                                display: block;
+                                height: auto;
+                                margin: 0 !important;
+                                width: 100%;
+                                >div { height: 100px; }
+                                .titulo{
+                                    clear: none;
+                                    float: left;
+                                    height: 159px;
+                                    position: relative;
+                                    width: 50%;
+                                    p{
+                                        color: #CCC !important;
+                                        display: block;
+                                        font-size: em( 14, 16 ) !important;
+                                        left: 0;
+                                        margin: 0 auto;
+                                        padding: 0 !important;
+                                        position: absolute;
+                                        right: 0;
+                                        text-align: left !important;
+                                        text-transform: uppercase;
+                                        width: em( 116, 14 ) !important;
+                                    }
+                                    span{}
+                                }
+                                .imagen{ max-width: 160px; width: 50% !important; }
+                                &:hover{
+                                    background-color: $yellow;
+                                    .titulo{
+                                        
+                                        p{ color: $text_gray !important; }
+                                        span{}
+                                    }
+                                }
+                                &.current{
+                                    
+                                    .titulo{
+                                        
+                                        p{ }
+                                        span{}
+                                    }
+                                }
+                            }
+                            #tratamiento_medico{
+                                
+                                .titulo {
+                                    
+                                    p{ color: #CCC !important; margin: -21px auto 0; top: 50%; }
+                                }
+                                #imagenTratamiento{ @extend .tratamiento_medico_mobile; }
+                                &:hover{
+                                    background: $yellow !important;
+                                    .titulo{
+                                        
+                                        p{ color: $text_gray !important; }
+                                    }
+                                    #imagenTratamiento{ @extend .tratamiento_medico_mobile_over; }
+                                }
+                                &.current{ background: $text_gray; }
+                            }
+                            #microinjerto{
+                                
+                                .titulo {
+                                    
+                                    p{
+                                        text-align: center !important;
+                                        margin: -9px auto 0;
+                                        top: 50%;
+                                    }
+                                }
+                                #imagenMicroinjerto{ @extend .microinjerto_home_mobile; }
+                                &:hover{
+                                    
+                                    #imagenMicroinjerto{ @extend .microinjerto_home_mobile_over; }
+                                }
+                            }
+                            #mesoterapia{
+                                
+                                .titulo {
+                                    
+                                    p {
+                                        margin: -7px auto 0;
+                                        text-align: center !important;
+                                        top: 50%;
+                                    }
+                                }
+                                #imagenMesoterapia{ @extend .mesoterapia_mobile; }
+                                &:hover{
+                                    
+                                    #imagenMesoterapia{ @extend .mesoterapia_mobile_over; }
+                                }
+                            }
+                            #capilar{
+                                
+                                .titulo {
+                                    
+                                    p{
+                                        left: 0;
+                                        margin: -14px auto 0 !important;
+                                        right: 0;
+                                        top: 50%;
+                                        &.big_title{ margin: 0 auto !important; }
+                                    }
+                                }
+                                #imagenCapilar{ @extend .electroporacion_mobile; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                    }
+                                    #imagenCapilar{ @extend .electroporacion_mobile_over; }
+                                }
+                            }
+                            #plasma{
+                                
+                                .titulo{
+                                    
+                                    p{
+                                        top: 50%;
+                                        margin: -14px auto 0;
+                                    }
+                                    span{}
+                                }
+                                #imagenPlasma{ @extend .plaquetas_mobile; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                        span{}
+                                    }
+                                    #imagenPlasma{ @extend .plaquetas_mobile_over; }
+                                }
+                            }
+                            #clasificacion_de_la_calvicie{
+                                
+                                .titulo{
+                                    
+                                    p{
+                                        left: 0;
+                                        margin: -14px auto 0 !important;
+                                        right: 0;
+                                        top: 50%;
+                                        &.big_title{ margin: 0 auto !important; }
+                                    }
+                                }
+                                #imagenClasificacion{ @extend .clasificacion_mobile; }
+                                &:hover{
+                                    
+                                    .titulo{
+                                        
+                                        p{}
+                                        span{}
+                                    }
+                                    #imagenClasificacion{ @extend .clasificacion_mobile_over; }
+                                }
+                            }
+                        }
+                    }
+                }
+                .next{}
+            }
+        }
+    }
+}

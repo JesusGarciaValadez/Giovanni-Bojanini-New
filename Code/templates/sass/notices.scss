@@ -1,0 +1,148 @@
+#notices{
+    
+    .reveal{
+        //height: 538px;
+        height: 443px !important;
+        top: 25px;
+        .slides{
+            
+            .notices_principal{
+                
+                .information{
+                    background-color: $text_gray;
+                    box-sizing: border-box;
+                    float: left;
+                    height: 100%;
+                    padding: 20px;
+                    position: relative;
+                    width: 256px;
+                    h1,p,ul,li,a{
+                        @include font-mask( $white, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                        clear: both;
+                        display: block;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                    h1{
+                        color: $yellow;
+                        font-size: em( 25, 16 );
+                        margin: 30% auto 0;
+                        text-transform: uppercase;
+                        width: 100%;
+                        strong{ font-family: $Nobile_Bold; }
+                    }
+                    p{ font-size: em( 13, 16 ) !important; margin: 15px 0; }
+                    ul{
+                        
+                        li{
+                            display:list-item;
+                            font-size: em( 13, 13 );
+                            list-style: disc outside;
+                        }
+                    }
+                    .call_to_action{ margin: 40px auto 0;}
+                    span{
+                        @extend .triangle;
+                        border-color: transparent transparent transparent $text_gray;
+                        right: -32px;
+                        top: 77px;
+                        z-index: 1;
+                    }
+                }
+                .image{
+                    display: inline-block;
+                    float: left;
+                    width: auto;
+                    img{
+                        max-height: none;
+                        max-width: none;
+                    }
+                }
+            }
+            .sub_notice{
+                
+                .subsection{
+                    @extend .clearfix;
+                    box-sizing: border-box;
+                    clear: both;
+                    display: block;
+                    height: 50%;
+                    width: 100%;
+                    .information,.without_information{
+                        background-color: $text_gray;
+                        box-sizing: border-box;
+                        float: left;
+                        height: 222px;
+                        position: relative;
+                        width: 50%;
+                        h2,p,ul,li,a{
+                            @include font-mask( $white, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                            clear: both;
+                            display: block;
+                            text-align: left;
+                            text-decoration: none;
+                        }
+                        h2{
+                            color: $yellow;
+                            position: relative;
+                            text-transform: uppercase;
+                            top: 50%;
+                            width: 85%;
+                            strong{ font-family: $Nobile_Bold; }
+                        }
+                        p{ font-size: em( 13, 16 ) !important; margin: 5px 0; }
+                        ul{
+                            
+                            li{
+                                display:list-item;
+                                font-size: em( 13, 13 );
+                                list-style: disc inside;
+                            }
+                        }
+                        .call_to_action{}
+                        span{
+                            @extend .triangle;
+                            border-color: transparent transparent transparent $text_gray;
+                            margin: -32px auto 0;
+                            right: -32px;
+                            top: 50%;
+                            z-index: 1;
+                        }
+                    }
+                    .without_information{
+                        
+                        h2{ font-size: 26px; margin: -54.75px auto 0; }
+                    }
+                    .information{
+                        padding: 20px 10px;
+                        h2{ font-size: 14px; top: auto; width: 100%; }
+                    }
+                    .image{
+                        float: left;
+                        height: 50%;
+                        width: auto;
+                        img{
+                            max-height: none;
+                            max-width: none;
+                        }
+                    }
+                }
+            }
+            .call_to_action{
+                font-family: $Nobile_Bold !important;
+                font-size: 1em;
+                margin: 5px auto;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .notices_landing{
+                height: 100%;
+                article{
+                    float: left;
+                    height: 100%;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

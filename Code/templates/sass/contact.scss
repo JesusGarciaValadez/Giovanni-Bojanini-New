@@ -1,0 +1,189 @@
+#contact{
+    
+    section{
+        top: -45%;
+        .contact_form{
+            
+            .ornament{
+                background: $yellow;
+                float: left;
+                height: em( 486, 16 );
+                position: relative;
+                width: em( 28, 16 );
+                span{
+                    @extend .triangle;
+                    right: -31px;
+                    top: em( 211, 16 );
+                }
+            }
+            form{
+                @extend .clearfix;
+                float: left;
+                height: em( 486, 16 );
+                width: em( 932, 16 );
+                fieldset{
+                    clear: none;
+                    display: inline-block;
+                    float: left;
+                    legend{
+                        @include font-mask( $text_gray, em( 16, 16 ), em( 16, 16 ), normal, $Fira_Sans_Ot_Light );
+                        margin: 0;
+                        padding: 0;
+                        position: relative;
+                        text-align: left;
+                        strong{
+                            @include font-mask( $text_gray, em( 52, 16 ), em( 52, 52 ), normal, $Nobile_Bold );
+                            clear: both;
+                            display: inline-block;
+                            float: left;
+                            left: -25px;
+                            margin: 0 0 20px 20px;
+                            position: relative;
+                            text-align: left;
+                            width: 100%;
+                        }
+                    }
+                    .input,
+                    .input_radio_wrapper{
+                        @extend .clearfix;
+                        float: right;
+                        label{
+                            @include font-mask( $text_gray, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                            float: left;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                    .text{
+                        width: em( 307, 12);
+                        margin-top: 13px;
+                        font-size: 16px;
+                        label{ padding: 3px 0 0; }
+                        input[type="text"]{
+                            @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                            background: #E0E0E0;
+                            border: 0 none transparent;
+                            box-sizing: border-box;
+                            float: right;
+                            padding: 0 5px;
+                            height: 25px;
+                            width: 255px !important;
+                        }
+                        input[type="radio"]{
+                            @include font-mask( $white, em( 16, 16 ), em( 16, 16 ), normal, $Fira_Sans_Ot_Light );
+                            float :left;
+                        }
+                        ul{
+                            list-style-type: none;
+                            margin: 20px 0 0 130px;
+                            width: em( 260, 16 );
+                            li{ clear: both; }
+                        }
+                        input#contact_first_name,
+                        input#contact_last_name,
+                        input#contact_mail,
+                        input#contact_phone{ width: em( 295, 16 ); }
+                        input.contact_paciente{width: 3em}
+                        textarea{
+                            @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                            background: #E0E0E0;
+                            border: 0 none rgba(0, 0, 0, 0);
+                            float: right;
+                            height: em( 150, 13 );
+                            padding: 10px;
+                            resize: none;
+                            text-align: left;
+                            width: 300px;
+                        }
+                    }
+                    #uniform-contact_sucursal{
+                        clear: both;
+                        float: right;
+                        height: 25px;
+                        margin: 10px 0;
+                        position: relative;
+                        width: 211px;
+                        span{
+                            @include font-mask( $text_gray, em( 13, 16 ), em( 25, 13 ), normal, $Fira_Sans_Ot_Light );
+                            background: #E0E0E0;
+                            display: block !important;
+                            height: em( 20, 13 );
+                            text-align: left;
+                            text-indent: em( 10, 13 );
+                            width: em( 210, 13 );
+                        }
+                        select{
+                            left: 0;
+                            opacity: 0;
+                            position: absolute;
+                            top: 0;
+                        }
+                    }
+                    .input span#contact_enviar{
+                        @extend .enviar;
+                        &:hover{ @extend .enviar_over; }
+                    }
+                    .radio{
+                        
+                        span{
+                            @extend .cuadro_seccion;
+                            float: left;
+                            margin: 0 10px;
+                            position: relative;
+                            input[type="radio"]{
+                                float: left;
+                                filter: alpha(opacity=0);
+                                left: 0;
+                                opacity: 0;
+                                position: absolute;
+                                top:0;
+                            }
+                        }
+                        .checked{
+                            @extend .cuadro_seccion_over;
+                        }
+                        label{
+                            float: left;
+                        }
+                    }
+                    .date{
+                        clear: both;
+                        display: block;
+                        float: none;
+                        label{
+                            display: block;
+                            clear: both;
+                            float: none;
+                        }
+                        input.datepicker{
+                    }
+                    .input_radio_wrapper{
+                        
+                        .input{}
+                        .radio{
+                            
+                            .contact_channel{}
+                            label{}
+                        }
+                    }
+                    &:nth-child( n + 2){
+                        background: red;
+                    }
+                }
+                    &:nth-child( n + 1 ){
+                        height: em( 443, 16 );
+                        margin: 0 0 0 em( 35, 16 );
+                        padding: em( 45, 16 ) 0 0;
+                        width: em( 422, 16 );
+                    }
+                    &:nth-child( n + 2 ){
+                        height: em( 385, 16 );
+                        margin: 0;
+                        padding: em( 103, 16 ) 0 0 em( 50, 16 );
+                        width: em( 425px, 16 );
+                    }
+                }
+            }
+        }
+    }
+}

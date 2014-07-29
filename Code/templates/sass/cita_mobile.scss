@@ -1,0 +1,218 @@
+#cita{
+    display: block;
+    height: 100%;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .reveal{
+        height: 883px !important;
+        filter: alpha(opacity=1);
+        top: 60px !important;
+        opacity: 1;
+        .slides{
+            height: 100%;
+            left: 0;
+            top: 0;
+            section{
+                height: 100%;
+                top:0;
+                left: 0;
+                .contact_form{
+                    
+                    .ornament{
+                        
+                        span{}
+                    }
+                    .form_cita.mobile{
+                        display: block;
+                        height: 100%;
+                        max-height: 872px;
+                        width: 100%;
+                        fieldset{
+                            display: block;
+                            float: none;
+                            height: auto;
+                            margin: 0;
+                            padding: 0;
+                            width: 100%;
+                            legend{
+                                @include font-mask( $white, em( 45, 16 ), em( 45, 45 ), normal );
+                                background-color: $text_gray;
+                                box-sizing: border-box;
+                                clear: both;
+                                display: block;
+                                height: 130px;
+                                margin: 0 auto;
+                                padding: 10px 23%;
+                                text-align: center;
+                                text-transform: uppercase;
+                                text-indent: 0;
+                                width: 100%;
+                                strong{
+                                    @include font-mask( $yellow, em( 50, 45 ), em( 50, 50 ), normal, $Nobile_Bold );
+                                    clear: both;
+                                    display: inline-block;
+                                    float: none;
+                                    text-align: center;
+                                    width: auto;
+                                }
+                            }
+                            .legend,label{ @include font-mask( $text_gray, em( 12, 16 ), em( 17, 12 ), normal ); }
+                            label{ line-height: em( 40, 12 ); }
+                            .legend{
+                                clear: both;
+                                display: block;
+                                float: left;
+                                font-weight: bold;
+                                margin: 10px 0;
+                                padding: 0 30px;
+                                text-align: center;
+                            }
+                            label,input[type="text"],input[type="email"],
+                            input[type="date"],input[type="tel"]{ margin: 5px 10px; }
+                            input[type="text"],input[type="email"],
+                            input[type="date"],input[type="tel"],textarea{
+                                background-color: #E9E9E9;
+                                border: 0 none transparent;
+                                box-sizing: border-box;
+                                height: em( 50, 16 );
+                            }
+                            input[placeholder]{
+                                @include font-mask( $text_gray, em( 12, 16 ), em( 17, 12 ), normal );
+                                &::-moz-placeholder,:-moz-placeholder{ @include font-mask( $text_gray, em( 12, 16 ), em( 40, 12 ), normal ); }
+                            }
+                            input[type="text"],input[type="email"],
+                            input[type="date"],input[type="tel"]{
+                                box-sizing: border-box;
+                                float: right;
+                                padding: 3px 5px;
+                            }
+                            input[type="radio"]{
+                                background-color: $white;
+                                border: 1px dashed #797A7D;
+                                height: 18px;
+                                width: 17px;
+                                &:checked{ background-color: $yellow; border: 1px dashed #797A7D; }
+                            }
+                            .input{}
+                            div{
+                                box-sizing: border-box;
+                                clear: both;
+                                display: block;
+                                margin: 10px 0 0;
+                                padding: 0;
+                                width: 100%;
+                                label{
+                                    
+                                    .radio{
+                                        box-sizing: border-box;
+                                        float: left;
+                                        margin: 5px 10px !important;
+                                        overflow: hidden;
+                                        width: 15px;
+                                        span{
+                                            float: left;
+                                            height: 18px;
+                                            left: -1px;
+                                            margin: 0;
+                                            padding: 0;
+                                            width: 17px;
+                                            input[type="radio"]{}
+                                            #contact_horario_vespertino{}
+                                            &.checked{ left: 0; }
+                                        }
+                                    }
+                                    span{
+                                        float: left;
+                                        height: 28px;
+                                        line-height: 28px;
+                                    }
+                                }
+                            }
+                            .black_label{
+                                background-color: $text_gray;
+                                box-sizing: border-box;
+                                color: $white;
+                                line-height: em( 30, 12.5 );
+                                height: 30px;
+                                margin: 0 0 10px;
+                                padding: 0 0 0 10px;
+                                text-align: left;
+                                width: 100% !important;
+                            }
+                            .text{
+                                
+                                label{}
+                                #contact_first_name2,#contact_last_name2{ width: 215px; }
+                                #contact_mensaje2,textarea[placeholder]{
+                                    @include font-mask( $text_gray, em( 12, 16 ), em( 40, 12 ), normal );
+                                    padding: 10px;
+                                    height: 100px;
+                                    width: 100%;
+                                    &::-moz-placeholder,:-moz-placeholder{ @include font-mask( $text_gray, em( 12, 16 ), em( 40, 12 ), normal ); }
+                                }
+                                label[for="contact_medio2"]{
+                                    padding: 0 0 0 35px !important;
+                                    width: 28%;
+                                    .radio{}
+                                    span{}
+                                    #contact_medio_tel{}
+                                    #contact_medio_mail{}
+                                }
+                            }
+                            .email{
+                                
+                                label{}
+                                input[type="email"]{ width: 170px; }
+                                #contact_mail2{}
+                            }
+                            .phone{
+                                
+                                label{}
+                                input[type="tel"]{ width: 216px; }
+                                #contact_phone2{}
+                            }
+                            .date, .text{
+                                
+                                input[type="date"]{
+                                    margin: 10px !important;
+                                    width: 300px !important;
+                                }
+                                label[for="contact_horario2"]{ padding: 0 0 0 27px; }
+                                #uniform-contact_horario_matutino2{}
+                                #uniform-contact_horario_vespertino2{}
+                            }
+                            .submit{
+                                
+                                #contact_enviar2{
+                                    background-color: $yellow;
+                                    background-image: none;
+                                    border: none;
+                                    font-family: $Fira_Sans_Ot_Light;
+                                    clear: both;
+                                    display: block;
+                                    font-size: em( 23, 16 );
+                                    line-height: em( 25, 23 );
+                                    height: 65px;
+                                    margin: 0;
+                                    padding: 15px 20%;
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    width: 100%;
+                                }
+                                input[placeholder]{
+                                    @include font-mask( $text_gray, em( 23, 23 ), em( 25, 23 ), normal );
+                                    &::-moz-placeholder,:-moz-placeholder{ @include font-mask( $text_gray, em( 23, 23 ), em( 25, 23 ), normal ); }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .alert_box{ left: 40px !important; position: fixed !important; }
+}

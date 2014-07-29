@@ -1,0 +1,147 @@
+#branches{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    .map{
+        display: none !important;
+        visibility: hidden;
+        .branch_infoWindow{
+            
+            .branch_name{}
+            .branch_location{}
+            .branch_phone{}
+            .branch_mail{}
+        }
+    }
+    .branches_wrapper{
+        left: 0;
+        top: 60px;
+        width: 100%;
+        h1{
+            box-sizing: border-box;
+            margin: 20px 0;
+            padding: 0 10px;
+            width: 100%;
+        }
+        > hr{ display: none; }
+        .branches_list{
+            
+            h2{
+                
+                &:first-child{  }
+                &:last-child{  }
+            }
+            .current{
+                
+                span{}
+            }
+            @keyframes state{
+                0%{}
+                100%{}
+            }
+            .pane{
+                
+                ol{
+                    
+                    li{
+                        
+                        a{
+                            
+                            &:hover{  }
+                        }
+                        .clicked{  }
+                    }
+                }
+                hr{
+                    
+                }
+                ul{
+                    
+                    li{
+                        
+                        a{
+                            
+                            &:hover{  }
+                        }
+                        .clicked{  }
+                    }
+                }
+            }
+            &.mobile{
+                clear: both;
+                display: block;
+                width: 100%;
+                h2{ 
+                    @include font-mask( $yellow, em( 17, 16 ), em( 30, 17 ), normal, $Nobile_Bold );
+                    border-bottom: 1px solid #444;
+                    box-sizing: border-box;
+                    clear: both;
+                    cursor: pointer;
+                    display: block;
+                    margin: 0;
+                    padding: 5px 0;
+                    text-indent: 20px;
+                    width: 100%;
+                    &:first-child{ padding:0 0 5px !important; }
+                }
+                .pane{
+                    background-color: $white;
+                    clear: both;
+                    display: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    article{
+                        background-color: #393939;
+                        h3{
+                            @include font-mask( $yellow, em( 13, 16 ), em( 17, 13 ), normal );
+                            border-bottom: 1px solid #444;
+                            box-sizing: border-box;
+                            clear: both;
+                            cursor: pointer;
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                            text-indent: 40px;
+                            width: 100%;
+                            &:first-child{ padding: 10px 0 !important; }
+                        }
+                        .branch_direction{
+                            background-color: $white;
+                            clear: both;
+                            display: none;
+                            width: 100%;
+                            p,.branch_mail{
+                                @include font-mask( $text_gray, em( 10, 16 ), em( 14, 10 ), normal );
+                            }
+                            p{
+                                clear: both;
+                                display: block;
+                                margin: 5px 10px;
+                                text-decoration: none;
+                            }
+                            .branch_mail{
+                                background-color: #2B2B2B;
+                                color: $yellow;
+                                line-height: em( 25, 10 );
+                                margin: 5px 0 0;
+                                padding: 10px 0;
+                                text-decoration: underline;
+                                text-indent: 10px;
+                            }
+                            a{
+                                clear: both;
+                                display: block;
+                                p{ margin: 0 10px; padding: 15px 0; }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

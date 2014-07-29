@@ -1,0 +1,44 @@
+        <aside class="primary">
+            <a href="#" title="Menú" class="menu">Menú</a>
+            <nav class="desktop">
+                <ul class="sections">
+[[!getResources?
+    &parents=`8`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE aside-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+            </nav>
+            <nav class="mobile">
+                <ul class="sections">
+[[!getResources?
+    &resources=`2,5,30`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE aside-item-mobile.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+            </nav>
+            <p class="phone">01800 377 3567</p>
+            <figure class="page">
+                <a href="[[++site_start]]" title="Home" target="_self">
+                    <img src="[[++site_url]]assets/img/home/logo-giovanni-bojanini-interna.png" alt="Centro Dermatológico Giovanni Bojanini" width="102" height="79" class="desktop" />
+                    <img src="[[++site_url]]assets/img/home/logo_boja_M.png" alt="Centro Dermatológico Giovanni Bojanini" width="60" height="47" class="mobile" />
+                </a>
+            </figure>
+        </aside>

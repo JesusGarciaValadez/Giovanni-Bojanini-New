@@ -1,0 +1,96 @@
+#platelet_rich_plasma{
+    
+    .reveal{ height: 488px; top: 20px; }
+    section{ height: 488px; }
+    #epidermic_growth_factors{
+        
+        #section11Texto1{
+            background: url("../img/home/triangulo_cuadro_chico_Over.png") no-repeat scroll 0px 80px transparent;
+            float: right;
+            height: 257px;
+            padding: 0 0 0 50px;
+            width: 686px;
+            p{
+                @include font-mask( #333, em( 13, 16 ), em( 15, 13 ), normal, $Fira_Sans_Ot_Light );
+                letter-spacing: -0.8;
+                text-align: justify;
+            }
+            strong{ font-weight: bold; }
+        }
+        #section11Texto4{
+            margin: 0 0 0 150px;
+            p{
+                @include font-mask( #333, em( 13, 13 ), em( 15, 13 ), normal, $Fira_Sans_Ot_Light );
+                text-align: justify;
+            }
+            strong{ font-weight: bold; }
+        }
+        #section11Amarillo{
+            float: left;
+            background-color: #edd304;
+            font-size: 23px;
+            height: 257px;
+            width: 224px;
+            color: #000;
+            h2 {
+                @include font-mask( #333, em( 13, 13 ), em( 15, 13 ), normal, $Fira_Sans_Ot_Light );
+                margin: 80px 10px 0 30px;
+                text-align: left;
+                strong{
+                    clear: both;
+                    display: block;
+                    font-family: $Nobile_Bold;
+                    font-weight: normal;
+                }
+            }
+            a { font-weight: bold; font-size: 32px; }
+        }
+        #section11Texto2{
+            background-color: #232323;
+            color: #FFF;
+            float: right;
+            font-size: 13px;
+            height: 245px;
+            letter-spacing: -0.8;
+            margin-left: 2px;
+            width: 225px;
+            p {
+                @include font-mask( $yellow, em( 24, 13 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
+                margin-top: 70px; 
+                text-align: center;
+            }
+        }
+        #section11Texto3{
+            float: right;
+            width: 225px;
+            height: 50%;    
+            background-color: #232323;
+            font-size: 13px;
+            letter-spacing: -0.8;
+            color: #fff;
+            margin-left: 2px;
+            background-image: url(../img/tratamiento_integral/ruquito_alopecia.jpg);
+            background-size: 231px 258px;
+        }
+        #section11Texto4{
+            float: left;
+            font-size: 13px;
+            height: 225px;
+            letter-spacing: -0.8;
+            margin: 30px 10px 0 40px;
+            padding: 20px 0 0;
+            text-align: left;
+            width: 455px;
+            p{ margin-left: 10px; }
+        }
+    }
+    .internal_navigation_menu{
+        
+        ul{
+            width: 45px;
+            li{
+                
+            }
+        }
+    }
+}

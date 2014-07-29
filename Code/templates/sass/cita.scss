@@ -1,0 +1,210 @@
+#cita{
+
+    section{
+        top: -45%;
+        .contact_form{
+            @extend .clearfix;
+            .ornament{
+                background: $yellow;
+                float: left;
+                height: em( 486, 16 );
+                position: relative;
+                width: em( 28, 16 );
+                span{
+                    @extend .triangle;
+                    right: -31px;
+                    top: em( 211, 16 );
+                }
+            }
+            form{
+                @extend .clearfix;
+                float: left;
+                height: em( 486, 16 );
+                width: em( 932, 16 );
+                fieldset{
+                    display: inline-block;
+                    float: left;
+                    height: em( 486, 16 );
+                    margin: 0 0 0 em( 35, 16 );
+                    legend{
+                        @include font-mask( $text_gray, em( 16, 16 ), em( 48, 16 ), normal, $Fira_Sans_Ot_Light );
+                        margin: 0;
+                        padding: 0;
+                        text-align: left;
+                        text-indent: em( 10, 16 );
+                        strong{
+                            @include font-mask( $text_gray, em( 52, 20 ), em( 52, 52 ), normal, $Nobile_Bold );
+                            clear: both;
+                            display: block;
+                            float: left;
+                            letter-spacing: em( 7 , 52 );
+                            position: relative;
+                            text-align: left;
+                            top: 10px;
+                            width: 100%;
+                        }
+                    }
+                    .input,
+                    .input_radio_wrapper{
+                        @extend .clearfix;
+                        float: right;
+                        label{
+                            @include font-mask( $text_gray, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                            float: left;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                    .text{
+                        width: em( 307, 12);
+                        margin-top: 13px;
+                        font-size: 16px;
+                        input[type="text"]{
+                            @include font-mask( #000, em( 16, 16 ), em( 16, 16 ), normal, $Fira_Sans_Ot_Light );
+                            background: #E0E0E0;
+                            border: 0 none transparent;
+                            float: right;
+                        }
+                        input[type="radio"]{
+                            @include font-mask( $white, em( 16, 16 ), em( 16, 16 ), normal, $Fira_Sans_Ot_Light );
+                            float :left;
+                        }
+                        ul{ list-style-type: none; }
+                        #contact_first_name,
+                        #contact_last_name,
+                        #contact_mail,
+                        #contact_phone{ width: em( 288, 16 ); }
+                        .contact_paciente{width: 3em}
+                        .selector{}
+                        #uniform-contact_sucursal{
+                            @extend .clearfix;
+                            background-color: #e0e0e0;
+                            height: 26px;
+                            left: 90px;
+                            position: relative;
+                            top: 0;
+                            span{
+                                @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                                display: block;
+                                float:left;
+                                left: 0;
+                                margin: 0;
+                                padding: 2px 5px 0;
+                                position: absolute;
+                                text-align: left;
+                                text-indent: 0;
+                                top: 0;
+                                width: 100%;
+                                &:after{
+                                    content:"⌄";
+                                    position:absolute;
+                                    right:10px;
+                                    top:0;
+                                }
+                            }
+                            #contact_sucursal{
+                                filter:alpha(opacity=0);
+                                left:0;
+                                opacity:0;
+                                position:absolute;
+                                top:0;
+                                width:100%;
+                                optgroup{
+                                    @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                                    background-color: #e0e0e0;
+                                    option{
+                                        @include font-mask( #000, em( 13, 13 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                                    }
+                                }
+                                option{
+                                    @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                                    background-color: $white;
+                                }
+                            }
+                        }
+                        textarea{
+                            @include font-mask( #000, em( 13, 16 ), em( 26, 13 ), normal, $Fira_Sans_Ot_Light );
+                            background: #E0E0E0;
+                            border: 0 none rgba(0, 0, 0, 0);
+                            float: right;
+                            height: em( 100, 13 );
+                            padding: 10px;
+                            resize: none;
+                            text-align: left;
+                            width: 300px;
+                        }
+                    }
+                    .input span#contact_enviar{
+                        @extend .enviar;
+                        &:hover{ @extend .enviar_over; }
+                    }
+                    .radio{
+
+                        span{
+                            @extend .cuadro_seccion;
+                            float: left;
+                            margin: 0 10px;
+                            position: relative;
+                            input[type="radio"]{
+                                float: left;
+                                filter: alpha(opacity=0);
+                                left: 0;
+                                opacity: 0;
+                                position: absolute;
+                                top:0;
+                            }
+                        }
+                        .checked{
+                            @extend .cuadro_seccion_over;
+                        }
+                        label{
+                            float: left;
+                        }
+                    }
+                    #contact_fecha{
+                        clear: none;
+                        display: inline-block;
+                        float: left;
+                        margin: 0 0 em( 15, 16 ) em( 25, 16 );
+                        width: em( 288, 16 );
+                        label{
+                            display: block;
+                            clear: both;
+                            float: none;
+                        }
+                        input.datepicker{}
+                    }
+                    #uniform-contact_horario_matutino{
+                        margin: 0 0 0 em( 78, 16 );
+                    }
+                    .input_radio_wrapper{
+
+                        .input{}
+                        .radio{
+
+                            .contact_channel{}
+                            label{}
+                        }
+                    }
+                    #contact_enviar{
+                        @extend .enviar;
+                        background-color: transparent;
+                        border: 0 none transparent;
+                        &:hover{ @extend .enviar_over; }
+                    }
+                    &:nth-child( n + 2){}
+                    &:nth-child( n + 1 ){
+                        height: em( 486, 16 );
+                        width: em( 422, 16 );
+                    }
+                    &:nth-child( n + 2 ){
+                        height: em( 486, 16 );
+                        margin: 0;
+                        padding: 0 0 0 em( 85, 16 );
+                        width: em( 355, 16 );
+                    }
+                }
+            }
+        }
+    }
+}

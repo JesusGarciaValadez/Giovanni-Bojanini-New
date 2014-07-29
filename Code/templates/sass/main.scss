@@ -1,0 +1,1114 @@
+@import "bourbon/_bourbon.scss";
+@import "normalize.scss";
+//@import "reveal_js_themes/source/default.scss";
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "variables.scss";
+
+a,input,div,p,span,strong,em,form,fieldset,textarea,hr,img,select,option,button,
+header,body,aside,video,audio,footer,section,article,code,canvas,ul,ol,li,menu,
+menuitem,nav,iframe,embed,object,*{
+    outline: transparent thin none;
+}
+.alert_background {
+    background: url('../img/background_lightbox.png') repeat scroll 0 0 transparent;
+    display: none;
+    height: 100%;
+    min-height: em( 1720, 16 );
+    top:0;
+    position: absolute;
+    width: 100%;
+    z-index: 16;
+}
+.alert_box {
+    @extend .clearfix;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px #AAA;
+    display: none;
+    margin: 0 auto;
+    padding: 30px;
+    position: fixed !important;
+    /*width: 502px;*/
+    z-index: 17;
+    h2{
+        background:none no-repeat scroll 0 1px transparent;
+        color: #27A9E0;
+        font: normal 1.188em/1em $Fira_Sans_Ot_Light;
+        margin: 0;
+        padding: 0 46px 0 0;
+        text-transform: uppercase;
+    }
+    a.close{
+        background: url('../img/close.png') no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 27px;
+        overflow: hidden;
+        position: absolute;
+        right: -12px;
+        text-indent: -2000em;
+        top: -12px;
+        width: 27px;
+        img{}
+    }
+    p{
+        color: #000;
+        font: normal 0.875em/1em $Fira_Sans_Ot_Light;
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+    }
+}
+/*.alert_trigger{
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+}*/
+.loader{
+    display: block;
+    height: em( 32, 16 );
+    margin: 0 auto;
+    position: relative;
+    top: em( 273, 16 );
+    width: em( 32, 16 );
+    z-index: 17;
+}
+
+.desktop{  }
+.mobile{ display: none; visibility: hidden; }
+html,body{
+    @include font-mask( $text_gray, em( 16, 16 ), em( 16, 16 ), normal );
+    @extend .clearfix;
+    display: table;
+    font-weight: normal;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.social{
+
+    li{
+
+        a{}
+    }
+}
+.social_networks,.social{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 180px;
+    li{
+        margin: 0;
+        text-indent: -20000em;
+        a{ }
+    }
+    .google_plus{
+        @extend .google;
+        a{}
+        &:hover{ @extend .google_over; }
+    }
+    .twitter{
+        @extend .twitter_2;
+        a{}
+        &:hover{ @extend .twitter; }
+    }
+    .facebook{
+        @extend .face_2;
+        a{}
+        &:hover{ @extend .face; }
+    }
+    .youtube{
+        @extend .youtube_2;
+        a{}
+        &:hover{ @extend .youtube; }
+    }
+}
+.container{
+
+    .wrapper{
+        @extend .clearfix;
+        margin: 0 auto;
+        position: relative;
+        width: 960px;
+    }
+    #wrapper_background{
+        @extend .clearfix;
+        display: table;
+        height: 768px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+        figure{
+            @extend .clearfix;
+            display: block;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            top:0;
+            width: 100%;
+            z-index: 5;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    .primary{
+        background: url("../img/home/barra_lateral.png") repeat scroll center center transparent;
+        height: 54px !important;;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 12;
+        .menu{
+            @extend .btn_menu_M;
+            float: left;
+            height: 100%;
+            text-indent: -2000em;
+            width: em( 50, 16 );
+            &.active{ @extend .logo_boja_M_over; }
+        }
+        nav{
+            @extend .clearfix;
+            float: left;
+            margin: 0 auto;
+            ul{
+                @extend .clearfix;
+                float: left;
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style: none inside;
+                    a{
+                        cursor: pointer;
+                        display: block;
+                        height: 100%;
+                        text-indent: -2000em;
+                    }
+                }
+            }
+            .sections{
+
+                li{
+                    margin: 0 em( 1, 16 );
+                    a{}
+                }
+                .who_are_we{
+                    @extend .quienes_somos_2;
+                    a{}
+                    &:hover,&.current{ @extend .quienes_somos; }
+                }
+                .testimonials{
+                    @extend .testimonios_2;
+                    a{}
+                    &:hover,.current{ @extend .testimonios; }
+                }
+                .medical_directory{
+                    @extend .dir_medico_2;
+                    a{}
+                    &:hover,&.current{ @extend .dir_medico; }
+                }
+                .branches{
+                    @extend .sucursales_2;
+                    a{}
+                    &:hover,.current{ @extend .sucursales; }
+                }
+                .contact,.cita{
+                    @extend .contacto_2;
+                    a{}
+                    &:hover,.current{ @extend .contacto; }
+                }
+                .notices{
+                    @extend .noticias;
+                    a{}
+                    &:hover,&.current{ @extend .noticias_over; }
+                }
+            }
+        }
+        .phone{
+            @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
+            display: inline-block;
+            float: right;
+            margin: em( -12, 24 ) em( 25, 24 ) 0 0;
+            padding: 0;
+            position: relative;
+            text-align: right;
+            text-shadow: 0 0 5px #000;
+            top: 50%;
+            strong{}
+        }
+        .page{
+            height: em( 99, 16 );
+            left: 20px;
+            position: absolute;
+            top: em( 70, 16 );
+            width: em( 128, 16 );
+            z-index: 0;
+            img{}
+        }
+    }
+    header{
+        background-color: #282828;
+        height: auto;
+        left: 0;
+        padding: 0 !important;
+        position: absolute !important;
+        top: 54px;
+        width: auto !important;
+        z-index: 13;
+        img{
+            border-bottom: 2px solid $yellow;
+        }
+        nav{
+            @extend .clearfix;
+            display: none;
+            float: left;
+            ul{}
+            .treatments{
+                @extend .clearfix;
+                margin: 0;
+                padding: 0;
+                li{
+                    height: em( 28, 16 );
+                    padding: 0 0 0 em( 30, 16 );
+                    a{
+                        @include font-mask( $white !important, em( 14, 16 ), em( 31, 14 ), normal, $Fira_Sans_Ot_Light );
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                }
+                li:hover,.current{
+                    background-color: $yellow;
+                    box-sizing: border-box;
+                    width: 100%;
+                    a{
+                        color: $text_gray;
+                        font-weight: bold;
+                    }
+                }
+            }
+            hr {
+                border-top: 2px solid #565656;
+                display: block;
+                height: 0;
+                margin: 5px auto 0;
+                width: 90%;
+            }
+        }
+    }
+}
+#footer{
+    background: url("../img/home/bg_btns_banner.png") repeat scroll center center transparent;
+    bottom: 0;
+    display: block;
+    height: 59px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    footer{
+        @extend .wrapper;
+        ul{
+            @extend .clearfix;
+            float: right;
+            margin: 0;
+            padding: 0;
+            li{
+                float: left;
+                height: em( 56, 16 );
+                list-style: none inside;
+                margin: 0 10px;
+                width: em( 274, 16 );
+                a{
+                    @include font-mask( $white, em( 20.8, 16 ), em( 56, 20.8 ), normal, $Fira_Sans_Ot_Light );
+                    cursor: pointer;
+                    display: inline-block;
+                    height: em( 56, 20.8 );
+                    text-align: center;
+                    text-decoration: none;
+                    width: 100%;
+                    strong{
+                        font-family: $Nobile_Bold;
+                        font-size: em( 18, 20.8 );
+                        font-weight: normal;
+                    }
+                    &:hover{
+                        border-bottom: 3px solid $yellow;
+                        height: em( 53, 20.8 );
+                    }
+                    &.current{
+                        border-bottom: 3px solid $yellow;
+                        height: em( 53, 20.8 );
+                    }
+                }
+                &.current{
+                    border-bottom: 3px solid $yellow;
+                    height: em( 53, 20.8 );
+                }
+            }
+        }
+    }
+    #privacy_policy{
+        @extend .clearfix;
+        background: url("../img/home/barra_lateral.png") repeat scroll center center rgba(0, 0, 0, 0);
+        display: block;
+        .line{
+            background-color: $yellow;
+            display: block;
+            clear: both;
+            height: 3px;
+            width: 100%;
+            div{
+                background-color: #B0A016;
+                display: block;
+                float: right;
+                height: 3px;
+                width: 30%;
+            }
+        }
+        .privacy_policy_link{
+            @include font-mask( $white, em( 13, 16 ), em( 25, 16 ), normal, $Fira_Sans_Ot_Light );
+            float: left;
+            margin: -10px 0 0 10px;
+            position: absolute;
+            text-decoration: none;
+            top: 50%;
+            &:hover{ text-decoration: underline; }
+        }
+        .chat{
+            @extend .btn_chat_linea;
+            float: right;
+            text-indent: -20000em;
+            a{
+                display: block;
+                text-indent: -2000em;
+                width: em( 56, 16 );
+                &:hover{
+                    border: 0 none transparent;
+                }
+            }
+            &:hover{
+                @extend .btn_chat_linea_Over;
+            }
+        }
+    }
+    .desktop{}
+    .mobile{
+
+        ul{
+
+            li{
+
+                a{}
+            }
+        }
+    }
+}
+.internal_container{
+    @extend .container;
+    header{
+
+        nav{
+
+            ul{}
+            .treatments{
+
+                li{
+
+                    a{
+                        color: #333;
+                        text-shadow: 0 0 0 transparent;
+                    }
+                }
+                .current{
+
+                }
+            }
+        }
+        p{
+            text-shadow: none;
+            strong{}
+        }
+    }
+    .reveal{
+        @extend .clearfix;
+        @extend .wrapper;
+        height: em( 538, 16 ) !important;
+        //height: em( 538, 36 ) !important;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        position: relative;
+        top: em( 10, 16 );
+        //top: em( 32, 36 );
+        .slides{
+            display: block;
+            z-index: 11;
+            //height: 100%;
+            //width: 100%;
+            section{
+                display: block;
+                padding: 0 !important;
+                //height: 100%;
+                //width: 100%;
+                section{
+
+                }
+            }
+            .internal_navigation_menu{
+                height: 23px;
+                left: -50%;
+                position: relative;
+                top: 265px;
+                width: 100%;
+                z-index: 15;
+                ul{
+                    @extend .clearfix;
+                    display: block;
+                    margin: 0 auto;
+                    padding: 0;
+                    width: em( 480, 16 );
+                    li{
+                        float: left;
+                        height: 18px;
+                        list-style: none inside;
+                        margin: 3px 10px 0;
+                        width: 18px;
+                        a{
+                            @extend .cuadro_seccion;
+                            cursor: pointer;
+                            display: block !important;
+                            height: 100%;
+                            text-decoration: none;
+                            position: relative;
+                            width: 100%;
+                            p{
+                                @include font-mask( $text_gray, em( 12, 16 ), em( 12, 12 ), normal, $Nobile_Bold );
+                                display: none;
+                                margin: 0;
+                                padding: 0;
+                                text-align: center;
+                            }
+                            &:hover{
+                                @extend .cuadro_seccion_over;
+                                p{
+                                    display: block;
+                                    left: -55px;
+                                    margin: 0 auto;
+                                    position: relative;
+                                    text-align: center;
+                                    top: -17px;
+                                    width: 135px;
+                                }
+                            }
+                        }
+                        &:first-child{
+                            margin: 0 10px;
+                            a{
+                                @extend .icono_menu;
+                            }
+                        }
+                    }
+                    .current{
+                        @extend .cuadro_seccion_over;
+                        p{
+                            display: block;
+                            left: -55px;
+                            margin: 0 auto;
+                            position: relative;
+                            text-align: center;
+                            top: -17px;
+                            width: 135px;
+                        }
+                    }
+                    .separator{
+                        border: 0 solid transparent;
+                        border-top: 1px solid $text_gray;
+                        height: 1px;
+                        margin: 12px 0 0;
+                        width: 50px;
+                    }
+                }
+            }
+        }
+        .controls{ display: none !important; z-index: 10; }
+    }
+}
+
+@import "jquery-ui-1.10.4.custom.scss";
+@import "sprite.scss";
+@import "sprite_microinjerto.scss";
+@import "sprite_integral_treatment.scss";
+@import "dermocosmetics-sprite.scss";
+@import "reveal.scss";
+@import "../../../bower_components/hint.css/src/hint.scss";
+
+.hint, [data-hint] {
+
+    /**
+     * tooltip body
+     */
+    &:after {
+        font-family: $Fira_Sans_Ot_Light;
+        font-size: $fontSize;
+        line-height: $fontSize + 3;
+    }
+}
+.triangle{
+    border-color: transparent transparent transparent $yellow;
+    border-style: solid none solid solid;
+    border-width: em( 32, 16 ) 0 em( 32, 16 ) em( 32, 16 );
+    box-sizing: border-box;
+    display: block;
+    height: em( 1, 29.36 );
+    position: absolute;
+    width: em( 1, 29.36 );
+}
+.small_triangle{
+    border-style: solid none solid solid;
+    border-width: 1.13em 0 1.13em 1.13em;
+    box-sizing: border-box;
+    display: block;
+    height: 0.06em;
+    margin: -18px auto 0;
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    width: 0.06em;
+}
+.link{
+    @extend .btn_mas;
+    bottom: em( 10, 16 );
+    position: absolute !important;
+    right: em( 10, 16 );
+    &:hover{ @extend .btn_mas_over; }
+}
+.video_link{
+    @extend .btn_play_chico;
+    bottom: em( 10, 16 );
+    position: absolute !important;
+    right: em( 10, 16 );
+}
+.image{ position: relative; }
+
+@import "home.scss";
+@import "privacy_policy.scss";
+@import "alopecia.scss";
+@import "tratamientoIntegral.scss";
+@import "mesotherapy.scss";
+@import "capilar_electroporation.scss";
+@import "platelet_rich_plasma.scss";
+@import "tratamiento_medical_drug.scss";
+@import "clasification.scss";
+@import "autodiagnosis.scss";
+@import "microinjerto.scss";
+@import "dermocosmetics.scss";
+@import "who_are_whe.scss";
+@import "medical_directory.scss";
+@import "branches.scss";
+@import "contact.scss";
+@import "cita.scss";
+@import "notices.scss";
+
+@media only screen and (max-width: 94.75em) {}
+
+@import "helpers.scss";
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-device-width: 35.5em),
+       (orientation:portrait) {
+    .desktop,.putDesktop{ display: none !important; visibility: hidden; }
+    .mobile{ display: block; visibility: visible; }
+    .link, .triangle{ @extend .putDesktop; }
+    .text_for_mobile{
+        @include font-mask( $text_gray, em( 13, 16 ) !important, em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+        box-sizing: border-box;
+        margin: em( 20, 13 ) 0;
+        padding: 0 em( 10, 13 );
+        text-align: center;
+    }
+    /* Style adjustments for viewports that meet the condition */
+    html,body{
+        //height: auto !important;
+        max-width: em( 568, 16 );
+        min-width: em( 320, 16 ) !important;
+        overflow: scroll !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        ::-webkit-scrollbar,:-webkit-scrollbar{ -webkit-appearance: none; width: 8px; }
+    }
+    .container{
+
+        .wrapper{ width: 100%; }
+        #wrapper_background{
+
+            figure{
+
+                img{}
+            }
+        }
+        .primary{
+            background: #232323 !important;
+            height: em( 54, 16 );
+            position: absolute !important;
+            top: 0 !important;
+            width: 100%;
+            z-index: 12;
+            .menu{
+                height: 100%;
+                position: absolute;
+                text-indent: -2000em;
+                top: em( 0, 16 );
+                width: em( 42, 16 ) !important;
+                z-index: 5;
+            }
+            nav{
+                float: none;
+                height: em( 54, 16 );
+                left: 0;
+                margin: 0 !important;
+                top: 0;
+                position: relative;
+                width: 100%;
+                z-index: 1;
+                ul{
+                    display: inline-block;
+                    li{
+
+                        a{}
+                    }
+                }
+                .sections{
+                    position: absolute;
+                    right: 10px;
+                    li{
+                        margin: 0 em( 1, 16 );
+                        a{}
+                    }
+                    .who_are_we{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .who_are_we.current{ }
+                    .testimonials{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .testimonials.current{ }
+                    .medical_directory{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .medical_directory.current{ }
+                    .branches{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .branches.current{ }
+                    .contact{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .contact.current{ }
+                }
+                .social{
+                    display: none !important;
+                    visibility: hidden;
+                    li{
+
+                        a{}
+                    }
+                    .google_plus{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .twitter{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .facebook{
+
+                        a{}
+                        &:hover{ }
+                    }
+                    .youtube{
+
+                        a{}
+                        &:hover{ }
+                    }
+                }
+            }
+            .page{
+                height: em( 79, 16 );
+                left: em( 10, 16 );
+                right: auto;
+                top: em( 70, 16 );
+                width: em( 102, 16 );
+                img{}
+            }
+        }
+        .secondary{
+            display: none;
+            nav{
+
+                .sub-menu{
+
+                    p{
+
+                        strong{ }
+                    }
+                    ul{
+
+                        li{
+
+                            a{
+
+                                &:hover{ }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        header{
+            top: 54px !important;
+            width: 100% !important;
+            z-index: 12;
+            p{
+                border: 0 none transparent;
+                margin: 15px 25px 10px;
+                strong{}
+            }
+            nav{
+                background: #242424;
+                display: none;
+                position: absolute;
+                top: 0;
+                width: 100% !important;
+                ul{}
+                .treatments{
+                    clear: both;
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    li{
+                        box-sizing: border-box;
+                        clear: both;
+                        display: block;
+                        float: none;
+                        height: auto;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        a{
+                            clear: both;
+                            color: #FFF !important;
+                            display: block;
+                            line-height: em( 40, 14 );
+                            padding: 0 0 0 30px;
+                            width: 100%;
+                        }
+                        &:hover{
+                            background: $yellow;
+                            a{
+                                color: #242424 !important;
+                                font-family: $Nobile_Bold;
+                                font-size: em( 14, 16 );
+                                font-weight: normal;
+                                text-shadow: none;
+                            }
+                        }
+                    }
+                    .current{ border: 0 none transparent; }
+                }
+            }
+        }
+    }
+    .internal_container{
+        display: block !important;
+        overflow: auto !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+        header{
+            width: 100% !important;
+            nav{
+
+                ul{}
+                .treatments{
+
+                    li{
+
+                        a{
+
+                        }
+                    }
+                    .current{
+
+                    }
+                }
+            }
+            p{
+
+                strong{}
+            }
+        }
+        .reveal{
+            filter: alpha(opacity=1);
+            opacity: 1;
+            top: 0 !important;
+            .slides{
+                left: 0;
+                top: 0;
+                section{
+                    clear: both;
+                    display: block;
+                    float: left;
+                    position: relative;
+                    top:0;
+                    left: 0;
+                }
+                .internal_navigation_menu{
+                    display: none;
+                    ul{
+
+                        li{
+
+                            a{
+
+                                p{
+
+                                }
+                                &:hover{
+
+                                    p{
+
+                                    }
+                                }
+                            }
+                            &:first-child{
+
+                                a{ }
+                            }
+                        }
+                        .current{
+
+                            p{
+
+                            }
+                        }
+                        .separator{
+
+                        }
+                    }
+                }
+            }
+            .controls{  }
+        }
+    }
+
+    @import "sprite_integral_treatment_mobile.scss";
+    @import "home_mobile.scss";
+    @import "who_are_whe_mobile.scss";
+    @import "branches_mobile.scss";
+    @import "cita_mobile.scss";
+    @import "microinjerto_mobile.scss";
+    @import "tratamientoIntegral_mobile.scss";
+    @import "mesotherapy_mobile.scss";
+    @import "tratamiento_medical_drug_mobile.scss";
+    @import "capilar_electroporation_mobile.scss";
+    @import "platelet_rich_plasma_mobile.scss";
+    @import "clasification_mobile.scss";
+    @import "dermocosmetics_mobile.scss";
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

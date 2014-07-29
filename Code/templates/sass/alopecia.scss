@@ -1,0 +1,95 @@
+#what_alopecia_is{
+    
+    section {
+        height: 515px;
+    }
+    #sectionAlopecia{
+        
+        > div { box-sizing: border-box; }
+        #section7Texto1{
+            float: right;
+            height: 236px;
+            margin: 0 0 -20px;
+            padding: 0px 0 0 46px;
+            width: 71.2%;
+            p{
+                @include font-mask( #333, em( 13, 16 ), em( 16, 13 ), normal, $Fira_Sans_Ot_Light );
+                text-align: justify;
+            }
+        }
+        #section7Amarillo{
+            background-color: #edd304;
+            color: #000;
+            float: left;
+            font-size: 26px;
+            height: 236px;
+            position: relative;
+            width: 230px;
+            p {
+                @include font-mask( #333, em( 28, 26 ), em( 28, 28 ), normalm, $Fira_Sans_Ot_Light );
+                margin: 100px 0 10px 10px;
+                position: relative;
+                text-align: justify;
+                z-index: 10;
+            }
+            strong { font-family: $Nobile_Bold; font-weight: normal; }
+            span{ @extend .triangle; right: -35px; top: 30%; z-index: 5; }
+        }
+        #section7Texto5{
+            background: url("../img/tratamiento_integral/ruquito_alopecia.jpg") no-repeat scroll 0 0 transparent;
+            background-size: 231px 258px;
+            clear: both;
+            color: #fff;
+            float: left;
+            font-size: 27px;
+            line-height: 1px;
+            margin: -6px 0 0;
+            height: 256px;
+            width: 230px;
+        }
+    }
+    #some_myths_about_alopecia{
+        
+        #section4Amarillo{
+            background-color: #edd304;
+            float: left;
+            height: 100%;
+            width: 225px;
+            h3{
+                @include font-mask( #333, em( 23, 16 ), em( 23, 23 ), normal, $Nobile_Bold );
+                border-top-width: 100px;
+                padding-top: 210px; 
+                padding-left: 13px; 
+            }
+            strong{ font-weight: normal; }
+        }
+        #section4Texto{
+            background-image: url("../img/home/triangulo_cuadro_chico_Over.png");
+            background-repeat: no-repeat;
+            background-position: 0px 192px;
+            float: right;
+            font-size: 13px;
+            height: 100%;
+            letter-spacing: -0.8;
+            padding-left: 42px;
+            text-align: left;
+            width: 693px;
+            p{
+                @include font-mask( #333, em( 13, 13 ), em( 13, 13 ), normal, $Fira_Sans_Ot_Light );
+                padding-bottom: 10px;
+                text-align: justify;
+                strong{
+                    font-family: $Nobile_Bold;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    .internal_navigation_menu{
+        
+        ul{
+            width: 126px;
+            li{}
+        }
+    }
+}

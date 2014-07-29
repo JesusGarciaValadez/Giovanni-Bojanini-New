@@ -1,0 +1,56 @@
+        <header class="wrapper">
+            <nav>
+                <img src="[[++site_url]]assets/img/home/giovanni-bojanini-title.png" alt="Giovanni Bojanini" width="273" height="50" class="desktop" />
+                <ul class="treatments desktop">
+                    <li class="current">
+                        <a href="[[~1]]" title="Home" target="_self">Home</a>
+                    </li>
+[[!getResources?
+    &parents=`7`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE header-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+                <hr />
+                <ul class="social desktop">
+                    <li class="google_plus">
+                        <a href="https://plus.google.com/101881234359197530482" rel="publisher" title="Perfil en G+ de Giovanni Bojanini" target="_blank">Google+ de Giovanni Bojanni</a>
+                    </li>
+                    <li class="twitter">
+                        <a href="https://twitter.com/GBojanini" title="Twitter de Giovanni Bojanini" target="_blank">Twitter de Giovanni Bojanini</a>
+                    </li>
+                    <li class="facebook">
+                        <a href="https://www.facebook.com/giovannibojanini" title="Perfil en Facebook de Giovanni Bojanini" target="_blank">Perfil en Facebook de Giovanni Bojanini</a>
+                    </li>
+                    <li class="youtube">
+                        <a href="http://www.youtube.com/channel/UCmlNC_ALJrYp748DW8dx6Dw" title="Canal de You Tube de Giovanni Bojanini" target="_blank">Canal de You Tube de Giovanni Bojanini</a>
+                    </li>
+                </ul>
+                <ul class="treatments mobile">
+                    <li class="current">
+                        <a href="[[~1]]" title="Home" target="_self">Home</a>
+                    </li>
+[[!getResources?
+    &resources=`9,10,11`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE header-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+            </nav>
+        </header>

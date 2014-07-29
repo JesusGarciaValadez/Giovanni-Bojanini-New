@@ -1,0 +1,227 @@
+#clasification_of_baldness{
+    display: block;
+    max-width: 568px !important;
+    min-height: 320px !important;
+    min-width: inherit !important;
+    overflow: auto !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    position: static;
+    .reveal{
+        height: 100% !important;
+        margin: 60px 0 0 !important;
+        position: static !important;
+        .slides{
+            height: 100% !important;
+            position: static;
+            #gallery_of_scales{
+                @extend .putDesktop;
+                #hombreAmarillo{
+                    
+                    span {
+                        
+                        &:hover{}
+                    }
+                }
+                #hombreTexto{
+                    
+                    p#escala{}
+                    p#norwood{}
+                }
+                #mujerGris{
+                    
+                    span {
+                        
+                        &:hover {}
+                    }
+                }
+                #mujerTexto{
+                    
+                    p#escala1{}
+                    p#ludwig{}
+                }
+                #section12texto1{
+                    @extend .putDesktop;
+                    p {
+                        
+                        a{}
+                    }
+                }
+            }
+            #baldness_classification{
+                height: auto;
+                position: static;
+                section{
+                    height: auto !important;
+                    margin: 0 0 40px;
+                    .section13texto1 {
+                        background-color: transparent;
+                        display: block !important;
+                        float: left;
+                        height: auto !important;
+                        width: 100%;
+                        p {
+                            @extend .text_for_mobile;
+                            clear: both;
+                            display: block;
+                            padding: 0 30px;
+                            text-align: center;
+                            width: 100%;
+                            strong{}
+                        }
+                    }
+                    .section13galeria {
+                        clear: both;
+                        display: block;
+                        float: none;
+                        height: 100% !important;
+                        position: static;
+                        width: auto !important;
+                        .browse{ @extend .putDesktop; }
+                        .left{}
+                        .right{}
+                        .disabled{}
+                        .scrollable_integral{
+                            max-width: 320px !important;
+                            margin: 0 auto;
+                            position: static;
+                            width: 100% !important;
+                            .items_scale{
+                                max-width: 100%;
+                                position: static;
+                                >div {
+                                    clear: both;
+                                    display: block;
+                                    height: 100% !important;
+                                    position: static;
+                                    width: 100% !important;
+                                    .item_wrapper{
+                                        border-bottom: 1px solid #DEDEDE;
+                                        float: left;
+                                        height: 90% !important;
+                                        margin: 10px 5% 0;
+                                        padding: 0 0 10px;
+                                        position: static;
+                                        width: 90%;
+                                        .textoGaleria {
+                                            clear: both;
+                                            display: block;
+                                            float: left;
+                                            height: auto !important;
+                                            width: 100%;
+                                            p {
+                                                @extend .text_for_mobile;
+                                                padding: 0 30px;
+                                                width: 100%;
+                                            }
+                                            .tipo { font-family: $Nobile_Bold; margin: 5px 0; }
+                                        }
+                                        .imagenGaleria {
+                                            clear: both;
+                                            display: block;
+                                            height: auto !important;
+                                            width: 100%;
+                                            img {
+                                                box-sizing: border-box;
+                                                float: left;
+                                                max-height: none !important;
+                                                max-width: none !important;
+                                                margin: 0 0 0 19%;
+                                                padding: 0 !important;
+                                                width: auto !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #sectionLudwig{
+                    margin: 0 !important;
+                    .section13galeria{
+                        
+                        .scrollable_integral{
+                            
+                            .items_scale{
+                                
+                                >div{
+                                    
+                                    .item_wrapper{
+                                        
+                                        .imagenGaleria {
+                                            
+                                            img {
+                                                display: block;
+                                                float: none !important;
+                                                margin: 0 auto !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .internal_navigation_menu{
+                    
+                    ul{
+                        width: 570px;
+                        li{
+                            
+                            a{
+                                
+                                p{}
+                                &:hover{
+                                    
+                                    p{
+                                        left: -95px;
+                                        width: 210px;
+                                    }
+                                }
+                            }
+                            .current{
+                                
+                                p{
+                                    left: -95px;
+                                    width: 210px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .internal_navigation_menu{
+                @extend .putDesktop;
+                ol{
+                    
+                    li{
+                        
+                        a{
+                            
+                            p{}
+                            &:hover{
+                                
+                                p{}
+                            }
+                        }
+                    }
+                    .separator{}
+                }
+                ul{
+                    
+                    li{
+                        
+                        a{}
+                        .current{}
+                        &:first-child{
+                            
+                            a{}
+                            .current{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

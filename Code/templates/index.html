@@ -1,0 +1,60 @@
+[[$head]]
+    
+    <body id="home" class="container">
+        <div id="wrapper_background">
+            <figure class="page desktop">
+[[!getResources? 
+    &parents=`[[*id]]`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE image-banner-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`1`
+    &includeContent=`0`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+    &limit=`3`
+ ]]
+            </figure>
+            <figure class="page mobile">
+[[!getResources? 
+    &parents=`[[*id]]`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE image-banner-item-mobile.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`1`
+    &includeContent=`0`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+    &limit=`3`
+ ]]
+            </figure>
+        </div>
+
+[[$aside]]
+
+[[$header]]
+
+        <section class="wrapper">
+[[*content]]
+        </section>
+        
+[[$footer]]
+
+[[$alert-box-home]]
+        <script type="text/javascript">
+            var __lc = {};
+            __lc.license = 4306081;
+            
+            (function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+            })();
+        </script>
+[[$html-end]]

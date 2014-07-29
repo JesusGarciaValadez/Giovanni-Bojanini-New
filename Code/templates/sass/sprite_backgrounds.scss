@@ -1,0 +1,9 @@
+
+/* Start Sprite Master CSS */
+.barra_lateral,.bg_btns_banner,.gris_2,.pixel_contenido_2,.pixel_cuadro_contenido{display: inline-block;background-repeat: no-repeat;background-image: url('../img/home/sprite_backgrounds.png');}
+.barra_lateral{background-position:-1px -1px;width:1px;height:1px;}
+.bg_btns_banner{background-position:-1px -3px;width:1px;height:1px;}
+.gris_2{background-position:-3px -1px;width:1px;height:1px;}
+.pixel_contenido_2{background-position:-3px -3px;width:1px;height:1px;}
+.pixel_cuadro_contenido{background-position:-5px -1px;width:1px;height:1px;}
+/* End Sprite Master CSS */
