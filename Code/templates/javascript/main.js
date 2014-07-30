@@ -28,24 +28,6 @@
         }
     }
 
-    /*( function ( ) {
-
-        switch( window.orientation ) {
-            case 0:
-
-            break;
-            case -90:
-                contentType += "right";
-            break;
-            case 90:
-                contentType += "left";
-            break;
-            case 180:
-                contentType += "flipped";
-            break;
-        }
-    } )( );*/
-
     //  When DOM is loaded
     $( function ( ) {
 
