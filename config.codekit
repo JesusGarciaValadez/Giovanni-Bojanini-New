@@ -5412,6 +5412,101 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/mailings\/cambia-de-look-video.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-video.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/cambia-de-look.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/cambia-de-look\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2102,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/bg.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/bojafriends.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5405,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/bojafriends.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/bojafriends.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/header_look.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164769,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/header_look.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/header_look.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/link.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2805,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/link.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/link.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/llama.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3994,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/llama.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/llama.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/logo_boja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6887,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/logo_boja.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/logo_boja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look\/tabla.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19086,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/tabla.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look\/tabla.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/Code\/mailings\/deja-la-calvicie-en-el-pasado.html": {
 		"fileType": 8192,
 		"ignore": 0,
