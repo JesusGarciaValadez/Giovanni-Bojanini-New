@@ -218,9 +218,9 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
-  # Options +SymLinksIfOwnerMatch
+    Options +SymLinksIfOwnerMatch
     RewriteEngine On
-    RewriteBase /giovanni_bojanini_new/
+    RewriteBase /
 </IfModule>
 
 # ------------------------------------------------------------------------------
@@ -577,7 +577,7 @@ FileETag None
 #RewriteCond %{HTTP_HOST} !^www\.giovannibojanini\.com\.mx [NC]
 #RewriteRule (.*) http://www.giovannibojanini.com.mx/$1 [R=301,L]
 
-# Rewrite secure requests properly to prevent SSL cert warnings, e.g. prevent 
+# Rewrite secure requests properly to prevent SSL cert warnings, e.g. prevent
 # https://www.domain.com when your cert only allows https://secure.domain.com
 #RewriteCond %{SERVER_PORT} !^443
 #RewriteRule (.*) https://giovannibojanini.com.mx/$1 [R=301,L]
