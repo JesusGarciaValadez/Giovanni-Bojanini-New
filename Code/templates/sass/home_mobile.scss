@@ -72,6 +72,7 @@
         min-width: 320px;
         overflow: hidden;
         padding: 0;
+        position: relative;
         top: 53px !important;
         width: 100%;
         z-index: 5 !important;
@@ -92,7 +93,7 @@
                 img{
                     display: block;
                     left: auto;
-                    position: relative;
+                    position: absolute;
                     right: auto;
                     top: 50%;
                 }

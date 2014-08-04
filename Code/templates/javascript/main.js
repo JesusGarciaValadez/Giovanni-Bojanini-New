@@ -1317,7 +1317,7 @@
                 }
             } );
 
-            $('.chat a').on('click',function(e){
+            $('a.chat').on('click',function(e){
                 $('#livechat-badge').click();
             });
 
