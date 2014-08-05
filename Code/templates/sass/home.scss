@@ -26,7 +26,7 @@
             &:first-child{ display:block; }
         }
         #schedule_your_appointment_today_banner{
-            
+
             h1{
                 @include font-mask( #000, em( 41.91, 16 ), em( 29, 41.91 ), normal, $Fira_Sans_Ot_Light );
                 left: -50px;
@@ -84,7 +84,7 @@
             }
         }
         #schedule_your_appointment_today_dancing_banner{
-            
+
             h1{
                 @include font-mask( #FFF, em( 30, 16 ), em( 12, 30 ), normal, $Fira_Sans_Ot_Light );
                 letter-spacing: em( 0.1, 41.91 );
@@ -177,7 +177,7 @@
             }
         }
         #agora_no_brasil{
-            
+
             .brasil_title{
                 display: block;
                 margin: -53.5px auto 0;
@@ -207,7 +207,7 @@
             }
         }
         #testimonial_banner{
-            
+
             h2{
                 @include font-mask( #000, em( 60, 16 ), em( 27, 60 ), normal, $Fira_Sans_Ot_Light );
                 left: -50px;
@@ -263,7 +263,7 @@
             }
         }
         #promotion_of_the_month_banner{
-            
+
             figure.friends{
                 @extend .clearfix;
                 bottom: 0;
@@ -424,7 +424,7 @@
             }
         }
         #august_2014_promotion_of_the_month{
-            
+
             .friends{
                 bottom: -350px;
                 left: -32px;
@@ -446,7 +446,7 @@
             }
         }
         #july_2014_promotion_of_the_month{
-            
+
             figure.friends{
                 @extend .clearfix;
                 bottom: 0;
@@ -566,7 +566,7 @@
             }
         }
         #promotion_fathers_day_banner{
-            
+
             figure.friends{
                 @extend .clearfix;
                 bottom: 0;
@@ -854,19 +854,110 @@
         }
     }
     #livechat-compact-container{ z-index: 0 !important; }
+    .alert_background{
+        background: none 0 0 no-repeat scroll #FFF;
+        display: none;
+        height: 100%;
+        opacity: 0.5;
+        width: 100%;
+    }
     .alert_box{
-        height: 365px;
-        margin: -182.5px auto 0 !important;
+        background: none no-repeat scroll 0 0 transparent;
+        border-radius: 0;
+        box-shadow: 0;
+        display:none;
+        height: 100%;
+        margin: 0 auto 0 !important;
         padding: 0;
-        position: fixed;
-        top: 50% !important;
-        width: 632px;
-        .close{ right: 0; }
-        video{
+        position: absolute;
+        top: 0% !important;
+        width: 100%;
+        .close{
+            @extend .cierra;
+            color: transparent;
+            position: absolute;
+            right: 60px;
+            top: 80px;
+            &:hover{ @extend .cierra_over; }
+        }
+        .video_testimonials_home_scrollable{
             display: block;
+            height: 340px;
+            left: auto;
             margin: -170px auto 0;
+            overflow: hidden;
             position: relative;
-            top: 50%;
+            top: 40%;
+            width: 603px;
+            .video_items{
+                display: block;
+                height: 100%;
+                position: relative;
+                width: 2000em;
+                video { display: block; float: left; position: relative; }
+            }
+        }
+        .title_testimonials_home_scrollable{
+            background: none no-repeat scroll 0 0 rgba( 0, 0, 0, 0.8 );
+            display: block;
+            height: 130px;
+            left: auto;
+            margin: -75px auto 0;
+            position: relative;
+            top: 55%;
+            width: 100%;
+            .browser{
+                margin: -20px auto 0;
+                position: absolute;
+                top: 50%;
+            }
+            .disabled{ display: none; &:hover{ display: none; } }
+            .prev{
+                @extend .flecha_izq_testimoniales;
+                left: 15%;
+                &:hover{ @extend .flecha_izq_testimoniales_over; }
+            }
+            .next{
+                @extend .flecha_der_testimoniales;
+                right: 15%;
+                &:hover{ @extend .flecha_der_testimoniales_Over; }
+            }
+            .title_testimoniales_home_wrapper{
+                display: block;
+                height: 100%;
+                margin: 0 auto;
+                overflow: hidden;
+                position: relative;
+                width: 600px;
+                .title_items{
+                    display: block;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    width: 2000em;
+                    div{
+                        display: block;
+                        float: left;
+                        height: 100%;
+                        position: relative;
+                        width: 600px;
+                        h2, h3{
+                            display: block;
+                            margin: 0 auto;
+                            padding: 0;
+                            text-align: center;
+                            text-transform: uppercase;
+                            width: 100%;
+                        }
+                        h2{
+                            @include font-mask( $white, em( 30, 16 ), em( 60, 30 ), normal,  $Nobile_Bold );
+                        }
+                        h3{
+                            @include font-mask( $yellow, em( 50, 16 ), em( 60, 50 ), normal,  $Fira_Sans_Ot_Light );
+                        }
+                    }
+                }
+            }
         }
     }
 }

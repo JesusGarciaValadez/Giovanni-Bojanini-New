@@ -251,6 +251,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-meses-sin-intereses-con-banamex-en-microinjerto-capilar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20988,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-meses-sin-intereses-con-banamex-en-microinjerto-capilar.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-meses-sin-intereses-con-banamex-en-microinjerto-capilar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banners\/escritorio\/agendar-cita.bak.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -272,6 +283,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/aprovecha-este-verano-para-realizarte-microinjerto-capilar-con-la-tecnica-fue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8188,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/aprovecha-este-verano-para-realizarte-microinjerto-capilar-con-la-tecnica-fue.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/aprovecha-este-verano-para-realizarte-microinjerto-capilar-con-la-tecnica-fue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/escritorio\/background-testimoniales.png": {
 		"fileType": 32768,
@@ -350,6 +372,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/cambia-de-look-estas-vacaciones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15458,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cambia-de-look-estas-vacaciones.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cambia-de-look-estas-vacaciones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banners\/escritorio\/copy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -404,6 +437,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591591,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/escritorio\/promocion-formulas-magistrales-abril.jpg": {
 		"fileType": 16384,
@@ -646,6 +690,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/promocion-cambia-de-look.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17193,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-cambia-de-look.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-cambia-de-look.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/movil\/promocion-dia-del-padre.png": {
 		"fileType": 32768,
@@ -2610,27 +2665,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/home\/poster.bak.png": {
+	"\/assets\/img\/home\/poster-javier.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159278,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/home\/poster-martha.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 233120,
-		"inputAbbreviatedPath": "\/assets\/img\/home\/poster.bak.png",
-		"outputAbbreviatedPath": "\/assets\/img\/home\/poster.bak.png",
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/img\/home\/poster.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 271787,
-		"inputAbbreviatedPath": "\/assets\/img\/home\/poster.png",
-		"outputAbbreviatedPath": "\/assets\/img\/home\/poster.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/quienes_somos.jpg": {
 		"fileType": 16384,

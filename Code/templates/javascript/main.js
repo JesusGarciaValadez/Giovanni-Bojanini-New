@@ -11,7 +11,7 @@
 (function ( $, window, document, undefined ) {
 
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 6000;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 3000;
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -647,7 +647,7 @@
             }
         }
 
-        //  Muestra el menu desplegable y hace hightlight del botón
+        //  Muestra el menu desplegable principal y hace hightlight del botón
         $( 'aside .menu' ).on( 'click', function ( e ) {
 
             if ( $( e.currentTarget ).hasClass( 'active' ) ) {
@@ -721,14 +721,16 @@
                         $( '.alert_box' ).fadeOut( 10, function ( ) {
 
                             $( '.alert_background' ).fadeOut( 10 );
-                            $( '.alert_box h2' ).text( '' );
-                            $( '.alert_box h4' ).text( '' );
-                            ( $( '.alert_box p' ).exists() ) ? $( '.alert_box p' ).remove( ) : false;
-                            ( $( '.alert_box form' ).exists() ) ? $( '.alert_box form' ).remove( ) : false;
-                            ( $( '.alert_box table' ).exists() ) ? $( '.alert_box table' ).remove( ) : false;
-                            ( $( '.alert_box div' ).exists() ) ? $( '.alert_box div' ).remove( ) : false;
-                            ( $( '.alert_box button' ).exists() ) ? $( '.alert_box button' ).remove( ) : false;
-                            ( $( '.alert_box div.confirm' ).exists() ) ? $( '.alert_box div.confirm' ).remove( ) : false;
+                            if ( !$( '#home' ).exists() ) {
+                                $( '.alert_box h2' ).text( '' );
+                                $( '.alert_box h4' ).text( '' );
+                                ( $( '.alert_box p' ).exists() ) ? $( '.alert_box p' ).remove( ) : false;
+                                ( $( '.alert_box form' ).exists() ) ? $( '.alert_box form' ).remove( ) : false;
+                                ( $( '.alert_box table' ).exists() ) ? $( '.alert_box table' ).remove( ) : false;
+                                ( $( '.alert_box div' ).exists() ) ? $( '.alert_box div' ).remove( ) : false;
+                                ( $( '.alert_box button' ).exists() ) ? $( '.alert_box button' ).remove( ) : false;
+                                ( $( '.alert_box div.confirm' ).exists() ) ? $( '.alert_box div.confirm' ).remove( ) : false;
+                            }
                         } );
                     },
                     onClose         :   function ( ) {
@@ -750,6 +752,53 @@
                 touchend: function ( e ) {
                     $( '.overlay' ).centerWidth();
                 }
+            } );
+        }
+
+        // Control de la presentación de los videos de testimoniales que
+        // están en el Home
+        if ( $( '#home .alert_box' ).exists() ) {
+            GBSite.inicializeCarrousel( '.video_testimonials_home_scrollable', {
+                speed: 150,
+                circular: false,
+                keyboard: false,
+                items: '.video_items',
+                next: '',
+                prev: ''
+            }, {
+                activeClass: "active",
+                navi: "",
+                naviItem: "",
+                indexed: false
+            }, {
+                steps: 1,
+                interval: 10000,
+                autoplay: false,
+                autopause: false
+            } );
+            GBSite.inicializeCarrousel( '.title_testimonials_home_scrollable', {
+                speed: 150,
+                circular: false,
+                keyboard: false,
+                items: '.title_items',
+                next: '.title_testimonials_home_scrollable .prev',
+                prev: '.title_testimonials_home_scrollable .next'
+            }, {
+                activeClass: "active",
+                navi: "",
+                naviItem: "",
+                indexed: false
+            }, {
+                steps: 1,
+                interval: 10000,
+                autoplay: false,
+                autopause: false
+            } );
+
+            var videoScrollableHandler  = $('.video_testimonials_home_scrollable').data( 'scrollable' );
+            var titleScrollableHandler  = $('.title_testimonials_home_scrollable').data( 'scrollable' );
+            titleScrollableHandler.onBeforeSeek( function( e ) {
+                videoScrollableHandler.;
             } );
         }
 
@@ -1161,12 +1210,12 @@
                 } );
             }
 
-            //  Muestra u oculta la ventana con los testimoniales
+            //  Muestra u oculta la ventana con los testimoniales en la sección Microinjerto
             if ( $( ".testimonials_explained" ).exists() ) {
 
                 var scrollable          = $( '.testimonials_explained_scrollable' ).data( 'scrollable' );
 
-                //  Muestra la ventana modal con los testimoniales
+                //  Muestra la ventana modal con los testimoniales en la sección Microinjerto
                 $( ".testimonial img" ).on( 'click', function(e) {
                     e.preventDefault();
                     e.stopPropagation();

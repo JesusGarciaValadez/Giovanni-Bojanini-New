@@ -150,7 +150,7 @@ ErrorDocument 404     /404.html
     AddType video/ogg                                   ogg
     AddType video/ogg                                   ogv
     AddType video/mov                                   mov
-    
+
     AddType video/x-flv                                 flv
 
   # Web fonts
@@ -218,9 +218,9 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
-    Options +SymLinksIfOwnerMatch
+  # Options +SymLinksIfOwnerMatch
     RewriteEngine On
-    RewriteBase /
+    RewriteBase /giovanni_bojanini_new/
 </IfModule>
 
 # ------------------------------------------------------------------------------
@@ -376,7 +376,7 @@ AddDefaultCharset utf-8
 # ------------------------------------------------------------------------------
 
 <IfModule mod_deflate.c>
-    
+
     # Force compression for mangled headers.
     # http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping
     <IfModule mod_setenvif.c>
@@ -385,7 +385,7 @@ AddDefaultCharset utf-8
             RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
         </IfModule>
     </IfModule>
-    
+
     # Compress all output labeled with one of the following MIME-types
     # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
     #  and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines
