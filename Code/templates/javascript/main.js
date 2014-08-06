@@ -11,7 +11,7 @@
 (function ( $, window, document, undefined ) {
 
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 3000;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 6000;
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -759,7 +759,7 @@
         // están en el Home
         if ( $( '#home .alert_box' ).exists() ) {
             GBSite.inicializeCarrousel( '.video_testimonials_home_scrollable', {
-                speed: 150,
+                speed: 300,
                 circular: false,
                 keyboard: false,
                 items: '.video_items',
@@ -777,12 +777,12 @@
                 autopause: false
             } );
             GBSite.inicializeCarrousel( '.title_testimonials_home_scrollable', {
-                speed: 150,
+                speed: 300,
                 circular: false,
                 keyboard: false,
                 items: '.title_items',
-                next: '.title_testimonials_home_scrollable .prev',
-                prev: '.title_testimonials_home_scrollable .next'
+                next: '.title_testimonials_home_scrollable .next',
+                prev: '.title_testimonials_home_scrollable .prev'
             }, {
                 activeClass: "active",
                 navi: "",
@@ -797,8 +797,38 @@
 
             var videoScrollableHandler  = $('.video_testimonials_home_scrollable').data( 'scrollable' );
             var titleScrollableHandler  = $('.title_testimonials_home_scrollable').data( 'scrollable' );
-            titleScrollableHandler.onBeforeSeek( function( e ) {
-                videoScrollableHandler.;
+            var trigger = "";
+            var flag = 0;
+            
+            //  Sabemos qué botón presionamos para hacer el slide del video
+            $( '.title_testimonials_home_scrollable a' ).on( 'click', function ( e ) {
+                e.preventDefault();
+                e.stopPropagation();
+                trigger = ( $( e.currentTarget).hasClass( 'next' ) ) ? "next" : "prev";
+                
+                //  Pausamos el video...
+                var video = document.getElementsByTagName( "video" );
+                for ( var i = 0; i < video.length; i++ ) {
+                    video[i].pause();
+                }
+                
+                //  Si es la primera vez que presionamos el botón "next"
+                //  hacemos que avance el carrusel de forma manual
+                if ( flag === 0 ) {
+                    videoScrollableHandler.next( 300 );
+                    flag = 1;
+                }
+                
+                //  Hace la animación del título y el video para las siguientes
+                //  veces que presionamos los botones de control
+                titleScrollableHandler.onBeforeSeek( function ( e, trigger ) {
+                    var _trigger    = ( trigger === 0 ) ? "prev" : "next";
+                    if ( _trigger === "next" ) {
+                        videoScrollableHandler.next( 300 );
+                    } else {
+                        videoScrollableHandler.prev( 300 );
+                    }
+                } );
             } );
         }
 

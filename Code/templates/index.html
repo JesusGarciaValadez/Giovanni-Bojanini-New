@@ -1,9 +1,9 @@
 [[$head]]
     
     <body id="home" class="container">
-        <div id="wrapper_background">
+        <div id="wrapper_background" class="clearfix">
             <figure class="page desktop">
-[[!getResources? 
+[[!getResources?
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE image-banner-item.html`
@@ -19,7 +19,7 @@
  ]]
             </figure>
             <figure class="page mobile">
-[[!getResources? 
+[[!getResources?
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE image-banner-item-mobile.html`
