@@ -427,6 +427,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/monitos_cena_sitio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 468419,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/monitos_cena_sitio.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/monitos_cena_sitio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banners\/escritorio\/parrafo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2251,23 +2262,23 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1031,
+		"initialSize": 2648,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/contacto.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/contacto.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/contacto_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 703,
+		"initialSize": 1757,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/contacto_2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/contacto_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/cuadro_seccion.png": {
 		"fileType": 32768,
@@ -2427,23 +2438,23 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2055,
+		"initialSize": 1814,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/google.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/home\/-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/google.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/google_over.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2475,
+		"initialSize": 2794,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/google_over.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/google_over.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/gris_2.jpg": {
 		"fileType": 16384,
@@ -2455,6 +2466,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/home\/icono-tel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1489,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/icono-tel.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/icono-tel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/home\/icono-tel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1573,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/icono-tel.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/icono-tel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/home\/icono_menu.png": {
 		"fileType": 32768,
@@ -2625,7 +2658,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1821,
+		"initialSize": 1828,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/noticias.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/noticias.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2636,7 +2669,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2905,
+		"initialSize": 2831,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/noticias_over.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/noticias_over.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2691,23 +2724,23 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 919,
+		"initialSize": 2633,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/quienes_somos.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/quienes_somos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/quienes_somos_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 602,
+		"initialSize": 1755,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/quienes_somos_2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/quienes_somos_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/seleccion.png": {
 		"fileType": 32768,
@@ -2740,7 +2773,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/home\/sprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/home\/sprite_backgrounds.css": {
 		"fileType": 16,
@@ -2766,23 +2799,23 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 931,
+		"initialSize": 2469,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/sucursales.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/sucursales.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/sucursales_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 647,
+		"initialSize": 1672,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/sucursales_2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/sucursales_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/testimonios.jpg": {
 		"fileType": 16384,
@@ -2832,45 +2865,45 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 956,
+		"initialSize": 2704,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/twitter.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/twitter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/twitter_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 674,
+		"initialSize": 1783,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/twitter_2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/twitter_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/youtube.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1014,
+		"initialSize": 2825,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/youtube.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/youtube.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/home\/youtube_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 679,
+		"initialSize": 1873,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/youtube_2.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/youtube_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/microinjerto\/animacion_menu.png": {
 		"fileType": 32768,
@@ -3388,6 +3421,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/poster-bojanini.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195717,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-bojanini.png",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-bojanini.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/microinjerto\/poster-leonardo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28700,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-leonardo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-leonardo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/microinjerto\/poster-rodrigo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-rodrigo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-rodrigo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/microinjerto\/poster.jpg": {
 		"fileType": 16384,

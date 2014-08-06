@@ -331,15 +331,17 @@ html,body{
             }
         }
         .phone{
-            @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
+            @include font-mask( $yellow, em( 24, 16 ), em( 54, 24 ), normal, $Fira_Sans_Ot_Light );
+            @extend .icono-tel;
             display: inline-block;
             float: right;
-            margin: em( -12, 24 ) em( 25, 24 ) 0 0;
+            margin: 0 em( 25, 24 ) 0 0;
             padding: 0;
             position: relative;
             text-align: right;
+            text-indent: 45px;
             text-shadow: 0 0 5px #000;
-            top: 50%;
+            width: 200px !important;
             strong{}
         }
         .page{
@@ -407,29 +409,37 @@ html,body{
     display: block;
     height: 59px;
     left: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 10;
     footer{
         @extend .wrapper;
+        border: 3px solid #FFF;
+        height: 30px;
+        width: 320px;
         ul{
             @extend .clearfix;
             float: right;
             margin: 0;
             padding: 0;
+            position: absolute;
+            top: 50%;
+            width: 100%;
             li{
                 float: left;
-                height: em( 56, 16 );
+                height: em( 3, 16 );
                 list-style: none inside;
-                margin: 0 10px;
-                width: em( 274, 16 );
+                margin: 0 10px 0 0;
+                width: em( 100, 16 );
+                &:last-child{ margin: 0; }
                 a{
-                    @include font-mask( $white, em( 20.8, 16 ), em( 56, 20.8 ), normal, $Fira_Sans_Ot_Light );
+                    border-top: 3px solid #FFF;
                     cursor: pointer;
                     display: inline-block;
-                    height: em( 56, 20.8 );
+                    height: em( 0, 16 );
                     text-align: center;
                     text-decoration: none;
+                    text-indent: -2000em;
                     width: 100%;
                     strong{
                         font-family: $Nobile_Bold;

@@ -799,36 +799,32 @@
             var titleScrollableHandler  = $('.title_testimonials_home_scrollable').data( 'scrollable' );
             var trigger = "";
             var flag = 0;
-            
+
             //  Sabemos qué botón presionamos para hacer el slide del video
             $( '.title_testimonials_home_scrollable a' ).on( 'click', function ( e ) {
                 e.preventDefault();
                 e.stopPropagation();
                 trigger = ( $( e.currentTarget).hasClass( 'next' ) ) ? "next" : "prev";
-                
+
                 //  Pausamos el video...
                 var video = document.getElementsByTagName( "video" );
                 for ( var i = 0; i < video.length; i++ ) {
                     video[i].pause();
                 }
-                
+
                 //  Si es la primera vez que presionamos el botón "next"
                 //  hacemos que avance el carrusel de forma manual
-                if ( flag === 0 ) {
+                /*if ( flag === 0 ) {
                     videoScrollableHandler.next( 300 );
                     flag = 1;
-                }
-                
-                //  Hace la animación del título y el video para las siguientes
-                //  veces que presionamos los botones de control
-                titleScrollableHandler.onBeforeSeek( function ( e, trigger ) {
-                    var _trigger    = ( trigger === 0 ) ? "prev" : "next";
-                    if ( _trigger === "next" ) {
-                        videoScrollableHandler.next( 300 );
-                    } else {
-                        videoScrollableHandler.prev( 300 );
-                    }
-                } );
+                }*/
+            } );
+
+            //  Hace la animación del título y el video para las siguientes
+            //  veces que presionamos los botones de control
+            titleScrollableHandler.onBeforeSeek( function ( e, trigger ) {
+
+                videoScrollableHandler.seekTo( trigger );
             } );
         }
 
