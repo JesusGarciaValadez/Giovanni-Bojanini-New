@@ -646,37 +646,21 @@
                 }
             }
         }
-
+        
         //  Muestra el menu desplegable principal y hace hightlight del botón
-        $( 'aside .menu' ).on( 'click', function ( e ) {
-
-            if ( $( e.currentTarget ).hasClass( 'active' ) ) {
-
-                $( e.currentTarget ).removeClass( 'active');
-            } else {
-
-                $( e.currentTarget ).addClass( 'active');
-            }
-            $( 'header nav' ).slideToggle( {
-                duration: 150,
-                easing: 'easeOutBounce',
-                queue: false,
-                specialEasing: {},
-                step: function( now, tween ) {},
-                progress: function( animation, progress, remainingMs ) {},
-                complete: function() {},
-                start: function( animation ) {},
-                done: function( animation, jumpedToEnd ) {},
-                fail: function( animation, jumpedToEnd ) {},
-                alway: function( animation, jumpedToEnd ) {}
-            } );
+        $( 'aside .menu' ).on( 'mouseenter', function ( e ) {
+            GBSite.toggleMenu( e );
         });
-
+        
+        $( 'header nav' ).on( 'mouseleave', function ( e ) {
+            GBSite.toggleMenu( e );
+        } );
+        
         if ( $( 'video' ).exists() ) {
-
+            
             var myVideo = document.getElementsByTagName( 'video' )[ 0 ];
         }
-
+        
         //  Crea una instancia de jQuery Overlay para el home de descubreone.mx
         //  Calcula la distancia entre el margen izquierdo para posicionar
         //  la capa del video. Si en menor de 0 (ocurre en iPhone) utiliza

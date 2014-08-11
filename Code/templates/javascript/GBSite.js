@@ -1032,6 +1032,28 @@
         },
         _validateDate:          function ( dateToCheck ) {
             return ( !/Invalid|NaN/.test(new Date(dateToCheck).toUTCString() ) ) ? true : false;
+        },
+        toggleMenu:             function ( e ){
+            if ( $( 'aside .menu' ).hasClass( 'active' ) ) {
+                
+                $( 'aside .menu' ).removeClass( 'active');
+            } else {
+                
+                $( 'aside .menu' ).addClass( 'active');
+            }
+            $( 'header nav' ).slideToggle( {
+                duration: 150,
+                easing: 'easeOutBounce',
+                queue: false,
+                specialEasing: {},
+                step: function( now, tween ) {},
+                progress: function( animation, progress, remainingMs ) {},
+                complete: function() {},
+                start: function( animation ) {},
+                done: function( animation, jumpedToEnd ) {},
+                fail: function( animation, jumpedToEnd ) {},
+                alway: function( animation, jumpedToEnd ) {}
+            } );
         }
     };
 

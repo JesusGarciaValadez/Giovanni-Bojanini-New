@@ -414,9 +414,15 @@ html,body{
     z-index: 10;
     footer{
         @extend .wrapper;
-        border: 3px solid #FFF;
+        display: block;
+        float: left;
         height: 30px;
-        width: 320px;
+        left: 50%;
+        margin: -15px 0 0 -160px !important;
+        position: absolute !important;
+        top: 50%;
+        width: 320px !important;
+        z-index: 20;
         ul{
             @extend .clearfix;
             float: right;
@@ -446,17 +452,13 @@ html,body{
                         font-size: em( 18, 20.8 );
                         font-weight: normal;
                     }
-                    &:hover{
-                        border-bottom: 3px solid $yellow;
-                        height: em( 53, 20.8 );
-                    }
-                    &.current{
-                        border-bottom: 3px solid $yellow;
+                    &:hover,&.current{
+                        border-top: 3px solid $yellow !important;
                         height: em( 53, 20.8 );
                     }
                 }
                 &.current{
-                    border-bottom: 3px solid $yellow;
+                    border-top: 3px solid $yellow;
                     height: em( 53, 20.8 );
                 }
             }
@@ -503,17 +505,6 @@ html,body{
             }
             &:hover{
                 @extend .btn_chat_linea_Over;
-            }
-        }
-    }
-    .desktop{}
-    .mobile{
-
-        ul{
-
-            li{
-
-                a{}
             }
         }
     }
