@@ -959,6 +959,37 @@
                 }
             }
         }
+        .navigator{
+            bottom: 0;
+            display: block;
+            height: 50px;
+            left: 50%;
+            margin: 0 0 0 -480px;
+            position: absolute;
+            width: 960px;
+            a{
+                
+                &:nth-child( 1n ){
+                    
+                    &:hover{}
+                }
+                &:nth-child( 2n ){
+                    &:hover{}
+                }
+                &:nth-child( 3n ){
+                    
+                    &:hover{}
+                }
+                &:nth-child( 4n ){
+                    
+                    &:hover{}
+                }
+                &:nth-child( 5n ){
+                    
+                    &:hover{}
+                }
+            }
+        }
     }
 }
 #converted_date{

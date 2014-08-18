@@ -5533,6 +5533,92 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/22-al-25-de-agosto-30-porciento-en-consulta-y-10-porciento-en-producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84270,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/22-al-25-de-agosto-30-porciento-en-consulta-y-10-porciento-en-producto.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/22-al-25-de-agosto-30-porciento-en-consulta-y-10-porciento-en-producto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/cambia-de-look-estas-vacaciones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357690,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/cambia-de-look-estas-vacaciones.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/cambia-de-look-estas-vacaciones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/centro-dermatologico-giovanni-bojanini-a-head-full-of-possibilities.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130434,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/centro-dermatologico-giovanni-bojanini-a-head-full-of-possibilities.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/centro-dermatologico-giovanni-bojanini-a-head-full-of-possibilities.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-formulas-magistrales-y-shampoos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46327,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-formulas-magistrales-y-shampoos.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-formulas-magistrales-y-shampoos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-mexico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18408,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-mexico.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/exclusivo-mexico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/llama-en-este-momento-y-haz-tu-cita.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17989,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/llama-en-este-momento-y-haz-tu-cita.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/llama-en-este-momento-y-haz-tu-cita.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/cambia-de-look-estas-vacaciones\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magistrales.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134930,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magistrales.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cambia-de-look-estas-vacaciones\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magistrales.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/Code\/mailings\/cambia-de-look-video.html": {
 		"fileType": 8192,
 		"ignore": 0,

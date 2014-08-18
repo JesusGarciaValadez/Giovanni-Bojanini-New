@@ -769,8 +769,8 @@
                 prev: '.title_testimonials_home_scrollable .prev'
             }, {
                 activeClass: "active",
-                navi: "",
-                naviItem: "",
+                navi: ".navigator",
+                naviItem: "a",
                 indexed: false
             }, {
                 steps: 1,

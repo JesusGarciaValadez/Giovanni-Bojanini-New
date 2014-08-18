@@ -767,7 +767,7 @@
                 optionsAutoscroll = {};
             }
 
-            _selector.scrollable( optionsScrollable )/*.navigator( optionsNavigator ).autoscroll( optionsAutoscroll )*/;
+            _selector.scrollable( optionsScrollable ).navigator( optionsNavigator ).autoscroll( optionsAutoscroll );
         },
         /**
          *
