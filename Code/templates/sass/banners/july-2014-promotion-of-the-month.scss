@@ -1,0 +1,120 @@
+#july_2014_promotion_of_the_month{
+
+    figure.friends{
+        @extend .clearfix;
+        bottom: 0;
+        display: block;
+        height: 573px;
+        position: absolute;
+        //left: 890px;
+        left: -15%;
+        width: 803px;
+        z-index: 0;
+        img{
+            bottom: 0;
+            height: auto !important;
+            position: absolute;
+            right: 0;
+            width: auto !important;
+        }
+        .desktop{ display: block; }
+        .mobile{ display: none; }
+    }
+    .wrapper_information{
+        float: right !important;
+        top: 17%;
+        width: 435px;
+        h2{
+            @include font-mask( #C3B41F, em( 42, 16 ), em( 42, 42 ), normal );
+            letter-spacing: 1px;
+            strong{
+                font-size: em( 42, 42 );
+                font-weight: bold;
+            }
+        }
+        h3{ font-size: em( 25, 16 ); letter-spacing: 7px; }
+        p{
+            @include font-mask( $text_gray, em( 13, 16 ), em( 13, 13 ), normal, $Fira_Sans_Ot_Light );
+            margin: 5px 0 15px;
+            strong{ font-family: $Nobile_Bold; font-size: em( 11, 13 );}
+        }
+        .discounts{
+
+            .twenty{
+                background-color: #494949 !important;
+                z-index: 10;
+                .big{
+                    font-size: em( 50, 16 ) !important;
+                    margin: 0 auto !important;
+                    top: 25px;
+                    strong{
+                        display: block;
+                        font-size: em( 55, 55 );
+                        line-height: 1em;
+                    }
+                }
+                p{
+                    @include font-mask( $white, em( 12, 16 ) !important, em( 12, 12 ), normal );
+                    margin: 5px auto !important;
+                    top: 25%;
+                    strong{
+                        font-size: 1em;
+                        .yellow{ color: $yellow; font-size: 1em; }
+                    }
+                }
+                .triangle{ border-color: transparent transparent transparent #494949 !important; }
+            }
+            .thirty{
+                background-color: $text_gray !important;
+                .big{
+                    color: $white;
+                    font-size: 55px !important;
+                    line-height: 1em !important;
+                    margin: 10px auto !important;
+                    top: 12%;
+                    strong{ font-size: 1em; line-height: 1em; }
+                }
+                p{
+                    color: $yellow;
+                    font-size: em( 18, 16 ) !important;
+                    top: 33%;
+                    strong{
+
+                        .yellow{}
+                    }
+                }
+                .triangle{ display: none; border-left-color: $text_gray; }
+            }
+            .fourthy{
+                background-color: $text_gray !important;
+                p{
+                    font-size: em( 13, 16 ) !important;
+                    line-height: 1em;
+                    strong{
+
+                        .yellow{}
+                    }
+                    &:nth-child( 1n + 0 ){
+                        font-size: em( 13, 16 );
+                        margin: 0 auto !important;
+                        top: 27% !important;
+                    }
+                    &:nth-child( 2n + 0 ){ font-size: em( 23, 16 ) !important; }
+                    &:nth-child( 3n + 0 ){ font-size: em( 18, 16 ) !important; }
+                }
+            }
+            .aclaration{
+                background-color: $yellow;
+                p{ line-height: em( 30, 16 ); }
+            }
+            .disclaimer{
+                bottom: -40px;
+                font-family: $Fira_Sans_Ot_Light;
+                padding: 0;
+                right: 0;
+                text-align: right;
+                strong{}
+            }
+        }
+    }
+}

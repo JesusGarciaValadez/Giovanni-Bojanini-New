@@ -1,3 +1,4 @@
+
 @import "bourbon/_bourbon.scss";
 @import "normalize.scss";
 //@import "reveal_js_themes/source/default.scss";
@@ -331,17 +332,24 @@ html,body{
             }
         }
         .phone{
-            @include font-mask( $yellow, em( 24, 16 ), em( 54, 24 ), normal, $Fira_Sans_Ot_Light );
             @extend .icono-tel;
             display: inline-block;
             float: right;
-            margin: 0 em( 25, 24 ) 0 0;
+            margin: ( -21px / 2 ) 180px 0 0;
             padding: 0;
-            position: relative;
+            position: relative !important;
             text-align: right;
             text-indent: 45px;
             text-shadow: 0 0 5px #000;
-            width: 200px !important;
+            top: 50%;
+            &:after{
+                @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
+                content: "01800 377 3567";
+                left: -15px;
+                position: absolute;
+                top: 0;
+                width: 196px;
+            }
             strong{}
         }
         .page{
@@ -801,17 +809,9 @@ html,body{
                         &:hover{ }
                     }
                     .who_are_we.current{ }
-                    .testimonials{
-
-                        a{}
-                        &:hover{ }
-                    }
+                    .testimonials{ display: none; }
                     .testimonials.current{ }
-                    .medical_directory{
-
-                        a{}
-                        &:hover{ }
-                    }
+                    .medical_directory{ display: none; }
                     .medical_directory.current{ }
                     .branches{
 
@@ -825,6 +825,7 @@ html,body{
                         &:hover{ }
                     }
                     .contact.current{ }
+                    .notices{ display: none; }
                 }
                 .social{
                     display: none !important;

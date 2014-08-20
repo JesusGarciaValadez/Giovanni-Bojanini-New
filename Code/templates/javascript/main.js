@@ -43,6 +43,7 @@
         if ( isPortable ) { //  Si es un móvil...
 
             //  Redimensiona el Body al tamaño de la pantalla
+            $( 'body' ).height( deviceHeight );
             $( 'body' ).width( deviceWidth );
 
             $( window ).on( {
@@ -1356,10 +1357,10 @@
         //  Control de los banner en el Home
         if ( $( '#footer footer ul li a' ).exists() ) {
 
-            $( '#footer footer.' + typeOfDevice + ' ul li a' ).eq( 0 ).addClass( 'current' );
+            $( '#footer footer ul li a' ).eq( 0 ).addClass( 'current' );
 
             //  Cambia la imagen de fondo e indica que botón del footer corresponde
-            $( '#footer footer.' + typeOfDevice + ' ul li a' ).on( 'click', function ( e ) {
+            $( '#footer footer ul li a' ).on( 'click', function ( e ) {
                 e.preventDefault();
                 e.stopPropagation();
 

@@ -1,36 +1,36 @@
 [[$head]]
     
     <body id="home" class="container">
-        <div id="wrapper_background" class="clearfix">
+        <div id="wrapper_background">
             <figure class="page desktop">
-[[!getResources?
+[[!getResources? 
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE image-banner-item.html`
     &includeTVs=`1`
     &processTVs=`1`
     &tvPrefix=``
-    &showUnpublished=`1`
-    &showHidden=`1`
-    &includeContent=`0`
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`0`si
     &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
-    &depth=`0`
+    &depth=`1`
     &limit=`3`
  ]]
             </figure>
             <figure class="page mobile">
-[[!getResources?
+[[!getResources? 
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE image-banner-item-mobile.html`
     &includeTVs=`1`
     &processTVs=`1`
     &tvPrefix=``
-    &showUnpublished=`1`
-    &showHidden=`1`
+    &showUnpublished=`0`
+    &showHidden=`0`
     &includeContent=`0`
     &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
-    &depth=`0`
+    &depth=`1`
     &limit=`3`
  ]]
             </figure>
@@ -40,7 +40,7 @@
 
 [[$header]]
 
-        <section class="wrapper">
+        <section class="wrapper clearfix">
 [[*content]]
         </section>
         

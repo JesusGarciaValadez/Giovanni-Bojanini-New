@@ -1,13 +1,8 @@
         <aside class="primary">
             <a href="#" title="Menú" class="menu">Menú</a>
-            <span class="hint--bottom" data-hint="Home">
-                <a href="[[++site_url]]" alt="Giovanni Bojanini">
-                    <img src="[[++site_url]]assets/img/home/giovanni-bojanini-title.png" alt="Giovanni Bojanini" width="273" height="50" class="desktop gb_logo" />
-                </a>
-            </span>
             <nav class="desktop">
                 <ul class="sections">
-[[!getResources?
+[[!getResources? 
     &parents=`8`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE aside-item.html`
@@ -24,8 +19,8 @@
             </nav>
             <nav class="mobile">
                 <ul class="sections">
-[[!getResources?
-    &resources=`2,5,30`
+[[!getResources? 
+    &parents=`8`
     &tplPath=`[[++assets_path]]../Code/chunks/`
     &tpl=`@FILE aside-item-mobile.html`
     &includeTVs=`1`
@@ -39,11 +34,12 @@
  ]]
                 </ul>
             </nav>
-            <p class="phone">01800 377 3567</p>
+            <p class="phone"></p>
             <figure class="page">
                 <a href="[[++site_start]]" title="Home" target="_self">
-                    <!--img src="[[++site_url]]assets/img/home/logo-giovanni-bojanini-interna.png" alt="Centro Dermatológico Giovanni Bojanini" width="102" height="79" class="desktop" /-->
+                    <img src="[[++site_url]]assets/img/home/logo-giovanni-bojanini-interna.png" alt="Centro Dermatológico Giovanni Bojanini" width="102" height="79" class="desktop" />
                     <img src="[[++site_url]]assets/img/home/logo_boja_M.png" alt="Centro Dermatológico Giovanni Bojanini" width="60" height="47" class="mobile" />
                 </a>
             </figure>
         </aside>
+        

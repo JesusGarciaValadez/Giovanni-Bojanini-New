@@ -1,0 +1,93 @@
+#schedule_your_appointment_today_dancing_banner{
+
+    h1{
+        @include font-mask( #FFF, em( 30, 16 ), em( 12, 30 ), normal, $Fira_Sans_Ot_Light );
+        letter-spacing: em( 0.1, 41.91 );
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 32%;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 9px #000;
+        top: 11%;
+        width: em( 600, 41.91 );
+        strong{
+            @include font-mask( #FFF, em( 32, 30 ), em( 25, 32 ), bold, $Fira_Sans_Ot_Light );
+            display: block;
+            letter-spacing: em( 0.1, 55.36 );
+            margin: em( 17, 55.36 ) 0 0;
+        }
+    }
+    a{
+        @include font-mask( #000, em( 15, 16 ), em( 15, 15 ), normal, $Fira_Sans_Ot_Light );
+        border: 3px solid $yellow;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        height: 82px;
+        left: 0%;
+        margin: -25px auto 0;
+        padding: 10px 10px 15px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        top: 39%;
+        width: 82px;
+        strong{
+            clear: both;
+            display: block;
+            font-size: em( 28, 15 );
+            line-height: em( 28, 28 );
+        }
+        &:hover{ background: $yellow; }
+    }
+    h2{
+        @include font-mask( #000, em( 20, 16 ), em( 23, 20 ), normal, $Fira_Sans_Ot_Light );
+        border-bottom: 1px solid $yellow;
+        clear: both;
+        display: block;
+        left: 10%;
+        letter-spacing: em( 0.1, 20 );
+        margin: -24.5px 0 0;
+        padding: 0 0 3px;
+        position: absolute;
+        right: 0;
+        text-align: left;
+        text-transform: uppercase;
+        top: 42%;
+        width: em( 260, 20 );
+    }
+    img{
+        margin: -193px auto 0;
+        position: absolute;
+        right: -5%;
+        top: 50%;
+    }
+    h3{
+        @include font-mask( #FFF, em( 15, 16 ), em( 18, 15 ), normal, $Nobile_Bold );
+        bottom: 7%;
+        display: block;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 11%;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 9px #000;
+    }
+    h4{
+        @include font-mask( #000, em( 12, 16 ), em( 13, 12 ), normal, $Fira_Sans_Ot_Light );
+        bottom: 1%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        text-transform: uppercase;
+        strong{}
+    }
+}

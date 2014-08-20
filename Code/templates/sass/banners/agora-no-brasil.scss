@@ -1,0 +1,30 @@
+#agora_no_brasil{
+
+    .brasil_title{
+        display: block;
+        margin: -53.5px auto 0;
+        position: relative;
+        top: 38%;
+    }
+    .paragraph_background{
+        background: url("../img/banners/escritorio/bg_parrafo.png") repeat scroll 0 0 transparent;
+        display: block;
+        height: 80px;
+        margin: -30px auto 0;
+        position: relative;
+        top: 45%;
+        width: 100%;
+        img{
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            top: 20px;
+        }
+    }
+    .branch_information{
+        display: block;
+        margin: -81.5px auto 0;
+        position: relative;
+        top: 64%;
+    }
+}

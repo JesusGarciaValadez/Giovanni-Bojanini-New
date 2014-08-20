@@ -1,0 +1,58 @@
+#schedule_your_appointment_today_banner{
+
+    h1{
+        @include font-mask( #000, em( 41.91, 16 ), em( 29, 41.91 ), normal, $Fira_Sans_Ot_Light );
+        left: -50px;
+        letter-spacing: em( 0.1, 41.91 );
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        width: em( 600, 41.91 );
+        strong{
+            @include font-mask( #000, em( 55.36, 41.91 ), em( 43, 55.36 ), normal, $Nobile_Bold );
+            display: block;
+            letter-spacing: em( 0.1, 55.36 );
+            margin: em( 17, 55.36 ) 0 0;
+        }
+    }
+    hr{
+        border-top: 3px solid $yellow;
+        float: left;
+        left: -50px;
+        height: 0;
+        position: relative;
+        width: em( 600, 16 );
+    }
+    h2{
+        @include font-mask( #000, em( 28.81, 16 ), em( 27, 28.81 ), normal, $Fira_Sans_Ot_Light );
+        clear: both;
+        display: block;
+        letter-spacing: em( 0.1, 28.81 );
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: em( 600, 28.81 );
+    }
+    p{
+        border: 3px solid $yellow;
+        height: em( 42, 16 );
+        margin: em( 21, 16 ) 0 0 em( 235, 16 );
+        padding: 0;
+        text-transform: uppercase;
+        width: em( 283, 16 );
+        a{
+            @include font-mask( #333, em( 26.32, 16 ), em( 50, 26.32 ), normal, $Fira_Sans_Ot_Light );
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 100%;
+        }
+        &:hover{
+            background: $yellow;
+        }
+    }
+}

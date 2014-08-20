@@ -1,25 +1,40 @@
+
 #footer{
-    height: em( 44, 16 );
+    height: em( 44, 16 ) !important;
     footer{
         background: #373737;
-        height: 100%;
+        height: 100% !important;
+        left: 0;
+        margin: 0 !important;
+        top: 0;
         width: 100%;
         ul{
             clear: both;
             display: block;
-            height: 100%;
+            float: left;
+            height: 100% !important;
+            top: 0;
             width: 100%;
             li{
                 box-sizing: border-box;
                 height: 100%;
-                width: 27%;
+                margin: 0;
+                width: 33.33%;
                 a{
                     @include font-mask( $white, em( 12, 16 ), em( 44, 12 ), normal, $Fira_Sans_Ot_Light );
-                    height: 100%;
+                    border-top: 0 none transparent;
+                    float: left;
+                    height: 100% !important;
+                    text-indent: 0;
+                    width: 100%;
                     strong{}
                     &:hover,
                     &.current{ height: em( 40, 12 ); }
                     &.current{ border-bottom: 3px solid $yellow; }
+                }
+                &:last-child{ 
+                    margin: 0;
+                    a{ font-size: em( 11, 16 ); line-height: em( 44, 11 );  }
                 }
                 &.current{ height: 100% !important; }
             }
@@ -72,9 +87,9 @@
         min-width: 320px;
         overflow: hidden;
         padding: 0;
-        position: relative;
+        position: absolute;
         top: 53px !important;
-        width: 100%;
+        width: 100% !important;
         z-index: 5 !important;
         >div{
             display: none;
@@ -83,7 +98,7 @@
             min-height: 470px !important;
             position: relative;
             top: 0 !important;
-            width: 100%;
+            width: 100% !important;
             a{
                 display: block;
                 height: 100%;
@@ -92,7 +107,7 @@
                 width: 100%;
                 img{
                     display: block;
-                    left: auto;
+                    left: 50%;
                     position: absolute;
                     right: auto;
                     top: 50%;
@@ -110,7 +125,7 @@
 
             a{
 
-                .make_appointment{ margin: -123px auto 0; }
+                .make_appointment{ margin: ( -276px / 2 ) 0 0 ( -321px / 2 ); }
                 .agora_no_brasil{ margin: -224.5px auto 0; }
             }
         }
@@ -118,12 +133,7 @@
 
             a{
 
-                img{
-                    bottom: 0 !important;
-                    margin: 0 auto;
-                    position: absolute !important;
-                    top: inherit !important;
-                }
+                img{ margin: -206px 0 0 -160px; }
             }
         }
         #promotion_of_the_month_banner_mobile{
@@ -132,6 +142,13 @@
 
                 .june_promotion{ margin: -117.5px auto 0; }
                 .fathers_day_promotion_mobile{ margin: -202px auto 0; }
+            }
+        }
+        #change_your_look_august_2014_mobile{
+
+            a{
+
+                img{ margin: ( -230px / 2 ) 0 0 ( -300px / 2 ); }
             }
         }
         .mobile:nth-child( 3n + 1 ){ display: block; }
