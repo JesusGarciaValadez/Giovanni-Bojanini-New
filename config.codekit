@@ -449,6 +449,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.39692e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/logos.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -12,6 +12,7 @@
         text-transform: uppercase;
         top: 50%;
         width: 100%;
+        z-index: 1;
         strong{
             @include font-mask( #000, em( 55, 60 ), em( 43, 55 ), normal, $Nobile_Bold );
             display: block;
@@ -28,6 +29,7 @@
         position: relative;
         top: 50%;
         width: em( 480, 16 );
+        z-index: 1;
     }
     p{
         @include font-mask( $text_gray, em( 22.5, 16 ), em( 22.5, 22.5 ), bold, $Fira_Sans_Ot_Light );
@@ -48,9 +50,18 @@
         }
     }
     img{
-        bottom: 0;
+        bottom: -40%;
         position: absolute;
-        right: -20%;
+        right: -10%;
         z-index: 0;
+    }
+    @media screen and ( min-height: em( 1000, 16 ) ) {
+        
+        h2{ margin: ( -43px / 2 ) auto 0; }
+        h2,hr,p{ top: 20%; }
+        img{
+            bottom: 0;
+            right: -20%;
+        }
     }
 }
