@@ -331,6 +331,11 @@ html,body{
                 }
             }
         }
+        .home_logo{
+            @extend .giovanni-bojanini-title;
+            float: left;
+            text-indent: -2000em;
+        }
         .phone{
             @extend .icono-tel;
             display: inline-block;
@@ -339,7 +344,7 @@ html,body{
             padding: 0;
             position: relative !important;
             text-align: right;
-            text-indent: 45px;
+            text-indent: 40px;
             text-shadow: 0 0 5px #000;
             top: 50%;
             &:after{
@@ -549,9 +554,11 @@ html,body{
         height: em( 538, 16 ) !important;
         //height: em( 538, 36 ) !important;
         filter: alpha(opacity=0);
+        left: 50%;
+        margin: -269px 0 0 -480px;
         opacity: 0;
-        position: relative;
-        top: em( 60, 16 );
+        position: absolute;
+        top: 50%;
         //top: em( 32, 36 );
         .slides{
             display: block;
@@ -595,7 +602,7 @@ html,body{
                             position: relative;
                             width: 100%;
                             p{
-                                @include font-mask( $text_gray, em( 12, 16 ), em( 12, 12 ), normal, $Nobile_Bold );
+                                @include font-mask( $text_gray, em( 11, 16 ), em( 11, 11 ), normal, $Nobile_Bold );
                                 display: none;
                                 margin: 0;
                                 padding: 0;
