@@ -7,7 +7,7 @@
         position: absolute;
         right: auto !important;
         top: em( 96, 16 );
-        width: 100%;
+        width: 100% !important;
         z-index: 0;
         .branch_infoWindow{
             box-sizing: border-box;
@@ -48,7 +48,7 @@
         height: auto;
         left: em( 56, 16 );
         position: relative;
-        top: em( 45, 16 );
+        top: em( 61, 16 );
         width: em( 223, 16 );
         z-index: 1;
         h1{

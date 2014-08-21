@@ -1,12 +1,7 @@
 #clasification_of_baldness{
     
-    .reveal{
-        height: 488px;
-        top: 20px;
-    }
-    section{
-        height: 488px;
-    }
+    .reveal{ height: 488px; margin-top: ( -488px / 2); }
+    section{ height: 488px; }
     #gallery_of_scales{
         
         #hombreAmarillo{
