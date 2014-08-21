@@ -98,9 +98,9 @@
                         .image{
                             @extend .animacion_menu_BN;
                             h2{
-                                font-size: em( 17, 16 );
-                                line-height: em( 21, 17 );
-                                strong{ font-size: em( 15, 17 ); }
+                                font-size: em( 15, 16 );
+                                line-height: em( 21, 15 );
+                                strong{ font-size: em( 15, 15 ); }
                             }
                             &:hover{ @extend .animacion_menu; }
                         }   //  1º cuadro

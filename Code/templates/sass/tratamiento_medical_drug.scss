@@ -2,10 +2,11 @@
     
     .reveal{
         height: 488px;
-        top: 20px;
+        margin-top: ( -488px / 2 );
     }
     section{
-        height: 488px;
+        height: 100%;
+        margin: -20px 0 0;
     }
     #sectionFormulas{
         
@@ -396,6 +397,7 @@
     }
     .internal_navigation_menu{
         margin: 0 auto;
+        top: 250px;
         width: 416px;
         ol{
             float: left;

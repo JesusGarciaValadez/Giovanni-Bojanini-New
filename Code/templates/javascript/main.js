@@ -695,11 +695,6 @@
                     },
                     onLoad          :   function ( ) {
                         $( '.alert_background' ).fadeIn( 100 );
-
-                        if ( myVideo && myVideo.paused ) {
-
-                            myVideo.play();
-                        }
                     },
                     onBeforeClose   :   function ( ) {
 
@@ -780,6 +775,15 @@
                 autopause: false
             } );
 
+            /*var overlay = $( '.alert_box' ).data( 'overlay' );
+            overlay.onLoad( function ( e ) {
+
+                if ( myVideo && myVideo.paused ) {
+
+                    myVideo.play();
+                }
+            } );*/
+
             var videoScrollableHandler  = $('.video_testimonials_home_scrollable').data( 'scrollable' );
             var titleScrollableHandler  = $('.title_testimonials_home_scrollable').data( 'scrollable' );
             var trigger = "";
@@ -790,12 +794,6 @@
                 e.preventDefault();
                 e.stopPropagation();
                 trigger = ( $( e.currentTarget).hasClass( 'next' ) ) ? "next" : "prev";
-
-                //  Pausamos el video...
-                var video = document.getElementsByTagName( "video" );
-                for ( var i = 0; i < video.length; i++ ) {
-                    video[i].pause();
-                }
 
                 //  Si es la primera vez que presionamos el botón "next"
                 //  hacemos que avance el carrusel de forma manual
@@ -810,6 +808,15 @@
             titleScrollableHandler.onBeforeSeek( function ( e, trigger ) {
 
                 videoScrollableHandler.seekTo( trigger );
+            } );
+
+            // Cuando cambiamos de slide, pausamos el video
+            videoScrollableHandler.onBeforeSeek( function ( e ) {
+                //  Pausamos el video...
+                var video = document.getElementsByTagName( "video" );
+                for ( var i = 0; i < video.length; i++ ) {
+                    video[i].pause();
+                }
             } );
         }
 
@@ -877,298 +884,6 @@
 
 
         } else if ( !isPortable ) { // Si es una tablet o una PC de escritorio...
-
-            //  !Crea una instancia de jQuery Overlay
-            /*
-            if ( $( '.alert_box' ).exists() ) {
-
-                $.GBSite.doOverlay( $( 'a.alert_trigger' ), {
-                    effect: 'apple',
-                    close: $( '.alert_box a.close' ),
-                    closeOnClick: true,
-                    closeOnEsc: true,
-                    speed: 'normal',
-                    fixed: false,
-                    onBeforeLoad: function ( e ) {
-
-                        $( '.alert_background' ).height( '100%' );
-                        $( '.alert_box' ).centerWidth();
-                        $( '.alert_box' ).centerHeight();
-                    },
-                    onLoad: function() {
-                        $( '.alert_background' ).fadeIn( 100 );
-                    },
-                    onBeforeClose:  function ( ){
-
-                        $( '.alert_box' ).fadeOut( 10, function ( ) {
-
-                            $( '.alert_background' ).fadeOut( 10 );
-                            $( '.alert_box h4' ).text( '' );
-                            $( '.alert_box p' ).remove( );
-                            $( '.alert_box form' ).remove( );
-                            $( '.alert_box table' ).remove( );
-                            $( '.alert_box div' ).remove( );
-                            $( '.alert_box button' ).remove( );
-                            $( '.alert_box div.confirm' ).remove( );
-                        } );
-                    },
-                    onClose: function ( e ) {
-
-                    }
-                } );
-
-                $.GBSite.overlay    = $( '.alert_trigger' ).data( 'overlay' );
-
-                $( '.alert_background' ).height( $( 'body' ).height() );
-            }
-
-            //  Crea una instancia de jQuery Overlay para el home de descubreone.mx
-            //  Calcula la distancia entre el margen izquierdo para posicionar
-            //  la capa del video. Si es menor de 0 (ocurre en iPhone) utiliza
-            //  el ancho del body en vez del ancho de la ventana para hacer
-            //  el cálculo
-            if ( $( '.overlay' ).exists() ) {
-
-                $( '.overlay' ).centerWidth();
-
-                $.GBSite.doOverlay( $( 'a.alert_trigger' ), {
-                    effect: 'apple',
-                    close: $( '.alert_box a.close' ),
-                    closeOnClick: true,
-                    closeOnEsc: true,
-                    speed: 'normal',
-                    fixed: true,
-                    onBeforeLoad: function ( e ) {
-
-                        $( '.alert_background' ).height( '100%' );
-                        ( $( '.alert_box a.close' ).exists() ) ? true : $( '.alert_box' ).prepend( Prometa.closer );
-                        $( '.alert_box' ).centerWidth();
-                        $( '.alert_box' ).centerHeight();
-                        ( $( '.alert_box p' ).text() == '' ) ? $( '.alert_box p' ).remove() : false;
-                    },
-                    onLoad: function() {
-                        $( '.alert_background' ).fadeIn( 100 );
-                    },
-                    onBeforeClose:  function ( ){
-
-                        $( '.alert_box' ).fadeOut( 10, function ( ) {
-
-                            $( '.alert_background' ).fadeOut( 10 );
-                            $( '.alert_box h2' ).text( '' );
-                            $( '.alert_box h4' ).text( '' );
-                            ( $( '.alert_box p' ).exists() ) ? $( '.alert_box p' ).remove( ) : false;
-                            ( $( '.alert_box form' ).exists() ) ? $( '.alert_box form' ).remove( ) : false;
-                            ( $( '.alert_box table' ).exists() ) ? $( '.alert_box table' ).remove( ) : false;
-                            ( $( '.alert_box div' ).exists() ) ? $( '.alert_box div' ).remove( ) : false;
-                            ( $( '.alert_box button' ).exists() ) ? $( '.alert_box button' ).remove( ) : false;
-                            ( $( '.alert_box div.confirm' ).exists() ) ? $( '.alert_box div.confirm' ).remove( ) : false;
-                        } );
-                    },
-                    onClose: function ( e ) {}
-                } );
-
-                $.GBSite.overlay    = $( '.alert_trigger' ).data( 'overlay' );
-
-                $( window ).on( {
-                    resize: function ( e ) {
-
-                        $( '.overlay' ).centerWidth();
-                    },
-                    touchstart: function ( e ) {
-
-                        $( '.overlay' ).centerWidth();
-                    },
-                    touchend: function ( e ) {
-
-                        $( '.overlay' ).centerWidth();
-                    }
-                } );
-            }
-
-            if ( $( '.scrollable' ).exists() ) {
-
-                $.GBSite.inicializeCarrousel( '.scrollable', {
-                    speed: 300,
-                    circular: false,
-                    keyboard: false,
-                    items: '.items',
-                    next: '.next',
-                    prev: '.prev'
-                }, {
-                    activeClass: "active",
-                    navi: "",
-                    naviItem: "a",
-                    indexed: false
-                }, {
-                    steps: 1,
-                    interval: 10000,
-                    autoplay: false,
-                    autopause: false
-                } );
-
-                var api = $( '.scrollable' ).data( 'scrollable' );
-                api.onBeforeSeek( function( event, tabIndex ) {
-
-                    var myIndex = api.getIndex();
-                } );
-
-                api.onSeek( function ( event, tabIndex ) {
-
-                    var myIndex = api.getIndex();
-                } );
-            }
-
-            // Validación de los formularios
-            if ( $( 'form' ).exists() ) {
-
-                $.GBSite.makesUniform( 'input[type="radio"]' );
-
-                //  Muestra la información de tipo de alopecia
-                $( 'input[type="radio"]' ).on( 'click', function ( e ) {
-
-                    $( '.browse' ).fadeOut( 300 );
-                    var _selector;
-
-                    switch( $( e.currentTarget ).val() ) {
-                        case '1':
-                            _selector   = $( '.response.first' );
-                            break;
-                        case '2':
-                            _selector   = $( '.response.second' );
-                            break;
-                        case '3':
-                            _selector   = $( '.response.third' );
-                            break;
-                        case '3V':
-                            _selector   = $( '.response.thirdV' );
-                            break;
-                        case '4':
-                            _selector   = $( '.response.fourth' );
-                            break;
-                        case '5':
-                            _selector   = $( '.response.fifth' );
-                            break;
-                        case '6':
-                            _selector   = $( '.response.sixth' );
-                            break;
-                        case '7':
-                            _selector   = $( '.response.seventh' );
-                            break;
-                    }
-                    _selector.animate( {
-                        'left': '0'
-                    }, 300 );
-                    $.GBSite.radio = $( e.currentTarget ).val();
-                } );
-
-                var rules   = {
-                        budget_name: {
-                            required: true
-                        },
-                        budget_phone: {
-                            required:   true,
-                            digits:     true,
-                            numbers:    true,
-                            minlength:  8,
-                            maxlength:  15
-                        },
-                        budget_mail:       {
-                            required:   true,
-                            email:      true
-                        }
-                    };
-                var messages    = {
-                        budget_name:        "Por favor, escribe tu nombre",
-                        budget_phone:       "Por favor, escribe tu teléfono",
-                        budget_mail:        "Por favor, escribe tu email",
-                        minlength:          "Por favor, haga su respuesta más amplia.",
-                        maxlength:          "Por favor, acorte su respuesta",
-                        email:              "Escriba un email válido",
-                        number:             "Escriba solo números",
-                        digits:             "Escriba solo números"
-                    }
-
-                $( 'form' ).on( 'submit', function ( e ) {
-
-                    e.preventDefault();
-                    e.stopPropagation();
-
-                    if ( $( 'form input.budget_name' ).val() != '' ) {
-
-                        var budgetName  = $( 'form input.budget_name' ).val();
-                    }
-                    if ( $( 'form input.budget_phone' ).val() != '' ) {
-
-                        var budgetPhone  = $( 'form input.budget_phone' ).val();
-                    }
-                    if ( $( 'form input.budget_mail' ).val() != '' ) {
-
-                        var budgetMail  = $( 'form input.budget_mail' ).val();
-                    }
-
-                    var budget  = {};
-                    budget.budget_name  = budgetName;
-                    budget.budget_phone = budgetPhone;
-                    budget.budget_mail  = budgetMail;
-                    budget.type         = $.GBSite.radio;
-
-                    $.GBSite.validateForms( rules, messages, budget );
-                } )
-            }
-
-            //  Botón de Atrás
-            if ( $( '.diagnosis_displayed > a' ).exists() ) {
-
-                 $( '.diagnosis_displayed > a' ).on( 'click', function ( e ) {
-                     e.preventDefault();
-                     e.stopPropagation();
-
-                     $( '.browse' ).fadeIn( 300 );
-                     $( e.currentTarget ).parents( '.response' ).animate( {
-                         'left': '753px'
-                     }, 300, function () {
-
-                         $( e.currentTarget ).parent( '.diagnosis_displayed' ).siblings( '.diagnosis_budget' ).removeAttr( 'style' );
-                         $( e.currentTarget ).parent( '.diagnosis_displayed' ).parent( 'response' ).removeAttr( 'style' );
-                     } );
-                 } );
-            }
-
-            //  Botón de "Comienza Ya"
-            if ( $( '.promotions_link > a' ).exists() ) {
-
-                $( '.promotions_link > a' ).on( 'click', function ( e ) {
-                    e.preventDefault();
-                    e.stopPropagation();
-
-                    $( e.currentTarget ).parents( '.diagnosis_information' ).siblings( '.diagnosis_budget' ).animate( {
-                        'right': 0
-                    }, 300 );
-                } );
-            }*/
-
-            //  Evento para mostrar el menu secundario del menu lateral
-            /*if ( $( '.who_are_we' ).exists() ) {
-
-                $( '.who_are_we' ).on( 'click', function ( e ) {
-                    e.preventDefault();
-                    e.stopPropagation();
-
-                    $( 'aside.secondary' ).slideToggle( {
-                        duration: 800,
-                        easing: 'easeOutBounce',
-                        queue: true,
-                        specialEasing: {},
-                        step: function( now, tween ) {},
-                        progress: function( animation, progress, remainingMs ) {},
-                        complete: function() {},
-                        start: function( animation ) {},
-                        done: function( animation, jumpedToEnd ) {},
-                        fail: function( animation, jumpedToEnd ) {},
-                        alway: function( animation, jumpedToEnd ) {}
-                    } );
-                } );
-            }*/
 
             //  Control de cambio de sucursal en el mapa
             if ( $( ".map" ).exists() ) {
@@ -1364,17 +1079,11 @@
                 e.preventDefault();
                 e.stopPropagation();
 
-                if( $( e.currentTarget ).parent( 'li' ).hasClass( 'chat' ) ) {
+                var parentIndex = $( e.currentTarget ).parent( 'li' ).index();
 
-                    return false;
-                } else {
-
-                    var parentIndex = $( e.currentTarget ).parent( 'li' ).index();
-
-                    $( 'footer ul li a.current' ).removeClass( 'current' );
-                    $( e.currentTarget ).addClass( 'current' );
-                    GBSite.imageChange( parentIndex );
-                }
+                $( 'footer ul li a.current' ).removeClass( 'current' );
+                $( e.currentTarget ).addClass( 'current' );
+                GBSite.imageChange( parentIndex );
             } );
 
             $('a.chat').on('click',function(e){
@@ -1399,7 +1108,7 @@
                     $( '.banner_titles.' + typeOfDevice ).eq( imageVisible ).fadeIn( 150, function() {
 
                         $( 'footer ul li a.current' ).removeClass( 'current' );
-                        $( 'footer.' + typeOfDevice + ' ul li' ).eq( imageVisible ).children( 'a' ).addClass( 'current' );
+                        $( 'footer ul li' ).eq( imageVisible ).children( 'a' ).addClass( 'current' );
                     } );
                 } );
             }, timeLapseOfCarrousel );
