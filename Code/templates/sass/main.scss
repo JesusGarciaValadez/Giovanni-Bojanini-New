@@ -198,7 +198,11 @@ html,body{
     li{
         margin: 0;
         text-indent: -20000em;
-        a{ }
+        a{
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
     }
     .google_plus{
         @extend .google;
@@ -391,8 +395,11 @@ html,body{
                     padding: 0 0 0 em( 30, 16 );
                     a{
                         @include font-mask( $white !important, em( 14, 16 ), em( 31, 14 ), normal, $Fira_Sans_Ot_Light );
+                        display: block;
+                        height: 100%;
                         text-decoration: none;
                         text-transform: uppercase;
+                        width: 100%;
                     }
                 }
                 li:hover,.current{

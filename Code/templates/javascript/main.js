@@ -314,6 +314,8 @@
                 } );
 
                 $( '.items_testimonials div a' ).on( 'click', function ( e ) {
+                    e.preventDefault;
+                    e.stopPropagation;
 
                     if( $( 'video' ).exists() ) {
 
@@ -374,29 +376,6 @@
                     autopause: false
                 } );
             }
-
-            //  Carruseles del sitio
-            /*if ( $( '.scrollable' ).exists() ) {
-
-                GBSite.inicializeCarrousel( '.scrollable', {
-                    speed: 300,
-                    circular: false,
-                    keyboard: false,
-                    items: '.items',
-                    next: '.next',
-                    prev: '.prev'
-                }, {
-                    activeClass: "active",
-                    navi: "",
-                    naviItem: "a",
-                    indexed: false
-                }, {
-                    steps: 1,
-                    interval: 10000,
-                    autoplay: false,
-                    autopause: false
-                } );
-            }*/
 
             if ( $( '.testimonial' ).exists() ) {
 
@@ -650,10 +629,14 @@
         
         //  Muestra el menu desplegable principal y hace hightlight del botón
         $( 'aside .menu' ).on( 'mouseenter', function ( e ) {
+            e.preventDefault;
+            e.stopPropagation;
             GBSite.toggleMenu( e );
         });
         
         $( 'header nav' ).on( 'mouseleave', function ( e ) {
+            e.preventDefault;
+            e.stopPropagation;
             GBSite.toggleMenu( e );
         } );
         
@@ -806,12 +789,16 @@
             //  Hace la animación del título y el video para las siguientes
             //  veces que presionamos los botones de control
             titleScrollableHandler.onBeforeSeek( function ( e, trigger ) {
-
+                e.preventDefault;
+                e.stopPropagation;
                 videoScrollableHandler.seekTo( trigger );
             } );
 
             // Cuando cambiamos de slide, pausamos el video
             videoScrollableHandler.onBeforeSeek( function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+
                 //  Pausamos el video...
                 var video = document.getElementsByTagName( "video" );
                 for ( var i = 0; i < video.length; i++ ) {
@@ -823,6 +810,9 @@
         //  Botón de cierre de overlay
         if ( $( ".close" ).exists() ) {
             $( ".close" ).on( 'click', function ( ) {
+                e.preventDefault;
+                e.stopPropagation;
+
                 GBSite.closeAlert();
                 if ( typeof( myVideo ) !== "undefined" ) {
                     myVideo.pause();
