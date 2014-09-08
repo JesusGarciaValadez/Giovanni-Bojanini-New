@@ -179,7 +179,7 @@
         top: 0% !important;
         width: 100%;
         .close{
-            @extend .cierra;
+            @extend .cierra_over;
             color: transparent;
             position: absolute;
             right: 60px;

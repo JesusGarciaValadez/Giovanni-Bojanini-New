@@ -1,6 +1,9 @@
 #microinjerto{
     
-    .reveal{ top: 60px !important; }
+    .reveal{ 
+        margin: 0 0 0 -160px !important;
+        top: 60px !important;
+    }
     #microinjerto_landing{
         width: 100%;
         .microinjerto_title{
