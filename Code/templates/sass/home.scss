@@ -149,15 +149,16 @@
                 position: absolute;
             }
         }
-        @import "banners/schedule-your-appointment-today.scss";
-        @import "banners/schedule-your-appointment-today-dancing-banner.scss";
-        @import "banners/agora-no-brasil.scss";
+        @import "banners/schedule-your-appointment-today";
+        @import "banners/schedule-your-appointment-today-dancing-banner";
+        @import "banners/agora-no-brasil";
         @import "banners/testimonial-banner";
-        @import "banners/promotion-of-the-month.scss";
-        @import "banners/promotion-fathers-day-banner.scss";
-        @import "banners/july-2014-promotion-of-the-month.scss";
-        @import "banners/august-2014-promotion-of-the-month.scss";
-        @import "banners/change-your-look-august-2014.scss";
+        @import "banners/promotion-of-the-month";
+        @import "banners/promotion-fathers-day-banner";
+        @import "banners/july-2014-promotion-of-the-month";
+        @import "banners/august-2014-promotion-of-the-month";
+        @import "banners/change-your-look-august-2014";
+        @import "banners/give-me-a-call-september-2014";
     }
     #livechat-compact-container{ z-index: 0 !important; }
     .alert_background{
