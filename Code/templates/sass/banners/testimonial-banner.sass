@@ -1,0 +1,98 @@
+#testimonial_banner
+
+    h2
+        @include font-mask( #000, em( 60, 16 ), em( 27, 60 ), normal, $Fira_Sans_Ot_Light )
+        left: -50px
+        letter-spacing: em( 0.1, 60 )
+        margin: -22px auto 0
+        padding: 0
+        position: relative
+        text-align: left
+        text-indent: 32px
+        text-transform: uppercase
+        top: 50%
+        width: 100%
+        z-index: 1
+        strong
+            @include font-mask( #000, em( 55, 60 ), em( 43, 55 ), normal, $Nobile_Bold )
+            display: block
+            letter-spacing: em( 0.1, 60 )
+            margin: 17px 0 0
+    hr
+        border-top: 3px solid $yellow
+        float: left
+        left: -50px
+        height: 0
+        margin: em( 15, 16 ) 0 em( 15, 16 ) em( 30, 16 )
+        position: relative
+        top: 50%
+        width: em( 480, 16 )
+        z-index: 1
+    p
+        @include font-mask( $text_gray, em( 22.5, 16 ), em( 22.5, 22.5 ), bold, $Fira_Sans_Ot_Light )
+        clear: both
+        left: -50px
+        letter-spacing: em( 8.5, 22.5 )
+        margin: 0
+        padding: 0
+        position: relative
+        text-align: left
+        text-indent: em( 30, 22.5 )
+        text-transform: uppercase
+        top: 50%
+        z-index: 1
+        .link
+            top: -5px
+            left: 478px
+    .faces_navigator
+        display: inline-block
+        left: -30px
+        position: relative
+        top: 52%
+        z-index: 2
+        ul
+            display: inline-block
+            margin: 0
+            padding: 0
+            li
+                float: left
+                list-style: none inside
+                a
+                    bottom: auto
+                    box-sizing: border-box
+                    position: relative !important
+                    right: auto
+                    &.active
+                        border: 3px solid $yellow
+                &:first-child
+                    a
+                        @extend .testimonial_2_thumbnail
+                &:nth-child( 2n )
+                    a
+                        @extend .testimonial_5_thumbnail
+                &:nth-child( 3n )
+                    a
+                        @extend .testimonial_4_thumbnail
+                &:nth-child( 4n )
+                    a
+                        @extend .testimonial_1_thumbnail
+                &:last-child
+                    a
+                        @extend .testimonial_3_thumbnail
+    > img
+        bottom: -40%
+        position: absolute
+        right: -10%
+        z-index: 0
+    @media screen and ( min-height: em( 900, 16 ) )
+        
+        h2
+            margin: ( -43px / 2 ) auto 0
+        h2,hr,p
+            top: 20%
+        .faces_navigator
+            top: 22%
+        >img
+            bottom: 0
+            right: -20%
+        

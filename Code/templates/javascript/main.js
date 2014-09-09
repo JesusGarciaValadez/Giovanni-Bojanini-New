@@ -767,10 +767,23 @@
                 }
             } );*/
 
-            var videoScrollableHandler  = $('.video_testimonials_home_scrollable').data( 'scrollable' );
-            var titleScrollableHandler  = $('.title_testimonials_home_scrollable').data( 'scrollable' );
-            var trigger = "";
-            var flag = 0;
+            var videoScrollableHandler  = $( '.video_testimonials_home_scrollable' ).data( 'scrollable' );
+            var titleScrollableHandler  = $( '.title_testimonials_home_scrollable' ).data( 'scrollable' );
+            var coverHandler            = $( '.faces_navigator' );
+            var trigger                 = "";
+            var flag                    = 0;
+
+            coverHandler.on( 'click', 'a', function ( e ) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                var videoIndex  = $( e.currentTarget ).data( 'index' );
+                if ( videoScrollableHandler ) {
+                    setTimeout( function () {
+                        $( '.navigator a' ).eq( videoIndex ).click();
+                    }, 400 );
+                }
+            } );
 
             //  Sabemos qué botón presionamos para hacer el slide del video
             $( '.title_testimonials_home_scrollable a' ).on( 'click', function ( e ) {
@@ -809,7 +822,7 @@
 
         //  Botón de cierre de overlay
         if ( $( ".close" ).exists() ) {
-            $( ".close" ).on( 'click', function ( ) {
+            $( ".close" ).on( 'click', function ( e ) {
                 e.preventDefault;
                 e.stopPropagation;
 
@@ -1082,7 +1095,7 @@
 
             var imageVisible    = 0;
 
-            //  Control de cambio de background cada 10 segundos
+            //  Control de cambio de background cada n segundos
             setInterval ( function () {
 
                 if ( ++imageVisible > $( '#wrapper_background figure.page.' + typeOfDevice + ' img' ).length - 1 ) {

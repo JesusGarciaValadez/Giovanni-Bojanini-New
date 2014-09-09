@@ -1,49 +1,82 @@
 #microinjerto{
 
     #microinjerto_landing{
+        
 
         .microinjerto_title{
             float: left;
             height: em( 488, 16 );
             width: em( 489, 16 );
-            a{
-                @extend .clearfix;
-                text-decoration: underline;
-                .principal_section{
-                    background: $yellow;
-                    display: inline-block;
-                    float: left;
-                    height: 100%;
-                    position: relative;
-                    width: em( 244, 16 );
-                    z-index: 1;
-                    h1{
-                        @include font-mask( #000, em( 25, 16 ), em( 25, 25 ), normal, $Nobile_Bold );
-                        strong{ font-weight: normal; }
-                        margin: em( 240, 25 ) 0 0;
-                    }
-                    h2{
-                        @include font-mask( #000, em( 15.45, 16 ), em( 15.45, 15.45 ), normal, $Helvetica_Neue_LT_STD_Condensed );
-                    }
-                    span{
-                        @extend .triangle;
-                        top: em( 220, 16 );
-                        right: -31px;
+            .subsection{
+                border-bottom: 2px solid #FFF;
+                clear: both;
+                display: block;
+                height: 242px;
+                width: 100%;
+                &:first-child{
+                    .image{
+                        overflow: hidden;
+                        img{
+                            max-height: 200%;
+                        }
                     }
                 }
-                .image{
-                    background: #EEE;
-                    display: inline-block;
-                    float: left;
-                    height: 100%;
-                    margin: 0;
-                    position: relative;
-                    width: em( 245, 16 );
-                    z-index: 0;
-                    img{
-                        margin: 0 auto;
-                        max-height: 100%;
-                        max-width: 100%;
+                &:last-child{
+                    .image{
+                        img{
+                            margin: ( -215px / 2 ) auto 0 !important;
+                            position: relative;
+                            top: 50%;
+                        }
+                    }
+                }
+                a{
+                    height: 246px;
+                    text-decoration: underline;
+                    .principal_section{
+                        background: $yellow;
+                        display: inline-block;
+                        float: left;
+                        height: 100%;
+                        position: relative;
+                        width: em( 244, 16 );
+                        z-index: 1;
+                        h1,h2{
+                            display: inline-block;
+                            position: relative;
+                            text-align: left;
+                            top: 50%;
+                        }
+                        h1{
+                            @include font-mask( #000, em( 25, 16 ), 1.5em, normal, $Nobile_Bold );
+                            margin: ( -75px / 2 ) 0 0;
+                            strong{ font-weight: normal; }
+                        }
+                        h2{
+                            @include font-mask( #000, em( 20, 16 ), 1.5em, normal, $Nobile_Bold );
+                            margin: ( -60px / 2 ) 0 0;
+                        }
+                        span{
+                            @extend .triangle;
+                            margin: ( -64px / 2 ) 0 0;
+                            top: 50%;
+                            right: -31px;
+                        }
+                    }
+                    .image{
+                        background: #EEE;
+                        display: inline-block;
+                        float: left;
+                        height: 100%;
+                        margin: 0;
+                        position: relative;
+                        width: 243px;
+                        z-index: 0;
+                        img{
+                            margin: 0 auto;
+                            max-height: 100%;
+                            max-width: 100%;
+                        }
                     }
                 }
             }
@@ -61,7 +94,7 @@
                 a{
                     @extend .clearfix;
                     float: left;
-                    height: em( 246, 16 );
+                    height: 246px;
                     text-decoration: underline;
                     .image{
                         border-right: 2px solid #FFF;
@@ -69,7 +102,7 @@
                         float: left;
                         height: em( 242, 16 ) !important;
                         width: em( 233, 16 ) !important;
-                        h2{
+                        h3{
                             @include font-mask( #FFF, em( 22, 16 ), em( 22, 22 ), normal, $Fira_Sans_Ot_Light );
                             background: rgba( 0, 0, 0, 0.6 );
                             box-sizing: border-box;
@@ -97,9 +130,9 @@
 
                         .image{
                             @extend .animacion_menu_BN;
-                            h2{
+                            h3{
                                 font-size: em( 15, 16 );
-                                line-height: em( 21, 15 );
+                                line-height: em( 40, 15 );
                                 strong{ font-size: em( 15, 15 ); }
                             }
                             &:hover{ @extend .animacion_menu; }
@@ -109,7 +142,7 @@
 
                         .image{
                             @extend .diagrama_BN_menu;
-                            h2{
+                            h3{
                                 font-size: em( 17, 16 );
                                 line-height: em( 21, 17 );
                                 strong{ font-size: em( 15, 17 ); }
@@ -126,7 +159,7 @@
 
                             .image{
                                 @extend .testimoniales;
-                                h2{
+                                h3{
                                     font-size: em( 18, 16 );
                                     line-height: em( 40, 18 );
                                     white-space: nowrap;
@@ -139,7 +172,7 @@
 
                             .image{
                                 @extend .galeria_BN_menu;
-                                h2{
+                                h3{
                                     font-size: em( 18, 16 );
                                     line-height: em( 21, 18 );
                                     white-space: nowrap;
