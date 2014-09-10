@@ -2916,24 +2916,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/home\/poster-javier.png": {
-		"fileType": 32768,
+	"\/assets\/img\/home\/poster-javier.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 159278,
-		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
-		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
+		"initialSize": 41982,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/home\/poster-martha.png": {
-		"fileType": 32768,
+	"\/assets\/img\/home\/poster-martha.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 233120,
-		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.png",
-		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.png",
+		"initialSize": 48658,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-martha.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -4135,6 +4135,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/microinjerto\/video-testimonial-javier-blanco-y-negro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16516,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-javier-blanco-y-negro.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-javier-blanco-y-negro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/video-testimonial-javier.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20485,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-javier.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-javier.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/microinjerto\/video-testimonial-leonardo-blanco-y-negro.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4153,6 +4175,28 @@
 		"initialSize": 11116,
 		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-leonardo.jpeg",
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-leonardo.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/video-testimonial-martha-blanco-y-negro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11997,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-martha-blanco-y-negro.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-martha-blanco-y-negro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/video-testimonial-martha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14185,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-martha.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-martha.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -8602,21 +8646,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Code\/templates\/sass\/privacy_policy.scss": {
+	"\/Code\/templates\/sass\/privacy_policy.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
-		"fileType": 4,
+		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/sass\/privacy_policy.scss",
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/privacy_policy.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/privacy_policy.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": false
 		},
 	"\/Code\/templates\/sass\/reveal.scss": {
 		"createSourceMap": 1,

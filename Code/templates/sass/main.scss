@@ -1,6 +1,6 @@
 
 @import "bourbon/_bourbon.scss";
-@import "normalize.scss";
+@import "normalize";
 //@import "reveal_js_themes/source/default.scss";
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
@@ -374,7 +374,7 @@ html,body{
     header{
         background-color: #282828;
         height: auto;
-        left: 0;
+        left: 272px;
         padding: 0 !important;
         position: absolute !important;
         top: 54px;
@@ -461,7 +461,7 @@ html,body{
                 a{
                     border-top: 3px solid #FFF;
                     cursor: pointer;
-                    display: inline-block;
+                    display: block;
                     height: em( 0, 16 );
                     text-align: center;
                     text-decoration: none;
@@ -474,12 +474,10 @@ html,body{
                     }
                     &:hover,&.current{
                         border-top: 3px solid $yellow !important;
-                        height: em( 53, 20.8 );
                     }
                 }
                 &.current{
                     border-top: 3px solid $yellow;
-                    height: em( 53, 20.8 );
                 }
             }
         }
@@ -661,13 +659,13 @@ html,body{
     }
 }
 
-@import "jquery-ui-1.10.4.custom.scss";
-@import "sprite.scss";
-@import "sprite_microinjerto.scss";
-@import "sprite_integral_treatment.scss";
-@import "dermocosmetics-sprite.scss";
-@import "reveal.scss";
-@import "../../../bower_components/hint.css/src/hint.scss";
+@import "jquery-ui-1.10.4.custom";
+@import "sprite";
+@import "sprite_microinjerto";
+@import "sprite_integral_treatment";
+@import "dermocosmetics-sprite";
+@import "reveal";
+@import "../../../bower_components/hint.css/src/hint";
 
 .hint, [data-hint] {
 
@@ -717,28 +715,28 @@ html,body{
 }
 .image{ position: relative; }
 
-@import "home.scss";
-@import "privacy_policy.scss";
-@import "alopecia.scss";
-@import "tratamientoIntegral.scss";
-@import "mesotherapy.scss";
-@import "capilar_electroporation.scss";
-@import "platelet_rich_plasma.scss";
-@import "tratamiento_medical_drug.scss";
-@import "clasification.scss";
-@import "autodiagnosis.scss";
-@import "microinjerto.scss";
-@import "dermocosmetics.scss";
-@import "who_are_whe.scss";
-@import "medical_directory.scss";
-@import "branches.scss";
-@import "contact.scss";
-@import "cita.scss";
-@import "notices.scss";
+@import "home";
+@import "privacy_policy";
+@import "alopecia";
+@import "tratamientoIntegral";
+@import "mesotherapy";
+@import "capilar_electroporation";
+@import "platelet_rich_plasma";
+@import "tratamiento_medical_drug";
+@import "clasification";
+@import "autodiagnosis";
+@import "microinjerto";
+@import "dermocosmetics";
+@import "who_are_whe";
+@import "medical_directory";
+@import "branches";
+@import "contact";
+@import "cita";
+@import "notices";
 
 @media only screen and (max-width: 94.75em) {}
 
-@import "helpers.scss";
+@import "helpers";
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -1039,19 +1037,19 @@ html,body{
         }
     }
 
-    @import "sprite_integral_treatment_mobile.scss";
-    @import "home_mobile.scss";
-    @import "who_are_whe_mobile.scss";
-    @import "branches_mobile.scss";
-    @import "cita_mobile.scss";
-    @import "microinjerto_mobile.scss";
-    @import "tratamientoIntegral_mobile.scss";
-    @import "mesotherapy_mobile.scss";
-    @import "tratamiento_medical_drug_mobile.scss";
-    @import "capilar_electroporation_mobile.scss";
-    @import "platelet_rich_plasma_mobile.scss";
-    @import "clasification_mobile.scss";
-    @import "dermocosmetics_mobile.scss";
+    @import "sprite_integral_treatment_mobile";
+    @import "home_mobile";
+    @import "who_are_whe_mobile";
+    @import "branches_mobile";
+    @import "cita_mobile";
+    @import "microinjerto_mobile";
+    @import "tratamientoIntegral_mobile";
+    @import "mesotherapy_mobile";
+    @import "tratamiento_medical_drug_mobile";
+    @import "capilar_electroporation_mobile";
+    @import "platelet_rich_plasma_mobile";
+    @import "clasification_mobile";
+    @import "dermocosmetics_mobile";
 }
 
 @media print,

@@ -344,22 +344,24 @@
             }
         }
         .content{
-            height: em( 474, 16 );
-            width: em( 472, 16 );
+            height: 474px;
+            width: 716px;
             z-index: 1;
             figure{
                 
                 .testimonial{
+                    background-color: #535353;
                     float: left;
-                    height: em( 234, 16 );
+                    height: 234px;
+                    margin: 0 1px 5px;
                     overflow: hidden;
                     position: relative;
-                    width: em( 234, 16 );
+                    width: 234px;
                     img{
                         transition: display 0.5s ease; 
                         display: block;
-                        max-height: inherit !important;
-                        max-width: inherit !important;
+                        max-height: 100%;
+                        max-width: 100%;
                         position: relative;
                         &:nth-child( 2n + 0 ){ display: none; }
                     }
@@ -370,6 +372,18 @@
                             display: none;
                             &:nth-child( 2n + 0 ){ display:block; }
                         }
+                    }
+                    p{
+                        @include font-mask( $yellow, em( 16, 16 ), em( 41, 16 ), bold, $Nobile_Bold);
+                        background-color: rgba(0,0,0,0.5);
+                        bottom: 17px;
+                        box-sizing: border-box;
+                        left: 0;
+                        margin: 0 auto;
+                        padding: 0 0 0 10px;
+                        position: absolute;
+                        text-align: left;
+                        width: 177px;
                     }
                     div{
                         background: rgba( 87, 87, 87, 0.85 );
@@ -395,21 +409,9 @@
                         }
                     }
                     .link{ z-index: 10; }
-                    &:nth-child( 2n + 1 ){
-                        border-right: 1px solid #FFF;
-                    }
-                    &:nth-child( 2n + 2 ){
-                        border-bottom: 1px solid #FFF;
-                        border-left: 1px solid #FFF;
-                    }
-                    &:nth-child( 2n + 3 ){
-                        border-top: 5px solid #FFF;
-                    }
-                    &:nth-child( 2n + 4 ){
-                        background-color: #535353;
-                        border-top: 5px solid #FFF;
-                        border-right: 2px solid #FFF;
-                    }
+                    &:first-child{ margin: 0 1px 5px 0; }
+                    &:nth-child( 4n ):nth-child( -6n ){ margin-bottom: 0; }
+                    &:last-child{ margin: 0 0 5px 0; }
                 }
             }
         }
@@ -519,53 +521,6 @@
                             position: relative;
                             top: 50%;
                         }
-                    }
-                }
-            }
-        }
-        .subsection_link{
-            height: em( 472, 16 );
-            width: em( 237, 16 );
-            z-index: 0;
-            a{
-
-                div{
-                    background: #535353;
-                    border-bottom: 6px solid $white;
-                    display: inline-block;
-                    float: left;
-                    height: em( 234, 16 );
-                    position: relative;
-                    width: 100%;
-                    h3{
-                        @include font-mask( $white, em( 17.5, 16 ), em( 17.5, 17.5 ), normal, $Fira_Sans_Ot_Light );
-                        margin: em( 100, 17.5 ) em( 33, 17.5 ) 0 em( 45, 17.5 );
-                        text-align: left;
-                        text-transform: uppercase;
-                        strong{
-                            @include font-mask( $yellow, em( 17.5, 17.5 ), em( 17.5, 17.5 ), bold, $Nobile_Bold );
-                            clear: both;
-                            display: block;
-                        }
-                    }
-                    .link{}
-                }
-                &:nth-child( n + 2 ){
-
-                    div{
-                        border-bottom: 0 none transparent;
-                        height: em( 234, 16 );
-                        h3{
-                            line-height: em( 22.72, 17 );
-                            margin: em( 105, 17 ) auto 0;
-                            text-align: center;
-                            white-space: nowrap;
-                            strong{
-                                clear: none;
-                                display: inline;
-                            }
-                        }
-                        .link{}
                     }
                 }
             }

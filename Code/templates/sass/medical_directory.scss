@@ -180,7 +180,7 @@
                         }
                         h3,
                         h4{
-                            @include font-mask( $yellow, em( 14, 16 ), em( 14, 16 ), normal, $Nobile_Bold );
+                            @include font-mask( $yellow, em( 14, 16 ), 1.5em, normal, $Nobile_Bold );
                             margin: 5px 0;
                             text-align: left;
                         }
