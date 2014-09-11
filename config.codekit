@@ -295,6 +295,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/aprovechalo-hasta-el-diecisiete-de-septiembre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4525,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/aprovechalo-hasta-el-diecisiete-de-septiembre.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/aprovechalo-hasta-el-diecisiete-de-septiembre.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banners\/escritorio\/background-echanos-un-grito.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -304,7 +315,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/background-echanos-un-grito.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/background-promocion-echame-un-grito-septiembre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5287,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/background-promocion-echame-un-grito-septiembre.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/background-promocion-echame-un-grito-septiembre.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/background-testimoniales.png": {
 		"fileType": 32768,
@@ -458,7 +480,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/en-septiembre-echanos-un-grito.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/en-tu-consulta-exclusivo-en-mexico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11191,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/en-tu-consulta-exclusivo-en-mexico.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/en-tu-consulta-exclusivo-en-mexico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/exclusivo-formulas-magistrales-y-shampoos.png": {
 		"fileType": 32768,
@@ -524,18 +557,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/para-garantiza-mejores-resultados-y-apego-a-tu-tratamiento-recibe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/persona-gritando-por-un-altavoz.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 839584,
+		"initialSize": 983011,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-gritando-por-un-altavoz.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-gritando-por-un-altavoz.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png": {
 		"fileType": 32768,
@@ -634,7 +667,29 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/treinta-porciento-de-descuento-en-tu-consulta.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/treinta-porciento-de-descuento.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22989,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/treinta-porciento-de-descuento.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/treinta-porciento-de-descuento.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/ultima-oportunidad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6442,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ultima-oportunidad.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ultima-oportunidad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/un-papa-se-merece-eso-y-mas.png": {
 		"fileType": 32768,
@@ -689,7 +744,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/background-en-septiembre-echanos-un-grito-treinta-porciento-de-descuento-en-tu-consulta.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/movil\/background-giovani-bojanini-agora-no-brasil.jpg": {
 		"fileType": 16384,
@@ -701,6 +756,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/background-promocion-echame-un-grito-septiembre-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3328,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/background-promocion-echame-un-grito-septiembre-mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/background-promocion-echame-un-grito-septiembre-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/movil\/banner-haz-tu-cita-movil.png": {
 		"fileType": 32768,
@@ -843,7 +909,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/en-septiembre-echanos-un-grito-treinta-porciento-de-descuento-en-tu-consulta.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/movil\/giovanni-bojanini-agora-no-brasil-completo.png": {
 		"fileType": 32768,
@@ -896,6 +962,28 @@
 		"initialSize": 73414,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/tango_texto.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/tango_texto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/texto_Mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40919,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/texto_Mobile.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/texto_Mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banners\/movil\/ultima-oportunidad-treinta-porciento-de-descuento-en-tu-consulta-exclusivo-en-mexico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40919,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ultima-oportunidad-treinta-porciento-de-descuento-en-tu-consulta-exclusivo-en-mexico.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ultima-oportunidad-treinta-porciento-de-descuento-en-tu-consulta-exclusivo-en-mexico.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
