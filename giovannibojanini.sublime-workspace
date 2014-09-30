@@ -1,0 +1,454 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-",
+				"list-style-position"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"vide",
+				"videoIndex"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"40px",
+				"470px"
+			],
+			[
+				"bu",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"_all",
+				"_all-sections-white-theme"
+			],
+			[
+				"to",
+				"tool"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"un",
+				"unanchored"
+			],
+			[
+				"_css",
+				"_cssToDeFix"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"dom",
+				"domElement"
+			],
+			[
+				"webkit-",
+				"webkit-appearance"
+			],
+			[
+				"slid",
+				"solid"
+			],
+			[
+				"pril",
+				"profile-name-background"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"sel",
+				"_selector"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"border",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"encod",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: #!/usr/bin/env ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/ProMeta/prometa.sublime-project",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/pro-meta.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/footer.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/servicios.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/scss/home.scss",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/head.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/privacy_policy_alert.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/plugins.js",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/main.js",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/vendor/jquery-1.8.3.min.js",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/html-end.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/html-end-home.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/background-images-item.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/index.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/navigation.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/scss/main.scss",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/servicios.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/Prometa.js",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/main.min.js",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/rubros.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/pro-meta.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/jade/inner_footer.jade",
+		"/Applications/MAMP/htdocs/santo-tomas/index.php",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/cumbre-promotores/promotores.html",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home_mobile.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/javascript/main.js",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/banners/give-me-a-call-september-2014.sass",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/kit/html-end.kit",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/microinjerto.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/banners/testimonial-banner.sass",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/main.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/medical_directory.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/kit/alert_box_home.kit",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/kit/aside.kit",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/privacy_policy.sass",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/banners/schedule-your-appointment-today-dancing-banner.sass",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/javascript/vendor/jquery.tools.custom.min.js",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/microinjerto_mobile.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/branches_mobile.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home.scss",
+		"/Applications/MAMP/htdocs/identisa/Code/templates/html_end.html",
+		"/Applications/MAMP/htdocs/identisa/Code/templates/kit/index.kit",
+		"/Applications/MAMP/htdocs/identisa/Code/templates/sass/home.sass",
+		"/Applications/MAMP/htdocs/identisa/Code/templates/kit/html_end.kit",
+		"/Applications/MAMP/htdocs/identisa/Code/templates/kit/head.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/september-2014.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/_all-sections-blue-theme.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/_all-sections-white-theme.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/social-media-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/bulletin-title-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/template-parent-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/template-children-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/js/main.js",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/js/Axas.js",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/js/plugins.js",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/js/vendor/jquery.uniform.js",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/footer-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/_all-sections.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/scotia-1.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/scotia-2.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/_sprite-buttons.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/head-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/december-2013.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_all-sections-blue-theme.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/september-2014.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/style.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_bulletin.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_sprite-buttons.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_sprite-buttons.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/navigation-parent-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/navigation-children-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/navigation-aditional-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/header-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_all-sections-white-theme.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/config.codekit",
+		"/Applications/MAMP/htdocs/boletin_axa/.htaccess",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/estres/clientes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/testamento/agentes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/testamento/clientes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/estres/agentes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/ht.access",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/plus-care/agentes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/agentes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/.htaccess",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/december-2013.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/efective-protection.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/october-2013.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/axa-touch-health.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/june-2014.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/march-2014.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/lealtad/cupon-best-western-descuento-veinticinco.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/venta-cruzada-axa-facil/descargar-guia.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/protector-del-asegurado/clientes.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/clientes-con-auto-1.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/clientes-otro-ramo-2.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/clientes-con-auto-1/axa-twitter-y-facebook.jpg",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_mixins.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/style.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_normalize.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_fonts.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/lealtad/plus-care.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/escoge-y-estrena/escoge-y-estrena.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_colors.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_all-sections.sass",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/css/sass/_mixins.scss",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/template-aditional-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/template-historic-blue-themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/chunks/template-parent-blue-themed.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/dt_displayable_bulletin_blue_themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/dt_root_bulletin_parent_blue_themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/chunks/dt_displayable_bulletin.html",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/dt_displayable_bulletin.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/dt_downloadable_bulletin_blue_themed.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/form-of-september-2014-bulletin.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/kit/dt_nav_menu_blue_themed.kit",
+		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/javascript/main.js",
+		"/Applications/MAMP/htdocs/equiver/Code/templates/javascript/Equiver.js",
+		"/Applications/MAMP/htdocs/equiver/Code/templates/sass/home.sass",
+		"/Applications/MAMP/htdocs/equiver/Code/templates/javascript/main.js",
+		"/Applications/MAMP/htdocs/equiver/Code/templates/kit/index.kit",
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/lealtad/escoge-y-estrena.html",
+		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/index.kit",
+		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/footer.kit",
+		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/header.kit",
+		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/head.kit",
+		"/Applications/MAMP/htdocs/minvielle_photography/index.html",
+		"/Applications/MAMP/htdocs/preset/Code/templates/kit/head.kit"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>",
+			"schedule-your-appointment-today-dancing-banner.scss",
+			"_all-sections-white-theme.sass",
+			"_all-sections-blue-theme.sass",
+			"scotia-2.html",
+			"scotia-1.html",
+			"clientes.html",
+			"protector-del-asegurado/clientes.html",
+			"escoge-y-estrena.html",
+			"_colors.sass",
+			"all-sections-white-theme.scss",
+			"_all-sections.sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/plus-care/agentes/",
+			"}",
+			"{",
+			";",
+			"this.css",
+			"/images/",
+			"/scotia-1/",
+			"scotia-1",
+			"/clientes-con-auto-1/",
+			"estres",
+			"clientes-con-auto-1",
+			"/escoge-y-estrena/",
+			"escoge-y-estrena-agente",
+			"lealtad",
+			";",
+			"{",
+			"}",
+			"{",
+			";",
+			"e.preventDefault;",
+			"/**",
+			"header",
+			"social",
+			"plain_text",
+			"show_encoding",
+			"show_enconding",
+			"GBSite",
+			"alert_box",
+			"GBSite",
+			"placeholder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/cumbre-promotores/images/",
+			"",
+			"/img/",
+			"/scotia-2/",
+			"/scotia-1/",
+			"testamento",
+			"clientes",
+			"/protector-del-asegurado/",
+			"escoge-y-estrena",
+			"mailings",
+			"",
+			" ",
+			"",
+			"Equiver",
+			"alert",
+			"Equiver"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"config.codekit"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true
+}
