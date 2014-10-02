@@ -164,6 +164,9 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/banners/change-your-look-octuber-2014.sass",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home_mobile.scss",
+		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home.scss",
 		"/Applications/MAMP/htdocs/ProMeta/prometa.sublime-project",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/pro-meta.kit",
 		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/footer.html",
@@ -188,7 +191,6 @@
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/jade/inner_footer.jade",
 		"/Applications/MAMP/htdocs/santo-tomas/index.php",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/cumbre-promotores/promotores.html",
-		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home_mobile.scss",
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/javascript/main.js",
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/banners/give-me-a-call-september-2014.sass",
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/kit/html-end.kit",
@@ -203,7 +205,6 @@
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/javascript/vendor/jquery.tools.custom.min.js",
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/microinjerto_mobile.scss",
 		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/branches_mobile.scss",
-		"/Applications/MAMP/htdocs/giovanni_bojanini_new/Code/templates/sass/home.scss",
 		"/Applications/MAMP/htdocs/identisa/Code/templates/html_end.html",
 		"/Applications/MAMP/htdocs/identisa/Code/templates/kit/index.kit",
 		"/Applications/MAMP/htdocs/identisa/Code/templates/sass/home.sass",
@@ -290,8 +291,7 @@
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/footer.kit",
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/header.kit",
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/head.kit",
-		"/Applications/MAMP/htdocs/minvielle_photography/index.html",
-		"/Applications/MAMP/htdocs/preset/Code/templates/kit/head.kit"
+		"/Applications/MAMP/htdocs/minvielle_photography/index.html"
 	],
 	"find":
 	{

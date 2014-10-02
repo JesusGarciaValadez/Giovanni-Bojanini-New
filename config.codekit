@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "17945",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -76,6 +76,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/css\/change-your-look-octuber-2014.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/change-your-look-octuber-2014.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png": {
 		"fileType": 32768,
@@ -262,6 +271,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23523,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/agendar-cita.bak.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -405,6 +425,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/cambia-de-look-durante-el-otono.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40886,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cambia-de-look-durante-el-otono.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cambia-de-look-durante-el-otono.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/cambia-de-look-estas-vacaciones-blanco.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -456,6 +487,28 @@
 		"initialSize": 720305,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/deja-la-calvicie-en-el-pasado.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/deja-la-calvicie-en-el-pasado.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/deja-que-las-hojas-sean-lo-unico-que-caiga-en-octubre-aprovecha-esta-temporada-para-realizarte-un-microinjerto-capilar-con-la-tecnica-fue-pelo-por-pelo-en-una-sola-sesion-resultados-naturales-garantizados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44251,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/deja-que-las-hojas-sean-lo-unico-que-caiga-en-octubre-aprovecha-esta-temporada-para-realizarte-un-microinjerto-capilar-con-la-tecnica-fue-pelo-por-pelo-en-una-sola-sesion-resultados-naturales-garantizados.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/deja-que-las-hojas-sean-lo-unico-que-caiga-en-octubre-aprovecha-esta-temporada-para-realizarte-un-microinjerto-capilar-con-la-tecnica-fue-pelo-por-pelo-en-una-sola-sesion-resultados-naturales-garantizados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/del-1-al-31-de-octubre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5819,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/del-1-al-31-de-octubre.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/del-1-al-31-de-octubre.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -570,13 +623,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png": {
+	"\/assets\/img\/banners\/escritorio\/persona-posando.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 591591,
-		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png",
-		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-promocion-agosto.png",
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-posando.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/persona-posando.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -766,7 +819,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/background-promocion-echame-un-grito-septiembre-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/movil\/banner-haz-tu-cita-movil.png": {
 		"fileType": 32768,
@@ -874,6 +927,17 @@
 		"initialSize": 43340,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/bojanini-friends-comparte-entre-amigos.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/bojanini-friends-comparte-entre-amigos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/cambia-de-look-durante-el-otono.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24153,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cambia-de-look-durante-el-otono.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cambia-de-look-durante-el-otono.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -7075,6 +7139,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/Code\/templates\/sass\/banners\/change-your-look-octuber-2014.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/change-your-look-octuber-2014.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/change-your-look-octuber-2014.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/Code\/templates\/sass\/banners\/give-me-a-call-september-2014.sass": {
 		"createSourceMap": 1,
