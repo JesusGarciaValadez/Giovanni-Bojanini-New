@@ -77,15 +77,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/css\/change-your-look-octuber-2014.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/change-your-look-octuber-2014.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/css\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3612,6 +3603,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/galeria-11.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/galeria-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/galeria_testimonios\/galeria-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49669,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/galeria-12.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/galeria-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
