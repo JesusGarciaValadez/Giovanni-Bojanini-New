@@ -6265,7 +6265,51 @@
 		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/agenda-tu-cita-hoy-mismo-cero-uno-ochocientos-trecientos-setenta-y-siete-treinta-y-cinco-sesetna-y-siete.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/box-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-1.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/box-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-2.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/box-bg-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-4.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/box-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/box-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/Code\/mailings\/chapulin\/images\/giovanni-bojanini-com.jpg": {
 		"fileType": 16384,
@@ -6276,7 +6320,7 @@
 		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/giovanni-bojanini-com.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/Code\/mailings\/chapulin\/images\/giovanni-bojanini-tu-igual-que-el-chapulin-recupera-tu-confianza-conoce-su-historia-aqui.jpg": {
 		"fileType": 16384,
@@ -6287,7 +6331,139 @@
 		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/giovanni-bojanini-tu-igual-que-el-chapulin-recupera-tu-confianza-conoce-su-historia-aqui.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393382,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-1.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8337,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-2-mobile.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16704,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-2.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25904,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-3.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2675,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-4.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14161,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-4.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2675,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-5.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15806,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-5.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-6-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2675,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-6-mobile.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-6-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18926,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-6.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14455,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-7.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/image-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15263,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-8.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/image-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/Code\/mailings\/chapulin\/images\/inicie-el-tratamiento-con-determinacion-y-en-busqueda-de-resultados-asi-como-cuando-me-subo-al-auto-para-competir.jpg": {
 		"fileType": 16384,
@@ -6298,7 +6474,7 @@
 		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/inicie-el-tratamiento-con-determinacion-y-en-busqueda-de-resultados-asi-como-cuando-me-subo-al-auto-para-competir.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/Code\/mailings\/chapulin\/images\/no-es-solo-pelo-y-nosotros-lo-sabemos.jpg": {
 		"fileType": 16384,
@@ -6309,7 +6485,18 @@
 		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/no-es-solo-pelo-y-nosotros-lo-sabemos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/Code\/mailings\/chapulin\/images\/page-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/page-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/chapulin\/images\/page-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/Code\/mailings\/chapulin\/index.html": {
 		"fileType": 8192,
