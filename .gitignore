@@ -8,24 +8,17 @@
 /wordpress
 /boletina_boletin_axa.sql
 /Archivo comprimido.tbz2
-
 /assets/components
-
 /index.php
 /config.core.php
-
 /respaldo_GB.zip
-
 /Code/snippets/db/connection.php
-
 /Code/snippets/config/config.php
-
 /Code/BD
-
 /Code/templates/sass/.sass-cache
-
 /Code/chunks/html-end.html
-
 /bower_components
-
 /assets/video/leonardo-armado-02-30sec.mov
+BOJANINI-V2-40SEGweb.mov
+Code/mailings/chapulin/BOJANINI-V2-40SEGweb.mov
+.DS_Store
