@@ -41,11 +41,11 @@ if ( ! empty( $_GET['action'] ) ) {
                             'mail'  => 'vdavila@cmvasfalto.com.mx', 
                             'name'  => 'Vico'), */
                         array(
-                            'mail'  => 'pgomez@cmv.com.mx', 
-                            'name'  => 'Paola'), 
+                            'mail'  => 'dharjani@cmv.com.mx', 
+                            'name'  => 'Devki Harjani'), 
                         array(
-                            'mail'  => 'lgarrido@cdgb.com.mx',
-                            'name'  => 'Luis Garrido')
+                            'mail'  => 'dbermudez@cdgb.com.mx',
+                            'name'  => 'DBermudez')
                     );
                 
                 $doInsert   = new Review( $dbh, 'budget_request' );
@@ -67,8 +67,8 @@ if ( ! empty( $_GET['action'] ) ) {
                             'mail'  => 'vdavila@cmvasfalto.com.mx',
                             'name'  => 'Vico'),*/
                         array(
-                            'mail'  => 'pgomez@cmv.com.mx',
-                            'name'  => 'Paola')
+                            'mail'  => 'dharjani@cmv.com.mx', 
+                            'name'  => 'Devki Harjani'), 
                     );
                 
                 $doInsert   = new Review( $dbh, 'citas' );
@@ -90,8 +90,8 @@ if ( ! empty( $_GET['action'] ) ) {
                             'mail'  => 'vdavila@cmvasfalto.com.mx',
                             'name'  => 'Vico'),*/
                         array(
-                            'mail'  => 'pgomez@cmv.com.mx',
-                            'name'  => 'Paola')
+                            'mail'  => 'dharjani@cmv.com.mx', 
+                            'name'  => 'Devki Harjani'), 
                     );
                 
                 $doInsert   = new Review( $dbh, 'citas' );
