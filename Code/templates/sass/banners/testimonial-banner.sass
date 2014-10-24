@@ -76,9 +76,12 @@
                 &:nth-child( 4n )
                     a
                         @extend .testimonial_1_thumbnail
-                &:last-child
+                &:nth-child( 5n )
                     a
                         @extend .testimonial_3_thumbnail
+                &:last-child
+                    a
+                        @extend .chapulin_3_thumbnail
     > img
         bottom: -40%
         position: absolute

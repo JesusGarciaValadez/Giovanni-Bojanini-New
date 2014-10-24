@@ -2599,6 +2599,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/home\/chapulin_3_thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19157,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/chapulin_3_thumbnail.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/chapulin_3_thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/home\/chico.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3059,6 +3070,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/home\/poster-chapulin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422224,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-chapulin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-chapulin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/home\/poster-javier.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3151,7 +3173,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 137076,
+		"initialSize": 152975,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/sprite.png",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/sprite.png",
 		"outputPathIsOutsideProject": 0,
@@ -3891,7 +3913,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-bojanini.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/poster-chapulin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440510,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-chapulin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-chapulin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/microinjerto\/poster-leonardo.png": {
 		"fileType": 32768,
@@ -3902,7 +3935,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-leonardo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/microinjerto\/poster-rodrigo.png": {
 		"fileType": 32768,
@@ -3913,7 +3946,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/poster-rodrigo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/microinjerto\/poster.jpg": {
 		"fileType": 16384,
@@ -4188,7 +4221,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/testimonios_internas\/T6_despues.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/microinjerto\/testimonios_internas\/T7_antes.png": {
 		"fileType": 32768,
@@ -4285,6 +4318,28 @@
 		"initialSize": 15800,
 		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-bojanini.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-bojanini.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/video-testimonial-chapulin-blanco-y-negro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12362,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-chapulin-blanco-y-negro.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-chapulin-blanco-y-negro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/video-testimonial-chapulin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13773,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-chapulin.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/video-testimonial-chapulin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

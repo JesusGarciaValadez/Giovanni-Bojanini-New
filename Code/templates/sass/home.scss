@@ -271,9 +271,9 @@
             display: block;
             height: 50px;
             left: 50%;
-            margin: 0 0 0 ( -450px / 2 );
+            margin: 0 0 0 ( -550px / 2 );
             position: absolute;
-            width: 456px;
+            width: 550px;
             a{
                 float: left;
                 &:first-child{
@@ -294,6 +294,10 @@
                 }
                 &:nth-child( 5n ){
                     @extend .testimonial_3_thumbnail;
+                    &:hover{}
+                }
+                &:nth-child( 6n ){
+                    @extend .chapulin_3_thumbnail;
                     &:hover{}
                 }
                 &.active{ border: 3px solid $yellow; }

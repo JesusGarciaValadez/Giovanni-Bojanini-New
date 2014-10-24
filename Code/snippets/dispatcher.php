@@ -39,10 +39,10 @@ if ( ! empty( $_GET['action'] ) ) {
                             'name'  => 'Jesús'), 
                         array(
                             'mail'  => 'vdavila@cmvasfalto.com.mx', 
-                            'name'  => 'Vico'), */
+                            'name'  => 'Vico'),
                         array(
                             'mail'  => 'dharjani@cmv.com.mx', 
-                            'name'  => 'Devki Harjani'), 
+                            'name'  => 'Devki Harjani'), */
                         array(
                             'mail'  => 'dbermudez@cdgb.com.mx',
                             'name'  => 'DBermudez')
@@ -65,10 +65,10 @@ if ( ! empty( $_GET['action'] ) ) {
                             'name'  => 'Jesús'),
                         array(
                             'mail'  => 'vdavila@cmvasfalto.com.mx',
-                            'name'  => 'Vico'),*/
+                            'name'  => 'Vico'),
                         array(
                             'mail'  => 'dharjani@cmv.com.mx', 
-                            'name'  => 'Devki Harjani'), 
+                            'name'  => 'Devki Harjani'), */
                     );
                 
                 $doInsert   = new Review( $dbh, 'citas' );
@@ -88,10 +88,10 @@ if ( ! empty( $_GET['action'] ) ) {
                             'name'  => 'Jesús'),
                         array(
                             'mail'  => 'vdavila@cmvasfalto.com.mx',
-                            'name'  => 'Vico'),*/
+                            'name'  => 'Vico'),
                         array(
                             'mail'  => 'dharjani@cmv.com.mx', 
-                            'name'  => 'Devki Harjani'), 
+                            'name'  => 'Devki Harjani'), */
                     );
                 
                 $doInsert   = new Review( $dbh, 'citas' );
