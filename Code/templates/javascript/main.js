@@ -11,7 +11,7 @@
 (function ( $, window, document, undefined ) {
 
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 80000;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 8000;
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
