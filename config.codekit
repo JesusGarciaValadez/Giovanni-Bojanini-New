@@ -592,6 +592,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/giovanni-bojanini.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12596,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/giovanni-bojanini.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/giovanni-bojanini.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/header_sitio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -610,6 +621,17 @@
 		"initialSize": 1.39692e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/logo-buen-fin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31743,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/logo-buen-fin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/logo-buen-fin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -757,6 +779,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17117,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magsitrales.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -797,6 +830,17 @@
 		"initialSize": 6341,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/texto_sitio.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/texto_sitio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/tipo-con-gesto-de-sorpresa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 630496,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/tipo-con-gesto-de-sorpresa.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/tipo-con-gesto-de-sorpresa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1127,6 +1171,17 @@
 		"initialSize": 13444,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/octubre-se-termina-mobile.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/octubre-se-termina-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/promocion-buen-fin-movil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139005,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-buen-fin-movil.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-buen-fin-movil.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -5145,7 +5200,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-color-types.scss": {
 		"createSourceMap": 1,
@@ -5161,7 +5216,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-core.scss": {
 		"createSourceMap": 1,
@@ -5177,7 +5232,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-effects.scss": {
 		"createSourceMap": 1,
@@ -5193,7 +5248,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-mixins.scss": {
 		"createSourceMap": 1,
@@ -5209,7 +5264,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-position.scss": {
 		"createSourceMap": 1,
@@ -5225,7 +5280,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-rounded.scss": {
 		"createSourceMap": 1,
@@ -5241,7 +5296,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint-variables.scss": {
 		"createSourceMap": 1,
@@ -5257,7 +5312,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/hint.css\/src\/hint.scss": {
 		"createSourceMap": 1,
@@ -5273,7 +5328,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/print\/paper.css": {
 		"fileType": 16,
@@ -5418,7 +5473,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/blood.scss": {
 		"createSourceMap": 1,
@@ -5434,7 +5489,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/default.scss": {
 		"createSourceMap": 1,
@@ -5450,7 +5505,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/moon.scss": {
 		"createSourceMap": 1,
@@ -5466,7 +5521,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/night.scss": {
 		"createSourceMap": 1,
@@ -5482,7 +5537,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/serif.scss": {
 		"createSourceMap": 1,
@@ -5498,7 +5553,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/simple.scss": {
 		"createSourceMap": 1,
@@ -5514,7 +5569,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/sky.scss": {
 		"createSourceMap": 1,
@@ -5530,7 +5585,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/source\/solarized.scss": {
 		"createSourceMap": 1,
@@ -5546,7 +5601,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/template\/mixins.scss": {
 		"createSourceMap": 1,
@@ -5562,7 +5617,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/template\/settings.scss": {
 		"createSourceMap": 1,
@@ -5578,7 +5633,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/css\/theme\/template\/theme.scss": {
 		"createSourceMap": 1,
@@ -5594,7 +5649,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/bower_components\/reveal.js\/Gruntfile.js": {
 		"fileType": 64,
@@ -7861,6 +7916,202 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5271,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/content.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4257,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52892,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5259,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242108,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5291,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19300,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-5.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/image-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35708,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/page-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5543,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/QuickLook\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35708,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Te dejaremos los pelos de punta.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Code\/snippets\/class.phpmailer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8430,7 +8681,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/autodiagnosis.scss": {
 		"createSourceMap": 1,
@@ -8446,7 +8697,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/agora-no-brasil.scss": {
 		"createSourceMap": 1,
@@ -8462,7 +8713,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/august-2014-promotion-of-the-month.scss": {
 		"createSourceMap": 1,
@@ -8478,7 +8729,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/change-your-look-august-2014.scss": {
 		"createSourceMap": 1,
@@ -8494,7 +8745,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/change-your-look-octuber-2014.sass": {
 		"createSourceMap": 1,
@@ -8542,7 +8793,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/octuber-is-about-to-finish-2014.sass": {
 		"createSourceMap": 1,
@@ -8574,7 +8825,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/promotion-of-the-month.scss": {
 		"createSourceMap": 1,
@@ -8590,7 +8841,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/schedule-your-appointment-today-dancing-banner.sass": {
 		"createSourceMap": 1,
@@ -8622,7 +8873,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/banners\/testimonial-banner.sass": {
 		"createSourceMap": 1,
@@ -8633,6 +8884,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/testimonial-banner.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/testimonial-banner.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/Code\/templates\/sass\/banners\/we-leave-you-with-the-creeps-november-2014.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/we-leave-you-with-the-creeps-november-2014.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/we-leave-you-with-the-creeps-november-2014.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -8654,7 +8921,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/_bourbon.scss": {
 		"createSourceMap": 1,
@@ -8670,7 +8937,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_button.scss": {
 		"createSourceMap": 1,
@@ -8686,7 +8953,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_clearfix.scss": {
 		"createSourceMap": 1,
@@ -8702,7 +8969,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_directional-values.scss": {
 		"createSourceMap": 1,
@@ -8718,7 +8985,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_ellipsis.scss": {
 		"createSourceMap": 1,
@@ -8734,7 +9001,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_font-family.scss": {
 		"createSourceMap": 1,
@@ -8750,7 +9017,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_hide-text.scss": {
 		"createSourceMap": 1,
@@ -8766,7 +9033,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_html5-input-types.scss": {
 		"createSourceMap": 1,
@@ -8782,7 +9049,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_position.scss": {
 		"createSourceMap": 1,
@@ -8798,7 +9065,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_prefixer.scss": {
 		"createSourceMap": 1,
@@ -8814,7 +9081,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_rem.scss": {
 		"createSourceMap": 1,
@@ -8830,7 +9097,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_retina-image.scss": {
 		"createSourceMap": 1,
@@ -8846,7 +9113,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_size.scss": {
 		"createSourceMap": 1,
@@ -8862,7 +9129,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_timing-functions.scss": {
 		"createSourceMap": 1,
@@ -8878,7 +9145,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/addons\/_triangle.scss": {
 		"createSourceMap": 1,
@@ -8894,7 +9161,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_animation.scss": {
 		"createSourceMap": 1,
@@ -8910,7 +9177,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_appearance.scss": {
 		"createSourceMap": 1,
@@ -8926,7 +9193,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_backface-visibility.scss": {
 		"createSourceMap": 1,
@@ -8942,7 +9209,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_background-image.scss": {
 		"createSourceMap": 1,
@@ -8958,7 +9225,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_background.scss": {
 		"createSourceMap": 1,
@@ -8974,7 +9241,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_border-image.scss": {
 		"createSourceMap": 1,
@@ -8990,7 +9257,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_border-radius.scss": {
 		"createSourceMap": 1,
@@ -9006,7 +9273,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_box-sizing.scss": {
 		"createSourceMap": 1,
@@ -9022,7 +9289,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_calc.scss": {
 		"createSourceMap": 1,
@@ -9038,7 +9305,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_columns.scss": {
 		"createSourceMap": 1,
@@ -9054,7 +9321,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_flex-box.scss": {
 		"createSourceMap": 1,
@@ -9070,7 +9337,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_font-face.scss": {
 		"createSourceMap": 1,
@@ -9086,7 +9353,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_hidpi-media-query.scss": {
 		"createSourceMap": 1,
@@ -9102,7 +9369,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_hyphens.scss": {
 		"createSourceMap": 1,
@@ -9118,7 +9385,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_image-rendering.scss": {
 		"createSourceMap": 1,
@@ -9134,7 +9401,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_inline-block.scss": {
 		"createSourceMap": 1,
@@ -9150,7 +9417,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_keyframes.scss": {
 		"createSourceMap": 1,
@@ -9166,7 +9433,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_linear-gradient.scss": {
 		"createSourceMap": 1,
@@ -9182,7 +9449,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_perspective.scss": {
 		"createSourceMap": 1,
@@ -9198,7 +9465,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_placeholder.scss": {
 		"createSourceMap": 1,
@@ -9214,7 +9481,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_radial-gradient.scss": {
 		"createSourceMap": 1,
@@ -9230,7 +9497,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_transform.scss": {
 		"createSourceMap": 1,
@@ -9246,7 +9513,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_transition.scss": {
 		"createSourceMap": 1,
@@ -9262,7 +9529,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/css3\/_user-select.scss": {
 		"createSourceMap": 1,
@@ -9278,7 +9545,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_assign.scss": {
 		"createSourceMap": 1,
@@ -9294,7 +9561,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_flex-grid.scss": {
 		"createSourceMap": 1,
@@ -9310,7 +9577,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_golden-ratio.scss": {
 		"createSourceMap": 1,
@@ -9326,7 +9593,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_grid-width.scss": {
 		"createSourceMap": 1,
@@ -9342,7 +9609,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_linear-gradient.scss": {
 		"createSourceMap": 1,
@@ -9358,7 +9625,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_modular-scale.scss": {
 		"createSourceMap": 1,
@@ -9374,7 +9641,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_px-to-em.scss": {
 		"createSourceMap": 1,
@@ -9390,7 +9657,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_radial-gradient.scss": {
 		"createSourceMap": 1,
@@ -9406,7 +9673,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_strip-units.scss": {
 		"createSourceMap": 1,
@@ -9422,7 +9689,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_tint-shade.scss": {
 		"createSourceMap": 1,
@@ -9438,7 +9705,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_transition-property-name.scss": {
 		"createSourceMap": 1,
@@ -9454,7 +9721,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/functions\/_unpack.scss": {
 		"createSourceMap": 1,
@@ -9470,7 +9737,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_gradient-positions-parser.scss": {
 		"createSourceMap": 1,
@@ -9486,7 +9753,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_linear-positions-parser.scss": {
 		"createSourceMap": 1,
@@ -9502,7 +9769,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_radial-arg-parser.scss": {
 		"createSourceMap": 1,
@@ -9518,7 +9785,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_radial-positions-parser.scss": {
 		"createSourceMap": 1,
@@ -9534,7 +9801,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_render-gradients.scss": {
 		"createSourceMap": 1,
@@ -9550,7 +9817,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/helpers\/_shape-size-stripper.scss": {
 		"createSourceMap": 1,
@@ -9566,7 +9833,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/settings\/_prefixer.scss": {
 		"createSourceMap": 1,
@@ -9582,7 +9849,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/bourbon\/settings\/_px-to-em.scss": {
 		"createSourceMap": 1,
@@ -9598,7 +9865,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/branches.scss": {
 		"createSourceMap": 1,
@@ -9614,7 +9881,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/branches_mobile.scss": {
 		"createSourceMap": 1,
@@ -9630,7 +9897,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/capilar_electroporation.scss": {
 		"createSourceMap": 1,
@@ -9646,7 +9913,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/capilar_electroporation_mobile.scss": {
 		"createSourceMap": 1,
@@ -9662,7 +9929,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/cita.scss": {
 		"createSourceMap": 1,
@@ -9678,7 +9945,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/cita_mobile.scss": {
 		"createSourceMap": 1,
@@ -9694,7 +9961,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/clasification.scss": {
 		"createSourceMap": 1,
@@ -9710,7 +9977,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/clasification_mobile.scss": {
 		"createSourceMap": 1,
@@ -9726,7 +9993,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/contact.scss": {
 		"createSourceMap": 1,
@@ -9742,7 +10009,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/dermocosmetics-sprite.scss": {
 		"createSourceMap": 1,
@@ -9758,7 +10025,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/dermocosmetics.scss": {
 		"createSourceMap": 1,
@@ -9774,7 +10041,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/dermocosmetics_mobile.scss": {
 		"createSourceMap": 1,
@@ -9790,7 +10057,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/flechas.scss": {
 		"createSourceMap": 1,
@@ -9806,7 +10073,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/helpers.scss": {
 		"createSourceMap": 1,
@@ -9822,7 +10089,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/home.scss": {
 		"createSourceMap": 1,
@@ -9838,7 +10105,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/home_mobile.scss": {
 		"createSourceMap": 1,
@@ -9854,7 +10121,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png": {
 		"fileType": 32768,
@@ -10024,7 +10291,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/main.scss": {
 		"createSourceMap": 1,
@@ -10056,7 +10323,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/mesotherapy.scss": {
 		"createSourceMap": 1,
@@ -10072,7 +10339,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/mesotherapy_mobile.scss": {
 		"createSourceMap": 1,
@@ -10088,7 +10355,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/microinjerto.scss": {
 		"createSourceMap": 1,
@@ -10104,7 +10371,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/microinjerto_mobile.scss": {
 		"createSourceMap": 1,
@@ -10120,7 +10387,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/normalize.scss": {
 		"createSourceMap": 1,
@@ -10136,7 +10403,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/notices.scss": {
 		"createSourceMap": 1,
@@ -10152,7 +10419,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/platelet_rich_plasma.scss": {
 		"createSourceMap": 1,
@@ -10168,7 +10435,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/platelet_rich_plasma_mobile.scss": {
 		"createSourceMap": 1,
@@ -10184,7 +10451,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/privacy_policy.sass": {
 		"createSourceMap": 1,
@@ -10216,7 +10483,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/beige.scss": {
 		"createSourceMap": 1,
@@ -10232,7 +10499,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/blood.scss": {
 		"createSourceMap": 1,
@@ -10248,7 +10515,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/default.scss": {
 		"createSourceMap": 1,
@@ -10264,7 +10531,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/moon.scss": {
 		"createSourceMap": 1,
@@ -10280,7 +10547,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/night.scss": {
 		"createSourceMap": 1,
@@ -10296,7 +10563,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/serif.scss": {
 		"createSourceMap": 1,
@@ -10312,7 +10579,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/simple.scss": {
 		"createSourceMap": 1,
@@ -10328,7 +10595,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/sky.scss": {
 		"createSourceMap": 1,
@@ -10344,7 +10611,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/source\/solarized.scss": {
 		"createSourceMap": 1,
@@ -10360,7 +10627,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/template\/mixins.scss": {
 		"createSourceMap": 1,
@@ -10376,7 +10643,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/template\/settings.scss": {
 		"createSourceMap": 1,
@@ -10392,7 +10659,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/reveal_js_themes\/template\/theme.scss": {
 		"createSourceMap": 1,
@@ -10408,7 +10675,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/send-button.scss": {
 		"createSourceMap": 1,
@@ -10424,7 +10691,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/sprite.scss": {
 		"createSourceMap": 1,
@@ -10440,7 +10707,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/sprite_backgrounds.scss": {
 		"createSourceMap": 1,
@@ -10456,7 +10723,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/sprite_integral_treatment.scss": {
 		"createSourceMap": 1,
@@ -10472,7 +10739,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/sprite_integral_treatment_mobile.scss": {
 		"createSourceMap": 1,
@@ -10488,7 +10755,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/sprite_microinjerto.scss": {
 		"createSourceMap": 1,
@@ -10504,7 +10771,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/tratamiento_medical_drug.scss": {
 		"createSourceMap": 1,
@@ -10520,7 +10787,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/tratamiento_medical_drug_mobile.scss": {
 		"createSourceMap": 1,
@@ -10536,7 +10803,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/tratamientoIntegral.scss": {
 		"createSourceMap": 1,
@@ -10552,7 +10819,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/tratamientoIntegral_mobile.scss": {
 		"createSourceMap": 1,
@@ -10568,7 +10835,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/variables.scss": {
 		"createSourceMap": 1,
@@ -10584,7 +10851,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/who_are_whe.scss": {
 		"createSourceMap": 1,
@@ -10600,7 +10867,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/Code\/templates\/sass\/who_are_whe_mobile.scss": {
 		"createSourceMap": 1,
@@ -10616,7 +10883,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/config.core.php": {
 		"fileType": 8192,
@@ -11304,7 +11571,7 @@
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 5,
 	"sassOutputStyle": 3,
-	"sassUseLibsass": 0,
+	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
 	"skippedItemsString": "_logs, \/core, .hg, _cache, log, \/manager, \/setup_, logs, cache, .svn, \/setup, .git, \/assets\/css\/fonts, \/Code\/BD, \/connectors, \/assets\/components",

@@ -812,11 +812,15 @@ html,body{
                     position: absolute;
                     right: 10px;
                     li{
+                        display: none;
                         margin: 0 em( 1, 16 );
                         a{}
                     }
+                    .who_are_we, .branches{
+                        display: inline-block;
+                    }
                     .who_are_we{
-
+                        
                         a{}
                         &:hover{ }
                     }
@@ -901,6 +905,7 @@ html,body{
             }
         }
         header{
+            left: 0;
             top: 54px !important;
             width: 100% !important;
             z-index: 12;
