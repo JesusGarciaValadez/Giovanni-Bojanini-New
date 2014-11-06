@@ -84,7 +84,7 @@
             }
             .current{
                 @include font-mask( #232323, em( 20, 16 ), em( 36, 20 ), normal, $Nobile_Bold );
-                animation: 1s state infinite;
+                //animation: 1s state infinite;
                 background: $yellow;
                 cursor:default;
                 height: em( 36, 20 );

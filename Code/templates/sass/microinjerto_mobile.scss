@@ -2,7 +2,7 @@
     
     .reveal{ 
         margin: 0 0 0 -160px !important;
-        top: 60px !important;
+        top: 120px !important;
     }
     #microinjerto_landing{
         width: 100%;
@@ -16,6 +16,8 @@
                     display: block;
                     float: left;
                     height: 200px;
+                    left: 50%;
+                    margin: 0 0 0 ( -244px / 2 );
                     position: relative;
                     width: 100%;
                     h1{

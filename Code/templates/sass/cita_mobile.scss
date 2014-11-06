@@ -10,6 +10,8 @@
     .reveal{
         height: 883px !important;
         filter: alpha(opacity=1);
+        left: 0;
+        margin: 0 auto;
         top: 60px !important;
         opacity: 1;
         .slides{
@@ -44,9 +46,9 @@
                                 box-sizing: border-box;
                                 clear: both;
                                 display: block;
-                                height: 130px;
+                                height: 220px;
                                 margin: 0 auto;
-                                padding: 10px 23%;
+                                padding: 80px 23% 0;
                                 text-align: center;
                                 text-transform: uppercase;
                                 text-indent: 0;
@@ -97,14 +99,20 @@
                                 width: 17px;
                                 &:checked{ background-color: $yellow; border: 1px dashed #797A7D; }
                             }
-                            .input{}
+                            .input{
+                                
+                                #uniform-contact_sucursal2{
+                                    
+                                    span{ display: none; }
+                                }
+                            }
                             div{
                                 box-sizing: border-box;
                                 clear: both;
                                 display: block;
                                 margin: 10px 0 0;
                                 padding: 0;
-                                width: 100%;
+                                width: 100% !important;
                                 label{
                                     
                                     .radio{
