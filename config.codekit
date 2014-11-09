@@ -240,6 +240,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/agendar-cita\/cuadro-promocion-pelos-de-punta-noviembre-2014-escritorio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334137,
+		"inputAbbreviatedPath": "\/assets\/img\/agendar-cita\/cuadro-promocion-pelos-de-punta-noviembre-2014-escritorio.png",
+		"outputAbbreviatedPath": "\/assets\/img\/agendar-cita\/cuadro-promocion-pelos-de-punta-noviembre-2014-escritorio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/agendar-cita\/promocion-pelos-de-punta-noviembre-2014-movil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26023,
+		"inputAbbreviatedPath": "\/assets\/img\/agendar-cita\/promocion-pelos-de-punta-noviembre-2014-movil.png",
+		"outputAbbreviatedPath": "\/assets\/img\/agendar-cita\/promocion-pelos-de-punta-noviembre-2014-movil.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/background_lightbox.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -349,6 +371,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/assets\/img\/banners\/escritorio\/background.-banner-promo-noviembre.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202542,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/background.-banner-promo-noviembre.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/background.-banner-promo-noviembre.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/escritorio\/banners_home_FHD_Friends.jpg": {
 		"fileType": 16384,
@@ -493,6 +526,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/cuadro-de-promociones-exclusivo-mexico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45181,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cuadro-de-promociones-exclusivo-mexico.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/cuadro-de-promociones-exclusivo-mexico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/cuadro_sitio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -603,6 +647,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/haz-tu-cita.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9331,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/haz-tu-cita.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/haz-tu-cita.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/header_sitio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -621,6 +676,17 @@
 		"initialSize": 1.39692e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/logo-buen-fin-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25658,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/logo-buen-fin-2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/logo-buen-fin-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -775,6 +841,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/quince-porciento-de-descuento-en-productos-y-consulta-valido-del-30-de-octubre-al-primero-de-noviembre.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/quince-porciento-de-descuento-en-productos-y-consulta-valido-del-30-de-octubre-al-primero-de-noviembre.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta-corto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9624,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta-corto.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta-corto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1105,6 +1182,17 @@
 		"initialSize": 6656,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cambia-tu-look-estas-vacaciones-blanco.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cambia-tu-look-estas-vacaciones-blanco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/cuadro-promo-buen-fin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74315,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cuadro-promo-buen-fin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/cuadro-promo-buen-fin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -7709,6 +7797,420 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-10.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5271,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-7.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-8.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-9.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/content.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22194,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10906,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317498,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2193,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45251,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/page-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6089,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/QuickLook\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45251,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Promoción.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3935,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5271,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/box-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/content.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20180,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52892,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5259,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242108,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5291,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19300,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-5.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/image-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34981,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Mail Designer\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/page-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3871,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/page-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5559,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/Contents\/Resources\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/QuickLook\/Thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34981,
+		"inputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/Pelos de punta Teaser.eqstationerypro\/QuickLook\/Thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Code\/mailings\/pelos-de-punta-source\/background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8172,29 +8674,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Code\/snippets\/config\/config.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/snippets\/config\/config.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/Code\/snippets\/contacto.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/snippets\/contacto.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Code\/snippets\/db\/connection.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/snippets\/db\/connection.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
