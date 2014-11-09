@@ -20,12 +20,14 @@
                 @extend .clearfix;
                 float: left;
                 height: em( 486, 16 );
+                position: relative;
                 width: em( 932, 16 );
                 fieldset{
                     display: inline-block;
                     float: left;
                     height: em( 486, 16 );
                     margin: 0 0 0 em( 35, 16 );
+                    //position: relative;
                     legend{
                         @include font-mask( $text_gray, em( 16, 16 ), em( 48, 16 ), normal, $Fira_Sans_Ot_Light );
                         margin: 0;
@@ -202,6 +204,14 @@
                         margin: 0;
                         padding: 0 0 0 em( 85, 16 );
                         width: em( 355, 16 );
+                    }
+                    img{
+                        margin: ( -596px / 2 ) 0 0 0;
+                        max-height: 596px;
+                        max-width: 554px;
+                        position: absolute;
+                        right: -80px;
+                        top: 50%
                     }
                 }
             }

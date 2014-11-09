@@ -216,6 +216,14 @@
                                     &::-moz-placeholder,:-moz-placeholder{ @include font-mask( $text_gray, em( 23, 23 ), em( 25, 23 ), normal ); }
                                 }
                             }
+                            img{
+                                margin: 1em auto;
+                                max-height: 209px;
+                                max-width: 289px;
+                                position: static;
+                                right: auto;
+                                top: auto;
+                            }
                         }
                     }
                 }
