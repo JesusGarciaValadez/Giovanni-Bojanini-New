@@ -771,9 +771,9 @@ html,body{
 
         .wrapper{ width: 100%; }
         #wrapper_background{
-
+            
             figure{
-
+                
                 img{}
             }
         }
@@ -785,12 +785,20 @@ html,body{
             width: 100%;
             z-index: 12;
             .menu{
+                color: transparent;
                 height: 100%;
-                position: absolute;
-                text-indent: -2000em;
+                position: relative;
+                text-indent: 0;
                 top: em( 0, 16 );
                 width: em( 42, 16 ) !important;
                 z-index: 5;
+                &:after{
+                    @include font-mask( #FFF, em( 16, 16 ), em( 54, 16 ), normal, $Fira_Sans_Ot_Light );
+                    content: "Menú";
+                    pointer-events: none;
+                    position: absolute;
+                    right: -50px;
+                }
             }
             nav{
                 float: none;
@@ -801,6 +809,7 @@ html,body{
                 position: relative;
                 width: 100%;
                 z-index: 1;
+                hr{ display: none; }
                 ul{
                     display: inline-block;
                     li{
@@ -920,6 +929,7 @@ html,body{
                 position: absolute;
                 top: 0;
                 width: 100% !important;
+                hr{ display: none; }
                 ul{}
                 .treatments{
                     clear: both;
