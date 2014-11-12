@@ -19,9 +19,8 @@
     }
     .branches_wrapper{
         left: 0;
-        margin: ( -391px / 2 ) 0 0;
-        position: absolute !important;
-        top: 70%;
+        margin: 128px 0 0;
+        position: static !important;
         width: 100%;
         h1{
             box-sizing: border-box;
@@ -116,6 +115,7 @@
                             background-color: $white;
                             clear: both;
                             display: none;
+                            height: auto;
                             width: 100%;
                             p,.branch_mail{
                                 @include font-mask( $text_gray, em( 10, 16 ), em( 14, 10 ), normal );
@@ -125,6 +125,10 @@
                                 display: block;
                                 margin: 5px 10px;
                                 text-decoration: none;
+                                a{
+                                    clear: none;
+                                    display: inline-block;
+                                }
                             }
                             .branch_mail{
                                 background-color: #2B2B2B;
