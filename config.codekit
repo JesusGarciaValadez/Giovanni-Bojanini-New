@@ -669,6 +669,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/hombre-sonriendo copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32515e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo copy.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/hombre-sonriendo copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/hombre-sonriendo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3388,6 +3399,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/home\/poster-javier.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/poster-javier.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/home\/poster-martha.jpg": {
 		"fileType": 16384,
