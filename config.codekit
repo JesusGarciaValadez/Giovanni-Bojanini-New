@@ -3477,6 +3477,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/home\/sprite-testimonials-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/sprite-testimonials-mobile.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/sprite-testimonials-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/home\/sprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11232,6 +11243,22 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/sass\/send-button.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/send-button.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/Code\/templates\/sass\/sprite-testimonials-mobile.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/sprite-testimonials-mobile.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/sprite-testimonials-mobile.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

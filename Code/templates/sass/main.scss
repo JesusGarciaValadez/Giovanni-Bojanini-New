@@ -778,6 +778,7 @@ html,body{
 
 @media only screen and (max-device-width: 35.5em),
        (orientation:portrait) {
+    @import "sprite-testimonials-mobile";
     .desktop,.putDesktop{ display: none !important; visibility: hidden; }
     .mobile{ display: block; visibility: visible; }
     .link, .triangle{ @extend .putDesktop; }

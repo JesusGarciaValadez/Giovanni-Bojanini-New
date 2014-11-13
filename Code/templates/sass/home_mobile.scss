@@ -186,14 +186,146 @@
     }
     #livechat-full,#livechat-compact-container{ display: none !important; visibility: hidden; }
     .alert_box{
-        height: 180px;
-        margin: -90px auto 0 !important;
-        width: 320px;
-        video{;
-            height: 160px;
-            margin: 0 auto;
-            top:10px;
-            width: 300px;
+        box-shadow: none;
+        height: 380px;
+        left: 50%;
+        margin: ( -380px / 2 ) auto 0 ( -100% / 2 ) !important;
+        overflow: hidden;
+        top: 50% !important;
+        width: 100%;
+        .close{
+            @extend .btn_cerrar_mobile;
+            color: transparent;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            &:hover{ @extend .btn_cerrar_mobile; }
+        }
+        .video_testimonials_home_scrollable{
+            height: 180px;
+            margin: 0 auto ;
+            top: 45px;
+            width: 320px;
+            .video_items{
+                display: block;
+                height: 100%;
+                position: relative;
+                width: 2000em;
+                div {
+                    display: block;
+                    float: left;
+                    position: relative;
+                    width: 100%;
+                    video{
+                        height: 180px;
+                        margin: 0 auto;
+                        top:10px;
+                        width: 320px;
+                    }
+                }
+            }
+        }
+        .title_testimonials_home_scrollable{
+            background: none no-repeat scroll 0 0 rgba( 0, 0, 0, 1.0 );
+            display: block;
+            height: 151px;
+            left: auto;
+            margin: ( -151px / 2 ) auto 0;
+            position: relative;
+            top: 120px;
+            width: 100%;
+            .browser{
+                margin: -20px auto 0;
+                position: absolute;
+                top: 50%;
+            }
+            .disabled{ display: none; &:hover{ display: none; } }
+            .prev{
+                @extend .flecha_izq_mobile;
+                left: 5%;
+                &:hover{ @extend .flecha_izq_mobile; }
+            }
+            .next{
+                @extend .flecha_der_mobile;
+                right: 5%;
+                &:hover{ @extend .flecha_der_mobile; }
+            }
+            .title_testimoniales_home_wrapper{
+                display: block;
+                height: 100%;
+                margin: 0 auto;
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                .title_items{
+                    display: block;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    width: 2000em;
+                    div{
+                        display: block;
+                        float: left;
+                        height: 100%;
+                        position: relative;
+                        width: 320px;
+                        h2, h3{
+                            display: block;
+                            margin: em( 0, 16 ) auto 0;
+                            padding: 0;
+                            text-align: center;
+                            text-transform: uppercase;
+                            width: auto;
+                        }
+                        h2{ display: none; }
+                        h3{
+                            &:before{
+                                @include font-mask( $white, em( 15, 16 ), 1.5em, normal,  $Nobile_Bold );
+                                content: "Testimonial "
+                            }
+                            @include font-mask( $yellow, em( 15, 16 ), 1.5em, normal,  $Fira_Sans_Ot_Light );
+                        }
+                    }
+                }
+            }
+        }
+        .navigator{
+            bottom: 4px;
+            display: block;
+            height: 130px;
+            left: 50%;
+            margin: ( -130px / 2 ) 0 0 ( -205px / 2 );
+            position: absolute;
+            width: 205px;
+            a{
+                box-sizing: border-box;
+                float: left;
+                &:nth-child( 1n ){
+                    @extend .thumbnail_giovanni;
+                    &:hover{}
+                }
+                &:nth-child( 2n ){
+                    @extend .thumbnail_martha;
+                    &:hover{}
+                }
+                &:nth-child( 3n ){
+                    @extend .thumbnail_javier;
+                    &:hover{}
+                }
+                &:nth-child( 4n ){
+                    @extend .thumbnail_leo;
+                    &:hover{}
+                }
+                &:nth-child( 5n ){
+                    @extend .thumbnail_rodrigo;
+                    &:hover{}
+                }
+                &:nth-child( 6n ){
+                    @extend .thumbnail_chapulin;
+                    &:hover{}
+                }
+                &.active{ border: 1px solid $yellow; }
+            }
         }
     }
 }
