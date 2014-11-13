@@ -11,7 +11,9 @@
 (function ( $, window, document, undefined ) {
 
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 8000;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, 
+        maxDeviceWidth = 568, timeLapseOfCarrousel    = 8000, touch;
+    
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -39,13 +41,14 @@
         window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
 
         window.isPortable   = isPortable;
-
+        
+        touch   = ( typeof( Touch ) === 'object' ) ? new Touch() : false;
         if ( isPortable ) { //  Si es un móvil...
 
             //  Redimensiona el Body al tamaño de la pantalla
             $( 'body' ).height( deviceHeight );
             $( 'body' ).width( deviceWidth );
-
+            
             $( window ).on( {
                 orientationchange: function ( ) {
 
@@ -55,7 +58,7 @@
                     $( "body" ).height( deviceHeight );
                 }
             } );
-
+            
             //  Muestra u oculta las direcciones de las sucursales
             if ( $( '.branches_list.mobile' ).exists() ) {
 
@@ -126,7 +129,7 @@
                     } );
                 } );
             }
-
+            
             if ( $( '.banner_titles' ).exists() ) {
                 $( '.banner_titles.' + typeOfDevice ).eq( 1 ).on( 'click', 'a', function ( e ) {
                     e.preventDefault();
@@ -173,14 +176,14 @@
                 } );
             }
         } else if ( !isPortable ) { // Si es una tablet o una PC de escritorio...
-
+            
             //  Muestra si hay una capa de carga del sitio
             if ( $( ".loader" ).exists() ) {
 
                 $( '.alert_background' ).fadeOut( 300 );
                 $( ".loader" ).fadeOut( 300 );
             }
-
+            
             //  Controla el resize de la imagen de fondo del Home
             if ( $( "#wrapper_background" ).exists() ) {
 
@@ -201,7 +204,7 @@
                     }
                 } );
             }
-
+            
             //  Central verticalmente la sección principal del Home
             if ( $( "#home section" ).exists() ) {
 
@@ -388,7 +391,7 @@
                     }
                 } );
             }
-
+            
             //  Efecto de tabs para la selección de mapas en la sección Sucursales
             if ( $( ".branches_list" ).exists() ) {
 
@@ -401,7 +404,7 @@
                     initialIndex: initialIndexVal
                 } );
             }
-
+            
             //  Centra el pin del mapa cuando se hace resize de la ventana
             if ( $( ".map" ).exists() ) {
 
@@ -414,7 +417,7 @@
                     GBSite.calculateNewWidth( $( ".map" ), 43 );
                 } );
             }
-
+            
             //  Efecto de slides en las secciónes internas
             if ( $( ".reveal" ).exists() ) {
 
@@ -628,7 +631,7 @@
         }
         
         //  Muestra el menu desplegable principal y hace hightlight del botón
-        $( 'aside .menu' ).on( 'mouseenter', function ( e ) {
+        $( 'aside .menu' ).on( 'mouseenter, touchstart', function ( e ) {
             e.preventDefault;
             e.stopPropagation;
             GBSite.toggleMenu( e );
@@ -717,7 +720,7 @@
                 }
             } );
         }
-
+        
         // Control de la presentación de los videos de testimoniales que
         // están en el Home
         if ( $( '#home .alert_box' ).exists() ) {
@@ -819,7 +822,7 @@
                 }
             } );
         }
-
+        
         //  Botón de cierre de overlay
         if ( $( ".close" ).exists() ) {
             $( ".close" ).on( 'click', function ( e ) {
@@ -832,7 +835,7 @@
                 }
             } );
         }
-
+        
         //  Inicializa el carrusel de Escala de Norwood de la seccion Tratamiento Integral
         if ( $( '#scrollable_norwood' ).exists() ) {
 
@@ -855,7 +858,7 @@
                 autopause: false
             } );
         }
-
+        
         //  Inicializa el carrusel de Escala de Ludwig de la seccion Tratamiento Integral
         if ( $( '#scrollable_ludwig' ).exists() ) {
 
@@ -879,7 +882,7 @@
             } );
         }
     } );
-
+    
     //  When DOM is ready
     $( document ).on( 'ready', function ( e ) {
 
