@@ -42,7 +42,7 @@
 
         window.isPortable   = isPortable;
         
-        touch   = ( typeof( Touch ) === 'object' ) ? new Touch() : false;
+        touch   = ( typeof( Touch ) === 'object' ) ? true : false;
         if ( isPortable ) { //  Si es un móvil...
 
             //  Redimensiona el Body al tamaño de la pantalla
@@ -630,18 +630,32 @@
             }
         }
         
-        //  Muestra el menu desplegable principal y hace hightlight del botón
-        $( 'aside .menu' ).on( 'mouseenter, touchstart', function ( e ) {
-            e.preventDefault;
-            e.stopPropagation;
-            GBSite.toggleMenu( e );
-        });
-        
-        $( 'header nav' ).on( 'mouseleave', function ( e ) {
-            e.preventDefault;
-            e.stopPropagation;
-            GBSite.toggleMenu( e );
-        } );
+        if ( touch ) {
+            
+            //  Muestra el menu desplegable principal y hace hightlight del botón
+            $( '.menu' ).on( 'touchstart', function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+                
+                console.log( 'touchstart' );
+                GBSite.toggleMenu( e );
+            });
+        } else {
+            //  Muestra el menu desplegable principal y hace hightlight del botón
+            $( '.menu' ).on( 'mouseenter', function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+                
+                console.log( 'mouseenter' );
+                GBSite.toggleMenu( e );
+            });
+            
+            $( 'header nav' ).on( 'mouseleave', function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+                GBSite.toggleMenu( e );
+            } );
+        }
         
         if ( $( 'video' ).exists() ) {
             
