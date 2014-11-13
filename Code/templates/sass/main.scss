@@ -350,7 +350,7 @@ html,body{
             text-align: right;
             text-indent: 40px;
             text-shadow: 0 0 5px #000;
-            top: 50%;
+            top: 50% !important;
             &:after{
                 @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
                 content: "01800 377 3567";
@@ -370,6 +370,37 @@ html,body{
             z-index: 0;
             img{}
         }
+    }
+    .phone{
+        @extend .icono-tel;
+        display: inline-block;
+        float: right;
+        margin: ( -21px / 2 ) 180px 0 0;
+        padding: 0;
+        position: absolute !important;
+        right: 0;
+        text-align: right;
+        text-indent: 40px;
+        text-shadow: 0 0 5px #000;
+        top: 90px !important;
+        &:after{
+            @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
+            content: "01800 377 3567";
+            left: -15px;
+            position: absolute;
+            top: 0;
+            width: 196px;
+        }
+        strong{}
+    }
+    .page{
+        height: em( 99, 16 );
+        left: 20px;
+        position: absolute;
+        top: em( 70, 16 );
+        width: em( 128, 16 );
+        z-index: 0;
+        img{}
     }
     header{
         background-color: #282828;
@@ -780,7 +811,7 @@ html,body{
         .primary{
             background: #232323 !important;
             height: em( 54, 16 );
-            position: absolute !important;
+            position: fixed !important;
             top: 0 !important;
             width: 100%;
             z-index: 12;
@@ -888,6 +919,7 @@ html,body{
                 width: em( 102, 16 );
                 img{}
             }
+            .phone{}
         }
         .secondary{
             display: none;
@@ -915,6 +947,7 @@ html,body{
         header{
             left: 0;
             top: 54px !important;
+            position: fixed !important;
             width: 100% !important;
             z-index: 12;
             p{
