@@ -371,7 +371,7 @@ html,body{
             img{}
         }
     }
-    .phone{
+    >.phone{
         @extend .icono-tel;
         display: inline-block;
         float: right;
@@ -383,6 +383,7 @@ html,body{
         text-indent: 40px;
         text-shadow: 0 0 5px #000;
         top: 90px !important;
+        z-index: 7;
         &:after{
             @include font-mask( $yellow, em( 24, 16 ), em( 24, 24 ), normal, $Fira_Sans_Ot_Light );
             content: "01800 377 3567";
@@ -393,7 +394,7 @@ html,body{
         }
         strong{}
     }
-    .page{
+    >.page{
         height: em( 99, 16 );
         left: 20px;
         position: absolute;
