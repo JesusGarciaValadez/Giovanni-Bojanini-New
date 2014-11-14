@@ -792,8 +792,8 @@ html,body{
     /* Style adjustments for viewports that meet the condition */
     html,body{
         //height: auto !important;
-        max-width: em( 568, 16 );
-        min-width: em( 320, 16 ) !important;
+        //max-width: em( 568, 16 );
+        //min-width: em( 320, 16 ) !important;
         overflow: scroll !important;
         overflow-x: hidden !important;
         -webkit-overflow-scrolling: touch;
@@ -1009,6 +1009,7 @@ html,body{
         overflow: auto !important;
         overflow-x: hidden !important;
         overflow-y: scroll !important;
+        .page,.phone{ z-index: 12; }
         header{
             width: 100% !important;
             nav{
