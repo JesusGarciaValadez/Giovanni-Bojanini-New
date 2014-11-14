@@ -776,8 +776,7 @@ html,body{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-device-width: 35.5em),
-       (orientation:portrait) {
+@media only screen and (max-device-width: em( 960, 16 )) {
     @import "sprite-testimonials-mobile";
     .desktop,.putDesktop{ display: none !important; visibility: hidden; }
     .mobile{ display: block; visibility: visible; }
@@ -801,7 +800,7 @@ html,body{
         ::-webkit-scrollbar,:-webkit-scrollbar{ -webkit-appearance: none; width: 8px; }
     }
     .container{
-
+        
         .wrapper{ width: 100%; }
         #wrapper_background{
             
@@ -816,7 +815,7 @@ html,body{
             position: fixed !important;
             top: 0 !important;
             width: 100%;
-            z-index: 12;
+            z-index: 13;
             .menu{
                 color: transparent;
                 height: 100%;
@@ -922,6 +921,7 @@ html,body{
                 img{}
             }
             .phone{}
+            .page,.phone{ z-index: 12; }
         }
         .secondary{
             display: none;
@@ -1086,7 +1086,7 @@ html,body{
             .controls{  }
         }
     }
-
+    
     @import "sprite_integral_treatment_mobile";
     @import "home_mobile";
     @import "who_are_whe_mobile";
