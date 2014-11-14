@@ -1,10 +1,10 @@
 
 /* Start Sprite Master CSS */
 .thumbnail_chapulin,.thumbnail_giovanni,.thumbnail_javier,.thumbnail_leo,.thumbnail_martha,.thumbnail_rodrigo,.btn_cerrar_mobile,.flecha_der_mobile,.flecha_izq_mobile,.play_icono_mobile{display: inline-block;background-repeat: no-repeat;background-image: url('../img/home/sprite-testimonials-mobile.png');}
-.thumbnail_chapulin{background-position:0px 0px;width:67px;height:65px;}
+.thumbnail_chapulin{background-position:0px 0px !important;width:67px;height:65px;}
 .thumbnail_giovanni{background-position:-67px 0px;width:67px;height:65px;}
 .thumbnail_javier{background-position:-134px 0px;width:67px;height:65px;}
-.thumbnail_leo{background-position:-201px 0px;width:67px;height:65px;}
+.thumbnail_leo{background-position:-201px 0px !important;width:67px;height:65px;}
 .thumbnail_martha{background-position:-268px 0px;width:67px;height:65px;}
 .thumbnail_rodrigo{background-position:-335px 0px;width:67px;height:65px;}
 .btn_cerrar_mobile{background-position:-402px 0px;width:30px;height:30px;}

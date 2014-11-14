@@ -209,13 +209,13 @@
             .video_items{
                 display: block;
                 height: 100%;
-                position: relative;
+                position: absolute;
                 width: 2000em;
                 div {
-                    display: block;
+                    display: inline-block;
                     float: left;
                     position: relative;
-                    width: 100%;
+                    width: 320px;
                     video{
                         height: 180px;
                         margin: 0 auto;
@@ -238,6 +238,7 @@
                 margin: -20px auto 0;
                 position: absolute;
                 top: 50%;
+                z-index: 10;
             }
             .disabled{ display: none; &:hover{ display: none; } }
             .prev{
@@ -261,7 +262,7 @@
                     display: block;
                     margin: 0 auto;
                     overflow: hidden;
-                    position: relative;
+                    position: absolute;
                     width: 2000em;
                     div{
                         display: block;

@@ -3486,7 +3486,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/home\/sprite-testimonials-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/home\/sprite.png": {
 		"fileType": 32768,
