@@ -637,7 +637,6 @@
                 e.preventDefault;
                 e.stopPropagation;
                 
-                console.log( 'touchstart' );
                 GBSite.toggleMenu( e );
             });
         } else {
@@ -646,13 +645,13 @@
                 e.preventDefault;
                 e.stopPropagation;
                 
-                console.log( 'mouseenter' );
                 GBSite.toggleMenu( e );
             });
             
             $( 'header nav' ).on( 'mouseleave', function ( e ) {
                 e.preventDefault;
                 e.stopPropagation;
+                
                 GBSite.toggleMenu( e );
             } );
         }
@@ -701,7 +700,9 @@
                         $( '.alert_box' ).fadeOut( 10, function ( ) {
 
                             $( '.alert_background' ).fadeOut( 10 );
-                            if ( !$( '#home' ).exists() ) {
+                            if ( $( '#home' ).exists() ) {
+                                return false;
+                            } else {
                                 $( '.alert_box h2' ).text( '' );
                                 $( '.alert_box h4' ).text( '' );
                                 ( $( '.alert_box p' ).exists() ) ? $( '.alert_box p' ).remove( ) : false;

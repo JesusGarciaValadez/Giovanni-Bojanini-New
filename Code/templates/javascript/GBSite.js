@@ -632,16 +632,22 @@
             if ( typeof( GBSite.closer ) !== 'undefined' ){
                 GBSite.overlay.close();
             } else {
-                $( '.alert_box' ).fadeOut( 150, function () {
-                    $( '.alert_box h4' ).text( '' );
-                    $( '.alert_box p' ).remove( );
-                    $( '.alert_box form' ).remove( );
-                    $( '.alert_box table' ).remove( );
-                    $( '.alert_box div' ).remove( );
-                    $( '.alert_box button' ).remove( );
-
-                    $( '.alert_background' ).fadeOut( 'fast' );
-                } );
+                if ( $( '#home' ).exists() ) {
+                    $( '.alert_box' ).fadeOut( 150, function () {
+                        $( '.alert_background' ).fadeOut( 'fast' );
+                    } );
+                } else {
+                    $( '.alert_box' ).fadeOut( 150, function () {
+                        $( '.alert_box h4' ).text( '' );
+                        $( '.alert_box p' ).remove( );
+                        $( '.alert_box form' ).remove( );
+                        $( '.alert_box table' ).remove( );
+                        $( '.alert_box div' ).remove( );
+                        $( '.alert_box button' ).remove( );
+    
+                        $( '.alert_background' ).fadeOut( 'fast' );
+                    } );
+                }
             }
         },
         /**
