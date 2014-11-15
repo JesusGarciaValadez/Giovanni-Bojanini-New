@@ -634,6 +634,7 @@
             } else {
                 if ( $( '#home' ).exists() ) {
                     $( '.alert_box' ).fadeOut( 150, function () {
+                        $( '.alert_box' ).css( 'display', 'none' );
                         $( '.alert_background' ).fadeOut( 'fast' );
                     } );
                 } else {
@@ -664,7 +665,7 @@
         //  !Realiza el efecto para dar la impresión de scroll "suavizado"
         smoothScroll:           function ( selector, durationInSec ) {
 
-            var _selector       = ( typeof( selector ) === "undefined" ) ? "*" : selector;
+            var _selector   = ( typeof( selector ) === "undefined" ) ? "*" : selector;
             _selector       = ( typeof( _selector ) === "object" ) ? _selector : ( typeof( _selector ) === "number" ) ? _selector : $( _selector );
 
             var _durationInSec  = ( durationInSec === "" ) ? 1000 : durationInSec;

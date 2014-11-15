@@ -48,13 +48,15 @@
 
 [[$alert-box-home]]
         <script type="text/javascript">
-            var __lc = {};
-            __lc.license = 4306081;
-            
-            (function() {
-                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-            })();
+            if ( typeof( Touch ) !== "object" && typeof( Touch ) !== "function" ) {
+                var __lc = {};
+                __lc.license = 4306081;
+                
+                (function() {
+                    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+                })();
+            }
         </script>
 [[$html-end]]

@@ -34,7 +34,7 @@
     $( function ( ) {
 
         window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() > maxDeviceWidth ) ? 960 : $( window ).innerWidth();
-        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() > maxDeviceWidth ) ? 495 : $( window ).innerHeight();
+        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() > maxDeviceWidth ) ? 960 : $( window ).innerHeight();
 
         ( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
 
@@ -701,7 +701,7 @@
 
                             $( '.alert_background' ).fadeOut( 10 );
                             if ( $( '#home' ).exists() ) {
-                                return false;
+                                
                             } else {
                                 $( '.alert_box h2' ).text( '' );
                                 $( '.alert_box h4' ).text( '' );
