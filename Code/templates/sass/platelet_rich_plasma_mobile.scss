@@ -9,21 +9,25 @@
     overflow-y: visible !important;
     width: 100% !important;
     .reveal{
-        height: 100%;
+        display: block;
+        float: left;
+        height: auto;
         left: 0;
         margin: 0 auto;
         top: 120px !important;
         .slides{
-            height: 100%;
+            display: block;
+            float: left;
+            height: auto;
             #epidermic_growth_factors{
                 height: auto;
                 margin: 0 0 20px;
                 > div{ width: 100% !important; }
                 #section11Texto1{
                     height: auto;
-                    margin: 50px auto 20px;
+                    margin: 1.5em auto 0.75em;
                     position: relative;
-                    top: 180px;
+                    top: auto;
                     p{ @extend .text_for_mobile; font-weight: bold; margin: 0 !important; padding: 0 30px; width: 100%; }
                     strong{}
                 }
@@ -32,12 +36,12 @@
                     p{ @extend .text_for_mobile; font-weight: bold; padding: 0 30px; width: 100%; }
                     strong{}
                 }
-                #section11Amarillo{
+                .section11Amarillo{
                     box-sizing: border-box;
-                    height: 200px;
+                    height: 145px;
                     margin: 0;
                     padding: 0;
-                    position: absolute;
+                    position: relative;
                     top: 0;
                     width: 100%;
                     h2 {
@@ -59,10 +63,10 @@
                 #section11Texto3{ @extend .putDesktop; }
                 #section11Texto4{
                     height: auto;
-                    margin: 0 auto 20px;
+                    margin: 0.75em auto 1.5em !important;
                     padding: 0;
                     position: relative;
-                    top: 190px;
+                    top: 0;
                     p{ @extend .text_for_mobile; font-size: em( 13, 13 ) !important; font-weight: bold; margin: 0; padding: 0 30px; width: 100%; }
                 }
             }
