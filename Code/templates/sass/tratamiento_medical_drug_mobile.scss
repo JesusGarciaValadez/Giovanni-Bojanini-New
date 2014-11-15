@@ -1,27 +1,33 @@
 #tratamiento_medical_drug{
     display: block;
-    max-width: 568px !important;
-    min-height: 320px !important;
+    //max-width: 568px !important;
+    //min-height: 320px !important;
+    height: 100% !important;
     min-width: inherit !important;
     overflow: hidden !important;
     overflow-x: hidden !important;
     overflow-y: visible !important;
+    width: 100% !important;
     .reveal{
-        height: 1430px !important;
-        left: 0;
-        margin: 0 auto;
+        //height: 1430px !important;
+        height: 100% !important;
+        left: 0px;
+        margin: 0px auto;
         top: 140px !important;
+        height: 100% !important;
         .slides{
             height: 100%;
             #sectionFormulas{
-                height: 523px;
+                height: 40%;
+                margin: 0 !important;
+                min-height: 310px !important;
                 #texto1{
                     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
                     box-sizing: border-box;
                     float: none;
                     height: auto;
                     margin: 0;
-                    padding: 30px 0;
+                    padding: 10px 0;
                     position: relative;
                     top: 200px;
                     width: 100%;
@@ -73,7 +79,8 @@
                 }
             }
             #magistral_formula{
-                height: 836px;
+                height: auto;
+                margin: 20px auto !important;
                 > div{
                     background: none transparent !important;
                     box-sizing: border-box;
@@ -218,12 +225,13 @@
                 }
             }
             .internal_navigation_menu{
-                bottom: 15px;
+                bottom: 0;
                 display: block;
                 height: 23px;
                 left: 0;
-                margin: 0 auto;
-                position: absolute;
+                margin: 20px auto;
+                padding: 20px 0;
+                position: relative;
                 right: 0;
                 top: auto;
                 width: 23px !important;
