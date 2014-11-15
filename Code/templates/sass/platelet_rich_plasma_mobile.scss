@@ -1,20 +1,22 @@
 #platelet_rich_plasma{
     display: block;
-    max-width: 568px !important;
-    min-height: 320px !important;
+    //max-width: 568px !important;
+    //min-height: 320px !important;
+    height: 100% !important;
     min-width: inherit !important;
     overflow: hidden !important;
     overflow-x: hidden !important;
     overflow-y: visible !important;
+    width: 100% !important;
     .reveal{
-        height: 1170px;
+        height: 100%;
         left: 0;
         margin: 0 auto;
         top: 120px !important;
         .slides{
             height: 100%;
             #epidermic_growth_factors{
-                height: 970px;
+                height: auto;
                 margin: 0 0 20px;
                 > div{ width: 100% !important; }
                 #section11Texto1{
