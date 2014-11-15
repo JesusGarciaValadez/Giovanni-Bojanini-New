@@ -9,15 +9,17 @@
     overflow-y: visible !important;
     width: 100% !important;
     .reveal{
-        //height: 1430px !important;
-        height: 100% !important;
+        height: auto !important;
         left: 0px !important;
         margin: 0px auto !important;
+        position: relative;
         top: 140px !important;
-        height: 100% !important;
         .slides{
-            height: 100%;
-            padding: 0 0 60px !important;
+            height: 100% !important;
+            padding: 0px 0px 60px !important;
+            position: static;
+            display: block;
+            float: left;
             #sectionFormulas{
                 height: auto;
                 margin: 0 !important;
