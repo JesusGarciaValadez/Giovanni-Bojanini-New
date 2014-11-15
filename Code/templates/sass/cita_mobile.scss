@@ -1,18 +1,19 @@
 #cita{
     display: block;
-    height: 100%;
-    max-width: 568px !important;
-    min-height: 320px !important;
+    height: 100% !important;
+    //max-width: 568px !important;
+    //min-height: 320px !important;
     min-width: inherit !important;
     overflow: hidden !important;
     overflow-x: hidden !important;
     overflow-y: visible !important;
+    width: 100% !important;
     .reveal{
         height: 883px !important;
         filter: alpha(opacity=1);
         left: 0;
         margin: 0 auto;
-        top: 60px !important;
+        top: 120px !important;
         opacity: 1;
         .slides{
             height: 100%;
