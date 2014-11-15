@@ -9,13 +9,18 @@
     overflow-y: visible !important;
     width: 100% !important;
     .reveal{
-        height: 100% !important;
+        height: auto !important;
         left: 0;
         margin: 0 auto;
         top: 120px !important;
+        position: relative;
         .slides{
+            display: block;
+            float: left;
             height: 100% !important;
             #sectionCapilar{
+                display: block;
+                float: left;
                 height: auto !important;
                 #sectio9gris{ @extend .putDesktop; }
                 #section9texto{
@@ -25,7 +30,7 @@
                     margin: 0 0 20px;
                     padding: 0;
                     position: relative;
-                    top: 120px;
+                    top: 0;
                     width: 100%;
                     strong{}
                     p{
@@ -34,15 +39,15 @@
                         margin: 10px auto;
                         padding: 0 30px;
                         width: 100%;
-                        &:first-child{ font-weight: bold; margin: 50px auto 0 !important; }
+                        &:first-child{ font-weight: bold; margin: 1.5em auto !important; }
                     }
                 }
-                #section9amarillo{
+                .section9amarillo{
                     box-sizing: border-box;
                     height: 145px;
                     margin: 0;
                     padding: 0;
-                    position: absolute;
+                    position: relative;
                     top: 0;
                     width: 100%;
                     h2{
