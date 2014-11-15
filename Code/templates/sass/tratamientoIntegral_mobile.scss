@@ -1,5 +1,5 @@
 #integral_treatment{
-    display: block;
+    display: block !important;
     //max-width: 568px !important;
     //min-height: 320px !important;
     height: 100% !important;
@@ -7,14 +7,15 @@
     overflow: hidden !important;
     overflow-x: hidden !important;
     overflow-y: visible !important;
-    position: static;
+    position: relative;
     width: 100% !important;
     .reveal{
+        height: auto !important;
         left: 0;
         margin: 0 auto;
         top: 120px !important;
         .slides{
-            
+            height: auto !important;
             section{}
             #integral_treatment_landing{
                 height: auto;
