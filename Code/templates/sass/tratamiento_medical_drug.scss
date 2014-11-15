@@ -36,7 +36,7 @@
                 sup{ top:0.4em; }
             }
         }
-        #tratamiento{
+        .tratamiento{
             @include font-mask( #808080, em( 22, 16 ), em( 22, 22 ), normal, $Fira_Sans_Ot_Light );
             float: left;
             background-color: #edd304;
