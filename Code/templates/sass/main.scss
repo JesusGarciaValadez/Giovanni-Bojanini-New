@@ -181,7 +181,7 @@ html,body{
     font-weight: normal;
     height: 100%;
     position: relative;
-    width: 100%;
+    width: 100% !important;
 }
 .social{
 
@@ -601,7 +601,7 @@ html,body{
             display: block;
             z-index: 11;
             //height: 100%;
-            //width: 100%;
+            width: 100% !important;
             section{
                 display: block;
                 padding: 0 !important;
@@ -793,6 +793,7 @@ html,body{
         //height: auto !important;
         //max-width: em( 568, 16 );
         //min-width: em( 320, 16 ) !important;
+        display: table;
         overflow: scroll !important;
         overflow-x: hidden !important;
         -webkit-overflow-scrolling: touch;
@@ -1036,6 +1037,7 @@ html,body{
         .reveal{
             filter: alpha(opacity=1);
             opacity: 1;
+            //position: static;
             top: 0 !important;
             .slides{
                 left: 0;

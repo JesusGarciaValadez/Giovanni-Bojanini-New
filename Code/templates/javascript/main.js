@@ -9,7 +9,7 @@
  *
  */
 (function ( $, window, document, undefined ) {
-
+    
     //  Revisa la disponibilidad de localStorage
     var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, 
         maxDeviceWidth = 960, timeLapseOfCarrousel    = 8000, touch;
@@ -29,22 +29,23 @@
             storage = {};
         }
     }
-
+    
     //  When DOM is loaded
     $( function ( ) {
-
-        window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() > maxDeviceWidth ) ? 960 : $( window ).innerWidth();
-        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() > maxDeviceWidth ) ? 960 : $( window ).innerHeight();
-
+    
+        window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() < maxDeviceWidth ) ? 960 : $( window ).innerWidth();
+        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() < maxDeviceWidth ) ? 960 : $( window ).innerHeight();
+        
         ( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
-
+        
         window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
-
+        
         window.isPortable   = isPortable;
         
         touch   = ( typeof( Touch ) === 'object' ) ? true : false;
+        
         if ( isPortable ) { //  Si es un móvil...
-
+            console.log('portable');
             //  Redimensiona el Body al tamaño de la pantalla
             $( 'body' ).height( deviceHeight );
             $( 'body' ).width( deviceWidth );
@@ -176,7 +177,7 @@
                 } );
             }
         } else if ( !isPortable ) { // Si es una tablet o una PC de escritorio...
-            
+            console.log('noportable');
             //  Muestra si hay una capa de carga del sitio
             if ( $( ".loader" ).exists() ) {
 
@@ -187,7 +188,7 @@
             //  Controla el resize de la imagen de fondo del Home
             if ( $( "#wrapper_background" ).exists() ) {
 
-                $( "body, #wrapper_background" ).height( $( window ).innerHeight() );
+                //$( "body, #wrapper_background" ).height( $( window ).innerHeight() );
 
                 $( window ).on( {
                     resize: function ( ) {
@@ -379,9 +380,9 @@
                     autopause: false
                 } );
             }
-
+            
             if ( $( '.testimonial' ).exists() ) {
-
+                
                 $( '.testimonial span.link' ).on( {
                     'mouseover':    function ( e ) {
                         $( e.currentTarget ).siblings( 'div' ).dequeue().fadeIn( 150 );
@@ -420,9 +421,8 @@
             
             //  Efecto de slides en las secciónes internas
             if ( $( ".reveal" ).exists() ) {
-
                 var scrollable  = $( '.scrollable,.diagnosis_scrollable,#scrollable_norwood,#scrollable_ludwig,#integral_scrollable,.testimonials_explained_scrollable,.medical_directory_scrollable' ).data( 'scrollable' );
-
+                
                 if ( typeof( scrollable ) !== 'undefined' && scrollable.getSize() ) {
 
                     Reveal.initialize( {
@@ -487,7 +487,7 @@
                         maxScale: 1.0
                     } );
                 } else if ( $( '#what_alopecia_is,#mesotherapy,#capilar_electroporation,#platelet_rich_plasma,#tratamiento_medical_drug,#clasification_of_baldness,#integral_scrollable,#dermocosmetics' ).exists() ) {
-
+                    
                     Reveal.initialize( {
                         // Display controls in the bottom right corner
                         controls: true,
@@ -562,7 +562,6 @@
                 };
 
                 Reveal.addEventListener( 'ready', function ( event ) {
-
                     appearSlides();
 
                     //  Control de menu de la parte inferior
