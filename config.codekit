@@ -4168,6 +4168,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39414,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49322,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35241,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51052,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-4.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/galeria_testimonios\/testimonio-juan-williams-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/microinjerto\/metodo-fue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5202,12 +5246,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/js\/main-min.js": {
+	"\/assets\/js\/main.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/main-min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/main-min.min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/main.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/main.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,

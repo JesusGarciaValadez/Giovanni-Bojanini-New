@@ -2,7 +2,6 @@
 
     #microinjerto_landing{
         
-
         .microinjerto_title{
             float: left;
             height: em( 488, 16 );
@@ -562,8 +561,10 @@
                         float: left;
                         height: 100%;
                         width: em( 910, 16 );
-                        img{
-                            margin: 0 1px;
+                        img{ margin: 0 1px; }
+                        &:first-child{
+                            
+                            img{ float: left; margin: 0; }
                         }
                     }
                 }
