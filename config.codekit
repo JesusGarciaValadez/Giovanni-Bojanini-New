@@ -284,6 +284,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar-noviembre-2014.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39289,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar-noviembre-2014.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar-noviembre-2014.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/30-porciento-de-descuento-3-y-6-meses-sin-intereses-solo-con-banamex-en-microinjerto-capilar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9347,6 +9358,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
+		},
+	"\/Code\/templates\/sass\/banners\/change-your-look-november-2014.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/change-your-look-november-2014.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/change-your-look-november-2014.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/Code\/templates\/sass\/banners\/change-your-look-octuber-2014.sass": {
 		"createSourceMap": 1,
