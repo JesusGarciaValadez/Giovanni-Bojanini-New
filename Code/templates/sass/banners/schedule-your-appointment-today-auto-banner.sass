@@ -2,55 +2,82 @@
     left: 0
     width: 100% !important
     a
+        @include font-mask( #000, em( 15, 16 ), em( 15, 15 ), normal, $Fira_Sans_Ot_Light )
+        border: 3px solid $yellow
+        box-sizing: border-box
+        cursor: pointer
         display: block
-        height: 100%
-        position: relative
-        width: 100%
-        img
-            &:nth-child( 1n ), &:nth-child( 2n )
-                display: block
-                margin: 1.5em auto 0
-                position: relative
-                z-index: 1
-            &:nth-child( 1n )
-            
-            &:nth-child( 2n )
-                margin: 0 auto
-            &:nth-child( 3n )
-                bottom: -50%
-                left: 0
-                margin: 0
-                position: absolute
-                transition: all 1s ease
-                z-index: 0
+        height: 82px
+        right: 27%
+        padding: 10px 10px 15px
+        position: absolute
+        text-align: center
+        text-decoration: none
+        text-transform: uppercase
+        top: 58%
+        width: 82px
+        &:hover
+            background: $yellow
+        strong
+            clear: both
+            display: block
+            font-size: em( 28, 15 )
+            line-height: em( 28, 28 )
+    img
+        &:nth-child( 1n ), &:nth-child( 2n )
+            display: block
+            margin: 1.5em auto 0
+            position: relative
+            z-index: 1
+        &:nth-child( 1n )
+        
+        &:nth-child( 2n )
+            margin: 0 auto
+        &:nth-child( 3n )
+            bottom: -50%
+            left: 0
+            margin: 0
+            position: absolute
+            transition: all 1s ease
+            z-index: 0
 @media screen and ( min-height: em( 700, 16 ) )
     #schedule_your_appointment_today_auto_banner
         a
-            img
-                &:nth-child( 3n )
-                    bottom: -40%
+            right: 28%
+            top: 55%
+        img
+            &:nth-child( 3n )
+                bottom: -40%
 @media screen and ( min-height: em( 750, 16 ) )
     #schedule_your_appointment_today_auto_banner
         a
-            img
-                &:nth-child( 3n )
-                    bottom: -30%
+            right: 30%
+            top: 53%
+        img
+            &:nth-child( 3n )
+                bottom: -30%
 @media screen and ( min-height: em( 800, 16 ) )
     #schedule_your_appointment_today_auto_banner
         a
-            img
-                &:nth-child( 3n )
-                    bottom: -20%
+            right: 32%
+            top: 50%
+        img
+            &:nth-child( 3n )
+                bottom: -20%
 @media screen and ( min-height: em( 850, 16 ) )
     #schedule_your_appointment_today_auto_banner
         a
-            img
-                &:nth-child( 3n )
-                    bottom: -10%
+            right: 34%
+            top: 48%
+        img
+            &:nth-child( 3n )
+                bottom: -10%
 @media screen and ( min-height: em( 900, 16 ) )
     #schedule_your_appointment_today_auto_banner
         a
-            img
-                &:nth-child( 3n )
-                    bottom: 0
+            right: 36%
+            top: 45%
+        img
+            &:nth-child( 3n )
+                bottom: 0
                     
