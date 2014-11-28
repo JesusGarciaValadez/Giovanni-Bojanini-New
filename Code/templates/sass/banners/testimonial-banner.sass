@@ -86,16 +86,29 @@
         bottom: -40%
         position: absolute
         right: -10%
+        transition: all 1s ease
         z-index: 0
+@media screen and ( min-height: em( 750, 16 ) )
+    #testimonial_banner
+        >img
+            bottom: -35%
+@media screen and ( min-height: em( 800, 16 ) )
+    #testimonial_banner
+        >img
+            bottom: -30%
+@media screen and ( min-height: em( 850, 16 ) )
+    #testimonial_banner
+        >img
+            bottom: -25%
 @media screen and ( min-height: em( 900, 16 ) )
-#testimonial_banner
-    h2
-        margin: ( -43px / 2 ) auto 0
-    h2,hr,p
-        top: 20%
-    .faces_navigator
-        top: 35%
-    >img
-        bottom: 0
-        right: -20%
+    #testimonial_banner
+        h2
+            margin: ( -43px / 2 ) auto 0
+        h2,hr,p
+            top: 20%
+        .faces_navigator
+            top: 40%
+        >img
+            bottom: 0
+            right: -20%
         

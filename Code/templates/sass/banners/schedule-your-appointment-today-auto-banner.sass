@@ -1,0 +1,56 @@
+#schedule_your_appointment_today_auto_banner
+    left: 0
+    width: 100% !important
+    a
+        display: block
+        height: 100%
+        position: relative
+        width: 100%
+        img
+            &:nth-child( 1n ), &:nth-child( 2n )
+                display: block
+                margin: 1.5em auto 0
+                position: relative
+                z-index: 1
+            &:nth-child( 1n )
+            
+            &:nth-child( 2n )
+                margin: 0 auto
+            &:nth-child( 3n )
+                bottom: -50%
+                left: 0
+                margin: 0
+                position: absolute
+                transition: all 1s ease
+                z-index: 0
+@media screen and ( min-height: em( 700, 16 ) )
+    #schedule_your_appointment_today_auto_banner
+        a
+            img
+                &:nth-child( 3n )
+                    bottom: -40%
+@media screen and ( min-height: em( 750, 16 ) )
+    #schedule_your_appointment_today_auto_banner
+        a
+            img
+                &:nth-child( 3n )
+                    bottom: -30%
+@media screen and ( min-height: em( 800, 16 ) )
+    #schedule_your_appointment_today_auto_banner
+        a
+            img
+                &:nth-child( 3n )
+                    bottom: -20%
+@media screen and ( min-height: em( 850, 16 ) )
+    #schedule_your_appointment_today_auto_banner
+        a
+            img
+                &:nth-child( 3n )
+                    bottom: -10%
+@media screen and ( min-height: em( 900, 16 ) )
+    #schedule_your_appointment_today_auto_banner
+        a
+            img
+                &:nth-child( 3n )
+                    bottom: 0
+                    

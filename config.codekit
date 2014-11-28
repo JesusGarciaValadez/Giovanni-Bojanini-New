@@ -350,6 +350,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/auto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 741492,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/auto.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/auto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/background-echanos-un-grito.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -900,6 +911,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/recupera-mas-que-el-pelo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10516,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/recupera-mas-que-el-pelo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/recupera-mas-que-el-pelo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/te-dejaremos-con-los-pelos-de-punta-corto.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -929,6 +951,17 @@
 		"initialSize": 6299,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magsitrales.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/te-esperamos-en-el-centro-dermatologico-giovanni-bojanini-para-iniciar-o-continuar-con-tu-tratamiento-de-formulas-magsitrales.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/tenemos-un-tratamiento-integral-para-la-recuperacion-del-cabello.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23871,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/tenemos-un-tratamiento-integral-para-la-recuperacion-del-cabello.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/tenemos-un-tratamiento-integral-para-la-recuperacion-del-cabello.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1127,6 +1160,17 @@
 		"initialSize": 97148,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/banner-haz-tu-cita-movil.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/banner-haz-tu-cita-movil.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/banner-mobile-auto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212984,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/banner-mobile-auto.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/banner-mobile-auto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -9827,6 +9871,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
+		},
+	"\/Code\/templates\/sass\/banners\/schedule-your-appointment-today-auto-banner.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/schedule-your-appointment-today-auto-banner.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/schedule-your-appointment-today-auto-banner.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/Code\/templates\/sass\/banners\/schedule-your-appointment-today-dancing-banner.sass": {
 		"createSourceMap": 1,
