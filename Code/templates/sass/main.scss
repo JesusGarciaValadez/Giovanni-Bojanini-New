@@ -689,6 +689,20 @@ html,body{
         }
         .controls{ display: none !important; z-index: 10; }
     }
+    .logo_menu{
+        max-height: none;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+    }
+    .ishrs{
+        left: 0;
+        margin: ( -44px / 2 ) 0 0;
+    }
+    .eshrs{
+        margin: ( -69px / 2 ) 0 0;
+        right: 0;
+    }
 }
 
 @import "jquery-ui-1.10.4.custom";

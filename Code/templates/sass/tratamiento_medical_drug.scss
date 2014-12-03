@@ -3,10 +3,10 @@
     .reveal{
         height: 488px;
         margin-top: ( -488px / 2 );
-    }
-    section{
-        height: 100%;
-        margin: -20px 0 0;
+        section{
+            //height: 100%;
+            margin: -20px 0 0;
+        }
     }
     #sectionFormulas{
         
@@ -466,6 +466,12 @@
                     .current{ @extend .cuadro_seccion_over; }
                 }
             }
+        }
+        .ishrs{
+            left: -80px;
+        }
+        .eshrs{
+            right: -80px;
         }
     }
 }

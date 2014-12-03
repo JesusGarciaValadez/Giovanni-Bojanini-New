@@ -4608,6 +4608,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/microinjerto\/logo_eshrs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3162,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/logo_eshrs.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/logo_eshrs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/microinjerto\/logo_ishrs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3637,
+		"inputAbbreviatedPath": "\/assets\/img\/microinjerto\/logo_ishrs.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/microinjerto\/logo_ishrs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/microinjerto\/metodo-fue.png": {
 		"fileType": 32768,
 		"ignore": 0,

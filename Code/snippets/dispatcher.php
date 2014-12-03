@@ -85,11 +85,11 @@ if ( ! empty( $_GET['action'] ) ) {
                 $cc = array(
                         /*array(
                             'mail'  => 'jgarcia@cmvasfalto.com.mx',
-                            'name'  => 'Jesús'),*/
+                            'name'  => 'Jesús'),
                         array(
                             'mail'  => 'vdavila@cmvasfalto.com.mx',
                             'name'  => 'Vico'),
-                        /*array(
+                        array(
                             'mail'  => 'dharjani@cmv.com.mx', 
                             'name'  => 'Devki Harjani'), */
                     );
