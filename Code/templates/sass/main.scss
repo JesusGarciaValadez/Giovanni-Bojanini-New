@@ -395,12 +395,12 @@ html,body{
         strong{}
     }
     >.page{
-        height: em( 99, 16 );
+        height: auto;
         left: 20px;
         position: absolute;
         top: em( 70, 16 );
-        width: em( 128, 16 );
-        z-index: 0;
+        width: auto;
+        z-index: 6;
         img{}
     }
     header{
