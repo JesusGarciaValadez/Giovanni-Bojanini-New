@@ -717,12 +717,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6484,
+		"initialSize": 6577,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/esta-temporada-es-ideal-para-recuperacion-tu-pelo-promocion-valida-al-10-y-11-de-diciembre.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/esta-temporada-es-ideal-para-recuperacion-tu-pelo-promocion-valida-al-10-y-11-de-diciembre.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/escritorio\/exclusivo-formulas-magistrales-y-shampoos.png": {
 		"fileType": 32768,
@@ -1472,6 +1472,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/movil\/promocion-cubrete-del-frio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33516,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-cubrete-del-frio.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-cubrete-del-frio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/movil\/promocion-dia-del-padre.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1479,17 +1490,6 @@
 		"initialSize": 23120,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-dia-del-padre.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-dia-del-padre.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/img\/banners\/movil\/promocion-movil.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33257,
-		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-movil.png",
-		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-movil.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
