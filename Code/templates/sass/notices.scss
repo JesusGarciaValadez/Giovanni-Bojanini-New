@@ -1,13 +1,12 @@
 #notices{
-    
+
     .reveal{
         //height: 538px;
         height: 443px !important;
         margin-top: ( -443px / 2 );
         .slides{
-            
             .notices_principal{
-                
+
                 .information{
                     background-color: $text_gray;
                     box-sizing: border-box;
@@ -25,22 +24,21 @@
                     }
                     h1{
                         color: $yellow;
-                        font-size: em( 25, 16 );
-                        margin: 30% auto 0;
+                        font-size: em( 24, 16 );
+                        margin: 10% auto 0;
                         text-transform: uppercase;
                         width: 100%;
                         strong{ font-family: $Nobile_Bold; }
                     }
                     p{ font-size: em( 13, 16 ) !important; margin: 15px 0; }
                     ul{
-                        
+
                         li{
                             display:list-item;
                             font-size: em( 13, 13 );
                             list-style: disc outside;
                         }
                     }
-                    .call_to_action{ margin: 40px auto 0;}
                     span{
                         @extend .triangle;
                         border-color: transparent transparent transparent $text_gray;
@@ -52,7 +50,8 @@
                 .image{
                     display: inline-block;
                     float: left;
-                    width: auto;
+                    position: relative;
+                    width: 224px;
                     img{
                         max-height: none;
                         max-width: none;
@@ -60,13 +59,13 @@
                 }
             }
             .sub_notice{
-                
+
                 .subsection{
-                    @extend .clearfix;
                     box-sizing: border-box;
                     clear: both;
                     display: block;
                     height: 50%;
+                    position: relative;
                     width: 100%;
                     .information,.without_information{
                         background-color: $text_gray;
@@ -92,7 +91,7 @@
                         }
                         p{ font-size: em( 13, 16 ) !important; margin: 5px 0; }
                         ul{
-                            
+
                             li{
                                 display:list-item;
                                 font-size: em( 13, 13 );
@@ -110,7 +109,7 @@
                         }
                     }
                     .without_information{
-                        
+
                         h2{ font-size: 26px; margin: -54.75px auto 0; }
                     }
                     .information{
@@ -118,20 +117,48 @@
                         h2{ font-size: 14px; top: auto; width: 100%; }
                     }
                     .image{
+                        position: relative;
+                        height: 100%;
+                        display: inline-block;
+                        max-height: 100%;
+                        max-width: 100%;
+                        width: 223px;
                         float: left;
-                        height: 50%;
-                        width: auto;
                         img{
-                            max-height: none;
+                            left: 0px;
+                            position: absolute;
+                            top: 0px;
                             max-width: none;
+                            max-height: none;
+                        }
+                    }
+                    &:first-child{
+                        img{
+                            &:first-child{ display: none; }
+                            &:last-child{ display: block; }
+                        }
+                        &:hover{
+                            img{
+                                &:first-child{ display: block; }
+                                &:last-child{ display: none; }
+                            }
+                        }
+                    }
+                    &:last-child{
+                        img{
+                            display: block;
                         }
                     }
                 }
             }
             .call_to_action{
+                bottom: 10px;
+                color: #858585 !important;
                 font-family: $Nobile_Bold !important;
                 font-size: 1em;
+                left: 20px;
                 margin: 5px auto;
+                position: absolute;
                 text-align: center;
                 text-transform: uppercase;
             }
