@@ -32,7 +32,7 @@
                     &.current{ height: em( 40, 12 ); }
                     &.current{ border-bottom: 3px solid $yellow; }
                 }
-                &:last-child{ 
+                &:last-child{
                     margin: 0;
                     a{ font-size: em( 11, 16 ); line-height: em( 44, 11 );  }
                 }
@@ -183,32 +183,39 @@
             }
         }
         #october_is_about_finish_2014_mobile{
-            
+
             a{
                 img{ margin: ( -330px / 2 ) ( -283px / 2 ); }
             }
         }
         #change_your_look_november_2014_mobile{
-            
+
             a{
                 img{ margin: ( -218px / 2 ) 0 0 ( -303px / 2 ); }
             }
         }
         #finish-the-year-with-a-better-face-november-2014-mobile{
-            
+
             a{
                 img{ margin: ( -340px / 2 ) 0 0 ( -320px / 2 ); }
             }
-        }*/
+        }
         #schedule_your_appointment_today_auto_banner_mobile{
-            
+
             a{
                 img{ margin: ( -360px / 2 ) 0 0 ( -320px / 2 ); }
             }
+        }*/
+        #schedule_your_appointment_today_auto_new_art_banner_mobile{
+
+            img{ margin: ( -340px / 2 ) 0 0 ( -308px / 2 ); }
         }
         #cover-yourself-from-the-cold-december-2014-mobile{
-            
+
             img{ margin: ( -403px / 2 ) 0 0 ( -320px / 2 ); }
+        }
+        #the-best-gift-is-to-recover-hair-banner-mobile{
+            img{ margin: ( -568px / 2 ) 0 0 ( -320px / 2 ); }
         }
     }
     #livechat-full,#livechat-compact-container{ display: none !important; visibility: hidden; }
