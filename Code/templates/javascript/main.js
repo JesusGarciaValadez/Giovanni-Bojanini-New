@@ -9,13 +9,13 @@
  *
  */
 (function ( $, window, document, undefined ) {
-    
+
     //  Revisa la disponibilidad de localStorage
     var storage, deviceWidth, isPortable, typeOfDevice, touch,
-        minDeviceWidth          = 320, 
-        maxDeviceWidth          = 960, 
+        minDeviceWidth          = 320,
+        maxDeviceWidth          = 960,
         timeLapseOfCarrousel    = 80000;
-    
+
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -31,27 +31,27 @@
             storage = {};
         }
     }
-    
+
     //  When DOM is loaded
     $( function ( ) {
-    
+
         window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() < maxDeviceWidth ) ? 960 : $( window ).innerWidth();
         window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() < maxDeviceWidth ) ? 960 : $( window ).innerHeight();
-        
+
         ( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
-        
+
         window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
-        
+
         window.isPortable   = isPortable;
-        
+
         touch   = ( typeof( Touch ) === 'object' ) ? true : false;
-        
+
         if ( isPortable ) { //  Si es un móvil...
             console.log('portable');
             //  Redimensiona el Body al tamaño de la pantalla
             $( 'body' ).height( deviceHeight );
             $( 'body' ).width( deviceWidth );
-            
+
             $( window ).on( {
                 orientationchange: function ( ) {
 
@@ -61,7 +61,7 @@
                     $( "body" ).height( deviceHeight );
                 }
             } );
-            
+
             //  Muestra u oculta las direcciones de las sucursales
             if ( $( '.branches_list.mobile' ).exists() ) {
 
@@ -132,7 +132,7 @@
                     } );
                 } );
             }
-            
+
             if ( $( '.banner_titles' ).exists() ) {
                 $( '.banner_titles.' + typeOfDevice ).eq( 1 ).on( 'click', 'a', function ( e ) {
                     e.preventDefault();
@@ -179,14 +179,14 @@
                 } );
             }
         } else if ( !isPortable ) { // Si es una tablet o una PC de escritorio...
-            console.log('noportable');
+
             //  Muestra si hay una capa de carga del sitio
             if ( $( ".loader" ).exists() ) {
 
                 $( '.alert_background' ).fadeOut( 300 );
                 $( ".loader" ).fadeOut( 300 );
             }
-            
+
             //  Controla el resize de la imagen de fondo del Home
             if ( $( "#wrapper_background" ).exists() ) {
 
@@ -207,7 +207,7 @@
                     }
                 } );
             }
-            
+
             //  Central verticalmente la sección principal del Home
             if ( $( "#home section" ).exists() ) {
 
@@ -382,9 +382,9 @@
                     autopause: false
                 } );
             }
-            
+
             if ( $( '.testimonial' ).exists() ) {
-                
+
                 $( '.testimonial span.link' ).on( {
                     'mouseover':    function ( e ) {
                         $( e.currentTarget ).siblings( 'div' ).dequeue().fadeIn( 150 );
@@ -394,7 +394,7 @@
                     }
                 } );
             }
-            
+
             //  Efecto de tabs para la selección de mapas en la sección Sucursales
             if ( $( ".branches_list" ).exists() ) {
 
@@ -407,7 +407,7 @@
                     initialIndex: initialIndexVal
                 } );
             }
-            
+
             //  Centra el pin del mapa cuando se hace resize de la ventana
             if ( $( ".map" ).exists() ) {
 
@@ -420,11 +420,11 @@
                     GBSite.calculateNewWidth( $( ".map" ), 43 );
                 } );
             }
-            
+
             //  Efecto de slides en las secciónes internas
             if ( $( ".reveal" ).exists() ) {
                 var scrollable  = $( '.scrollable,.diagnosis_scrollable,#scrollable_norwood,#scrollable_ludwig,#integral_scrollable,.testimonials_explained_scrollable,.medical_directory_scrollable' ).data( 'scrollable' );
-                
+
                 if ( typeof( scrollable ) !== 'undefined' && scrollable.getSize() ) {
 
                     Reveal.initialize( {
@@ -489,7 +489,7 @@
                         maxScale: 1.0
                     } );
                 } else if ( $( '#what_alopecia_is,#mesotherapy,#capilar_electroporation,#platelet_rich_plasma,#tratamiento_medical_drug,#clasification_of_baldness,#integral_scrollable,#dermocosmetics' ).exists() ) {
-                    
+
                     Reveal.initialize( {
                         // Display controls in the bottom right corner
                         controls: true,
@@ -630,14 +630,14 @@
                 }
             }
         }
-        
+
         if ( touch ) {
-            
+
             //  Muestra el menu desplegable principal y hace hightlight del botón
             $( '.menu' ).on( 'touchstart', function ( e ) {
                 e.preventDefault;
                 e.stopPropagation;
-                
+
                 GBSite.toggleMenu( e );
             });
         } else {
@@ -645,23 +645,23 @@
             $( '.menu' ).on( 'mouseenter', function ( e ) {
                 e.preventDefault;
                 e.stopPropagation;
-                
+
                 GBSite.toggleMenu( e );
             });
-            
+
             $( 'header nav' ).on( 'mouseleave', function ( e ) {
                 e.preventDefault;
                 e.stopPropagation;
-                
+
                 GBSite.toggleMenu( e );
             } );
         }
-        
+
         if ( $( 'video' ).exists() ) {
-            
+
             var myVideo = document.getElementsByTagName( 'video' )[ 0 ];
         }
-        
+
         //  Crea una instancia de jQuery Overlay para el home de descubreone.mx
         //  Calcula la distancia entre el margen izquierdo para posicionar
         //  la capa del video. Si en menor de 0 (ocurre en iPhone) utiliza
@@ -702,7 +702,7 @@
 
                             $( '.alert_background' ).fadeOut( 10 );
                             if ( $( '#home' ).exists() ) {
-                                
+
                             } else {
                                 $( '.alert_box h2' ).text( '' );
                                 $( '.alert_box h4' ).text( '' );
@@ -736,7 +736,7 @@
                 }
             } );
         }
-        
+
         // Control de la presentación de los videos de testimoniales que
         // están en el Home
         if ( $( '#home .alert_box' ).exists() ) {
@@ -838,7 +838,7 @@
                 }
             } );
         }
-        
+
         //  Botón de cierre de overlay
         if ( $( ".close" ).exists() ) {
             $( ".close" ).on( 'click', function ( e ) {
@@ -851,7 +851,7 @@
                 }
             } );
         }
-        
+
         //  Inicializa el carrusel de Escala de Norwood de la seccion Tratamiento Integral
         if ( $( '#scrollable_norwood' ).exists() ) {
 
@@ -874,7 +874,7 @@
                 autopause: false
             } );
         }
-        
+
         //  Inicializa el carrusel de Escala de Ludwig de la seccion Tratamiento Integral
         if ( $( '#scrollable_ludwig' ).exists() ) {
 
@@ -898,7 +898,7 @@
             } );
         }
     } );
-    
+
     //  When DOM is ready
     $( document ).on( 'ready', function ( e ) {
 
@@ -1174,7 +1174,150 @@
                 budget.budget_mail  = budgetMail;
                 budget.type         = GBSite.radio;
 
-                GBSite.validateFormsAlter( budget );
+                var validate    = GBSite.validateFormsAlter( budget, true );
+                if ( validate ) {
+                    var formAction  = $( e.currentTarget ).attr( 'action' ); // 'Code/snippets/dispatcher.php?action=sendBudget'
+                    $.ajax ( formAction, {
+                        beforeSend: function ( jqXHR, settings ) {
+                            $('.error_indicator').remove();
+                            if ( $('textarea' ).val() === "" ) {
+
+                                $('textarea' ).val( 'Ninguno' );
+                            }
+                        },
+                        cache: false,
+                        complete: function ( jqXHR, textStatus ) {},
+                        contentType: "application/x-www-form-urlencoded",
+                        converters: {
+                            "* text":       window.String,
+                            "text html":    true,
+                            "text json":    $.parseJSON,
+                            "text xml":     $.parseXML
+                        },
+                        data: budget,
+                        error:  function ( jqXHR, textStatus, errorThrown ) {
+                            $( '.alert_box' ).addClass( 'error_message' );
+                            _title      = 'Error';
+                            _markup     = '<p>Hubo un error. ¿Podrías intentarlo nuevamente?.</p>';
+                            GBSite.openAlert( _title, _markup );
+                        },
+                        success: function ( responseText, textStatus, jqXHR ) {
+                            //console.log(responseText.success);
+                            var _title, _markup;
+
+                            if ( $.parseJSON( responseText ) ) {
+
+                                responseText    = $.parseJSON( responseText );
+
+                                if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
+
+                                    $( '.alert_box' ).addClass( 'thank_you_message' );
+                                    _title      = 'Gracias';
+                                    _markup     = '<p>Muchas gracias por tu interés en Giovanni Bojanini Microinjerto, <br />en breve nos pondremos en contacto contigo.</p>';
+                                    GBSite.openAlert( _title, _markup );
+                                    $( 'textarea' ).val( "" );
+                                    $( '.budget_form input[type="text"]' ).val( '' );
+                                    //$( form ).fadeOut( 300 );
+                                } else {
+
+                                    $( '.alert_box' ).addClass( 'error_message' );
+                                    _title      = 'Error';
+                                    _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
+                                    GBSite.openAlert( _title, _markup );
+                                }
+                            } else {
+                                $( '.alert_box' ).addClass( 'error_message' );
+                                _title      = 'Error';
+                                _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
+                                GBSite.openAlert( _title, _markup );
+                            }
+                            //GBSite.smoothScroll( 'body' );
+                        },
+                        type: "POST"
+                    } );
+                }
+            } );
+        }
+
+        if ( $( '.budget_appointment_form' ).exists() ) {
+            $( '.budget_appointment_form' ).on( 'submit', function ( e ) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                var budgetName,budgetPhone,budgetMail;
+
+                budgetName  = ( typeof( $( 'form input.budget_name' ).val() ) !== 'undefined' ) ? $.trim( $( 'form input.budget_name' ).val() ) : "";
+                budgetPhone = ( typeof( $( 'form input.budget_phone' ).val() ) !== 'undefined' ) ? $.trim( $( 'form input.budget_phone' ).val() ) : "";
+                budgetMail  = ( typeof( $( 'form input.budget_mail' ).val() ) !== 'undefined' ) ? $.trim( $( 'form input.budget_mail' ).val() ) : "";
+
+                var budget          = {};
+                budget.budget_name  = budgetName;
+                budget.budget_phone = budgetPhone;
+                budget.budget_mail  = budgetMail;
+
+                var validate    = GBSite.validateFormsAlter( budget, false );
+                console.log(validate);
+                if ( validate ) {
+                    var formAction  = $( e.currentTarget ).attr( 'action' );
+                    $.ajax ( formAction, {
+                        beforeSend: function ( jqXHR, settings ) {
+                            $('.error_indicator').remove();
+                            if ( $('textarea' ).val() === "" ) {
+
+                                $('textarea' ).val( 'Ninguno' );
+                            }
+                        },
+                        cache: false,
+                        complete: function ( jqXHR, textStatus ) {},
+                        contentType: "application/x-www-form-urlencoded",
+                        converters: {
+                            "* text":       window.String,
+                            "text html":    true,
+                            "text json":    $.parseJSON,
+                            "text xml":     $.parseXML
+                        },
+                        data: budget,
+                        error:  function ( jqXHR, textStatus, errorThrown ) {
+                            $( '.alert_box' ).addClass( 'error_message' );
+                            _title      = 'Error';
+                            _markup     = '<p>Hubo un error. ¿Podrías intentarlo nuevamente?.</p>';
+                            GBSite.openAlert( _title, _markup );
+                        },
+                        success: function ( responseText, textStatus, jqXHR ) {
+                            //console.log(responseText.success);
+                            var _title, _markup;
+
+                            if ( $.parseJSON( responseText ) ) {
+
+                                responseText    = $.parseJSON( responseText );
+
+                                if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
+
+                                    $( '.alert_box' ).addClass( 'thank_you_message' );
+                                    _title      = 'Gracias';
+                                    _markup     = '<p>Muchas gracias por tu interés en Giovanni Bojanini Microinjerto, <br />en breve nos pondremos en contacto contigo.</p>';
+                                    GBSite.openAlert( _title, _markup );
+                                    $( 'textarea' ).val( "" );
+                                    $( '.budget_form input[type="text"]' ).val( '' );
+                                    //$( form ).fadeOut( 300 );
+                                } else {
+
+                                    $( '.alert_box' ).addClass( 'error_message' );
+                                    _title      = 'Error';
+                                    _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
+                                    GBSite.openAlert( _title, _markup );
+                                }
+                            } else {
+                                $( '.alert_box' ).addClass( 'error_message' );
+                                _title      = 'Error';
+                                _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
+                                GBSite.openAlert( _title, _markup );
+                            }
+                            //GBSite.smoothScroll( 'body' );
+                        },
+                        type: "POST"
+                    } );
+                }
             } );
         }
 

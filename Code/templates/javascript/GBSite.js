@@ -213,19 +213,19 @@
          *
          */
         //  !Validación del formulario de contacto.
-        validateFormsAlter:         function ( dataPass ) {
+        validateFormsAlter:         function ( dataPass, checkBaldness ) {
 
-            if ( $( '.select_level:checked' ).length === 0 ) {
-                GBSite.openAlert( 'Error', '<p>Por favor, selecciona un tipo de alopecia.</p>' );
-                return false;
+            if ( checkBaldness === true ) {
+                if ( $( '.select_level:checked' ).length === 0 ) {
+                    GBSite.openAlert( 'Error', '<p>Por favor, selecciona un tipo de alopecia.</p>' );
+                    return false;
+                }
             }
-
             //  Valida el nombre
             if ( !GBSite._validateMinLength( 2, dataPass.budget_name.length ) ) {
                 GBSite.openAlert( 'Error', '<p>Por favor, escribe tu nombre.</p>' );
                 return false;
             }
-
             //  Valida el teléfono
             if ( !GBSite._validateMinLength( 7, dataPass.budget_phone.length ) ) {
                 GBSite.openAlert( 'Error', '<p>El número no debe tener menos de 8 caracteres.</p>' );
@@ -236,11 +236,9 @@
                 return false;
             }
             if ( !GBSite._validateNumber( dataPass.budget_phone ) ) {
-
                 GBSite.openAlert( 'Error', '<p>Por favor, escribe sólo números.</p>' );
                 return false;
             }
-
             //  Valida el correo
             if ( !GBSite._validateMinLength( 2, dataPass.budget_mail.length ) ) {
                 GBSite.openAlert( 'Error', '<p>Por favor, escribe tu email.</p>' );
@@ -250,65 +248,7 @@
                 GBSite.openAlert( 'Error', '<p>Por favor, escribe un email válido.</p>' );
                 return false;
             }
-
-            $.ajax ( 'Code/snippets/dispatcher.php?action=sendBudget', {
-                beforeSend: function ( jqXHR, settings ) {
-                    $('.error_indicator').remove();
-                    if ( $('textarea' ).val() === "" ) {
-
-                        $('textarea' ).val( 'Ninguno' );
-                    }
-                },
-                cache: false,
-                complete: function ( jqXHR, textStatus ) {},
-                contentType: "application/x-www-form-urlencoded",
-                converters: {
-                    "* text":       window.String,
-                    "text html":    true,
-                    "text json":    $.parseJSON,
-                    "text xml":     $.parseXML
-                },
-                data: dataPass,
-                error:  function ( jqXHR, textStatus, errorThrown ) {
-                    $( '.alert_box' ).addClass( 'error_message' );
-                    _title      = 'Error';
-                    _markup     = '<p>Hubo un error. ¿Podrías intentarlo nuevamente?.</p>';
-                    GBSite.openAlert( _title, _markup );
-                },
-                success: function ( responseText, textStatus, jqXHR ) {
-                    //console.log(responseText.success);
-                    var _title, _markup;
-
-                    if ( $.parseJSON( responseText ) ) {
-
-                        responseText    = $.parseJSON( responseText );
-
-                        if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
-
-                            $( '.alert_box' ).addClass( 'thank_you_message' );
-                            _title      = 'Gracias';
-                            _markup     = '<p>Muchas gracias por tu interés en Giovanni Bojanini Microinjerto, <br />en breve nos pondremos en contacto contigo.</p>';
-                            GBSite.openAlert( _title, _markup );
-                            $( 'textarea' ).val( "" );
-                            $( '.budget_form input[type="text"]' ).val( '' );
-                            //$( form ).fadeOut( 300 );
-                        } else {
-
-                            $( '.alert_box' ).addClass( 'error_message' );
-                            _title      = 'Error';
-                            _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
-                            GBSite.openAlert( _title, _markup );
-                        }
-                    } else {
-                        $( '.alert_box' ).addClass( 'error_message' );
-                        _title      = 'Error';
-                        _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
-                        GBSite.openAlert( _title, _markup );
-                    }
-                    //GBSite.smoothScroll( 'body' );
-                },
-                type: "POST"
-            } );
+            return true;
         },
         validateFormsContact:       function ( dataPass ) {
 
@@ -645,7 +585,7 @@
                         $( '.alert_box table' ).remove( );
                         $( '.alert_box div' ).remove( );
                         $( '.alert_box button' ).remove( );
-    
+
                         $( '.alert_background' ).fadeOut( 'fast' );
                     } );
                 }
@@ -1042,10 +982,10 @@
         },
         toggleMenu:             function ( e ){
             if ( $( 'aside .menu' ).hasClass( 'active' ) ) {
-                
+
                 $( 'aside .menu' ).removeClass( 'active');
             } else {
-                
+
                 $( 'aside .menu' ).addClass( 'active');
             }
             $( 'header nav' ).slideToggle( {
