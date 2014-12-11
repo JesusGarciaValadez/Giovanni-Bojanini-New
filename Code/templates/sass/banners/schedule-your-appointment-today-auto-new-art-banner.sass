@@ -1,4 +1,4 @@
-#schedule_your_appointment_today_auto_banner
+#schedule_your_appointment_today_auto_new_art_banner
     left: 0
     width: 100% !important
     a
@@ -24,16 +24,13 @@
             font-size: em( 28, 15 )
             line-height: em( 28, 28 )
     img
-        &:nth-child( 1n ), &:nth-child( 2n )
+        &:nth-child( 1n ), &:nth-child( 2n ),
+        &:nth-child( 3n )
             display: block
             margin: 1.5em auto 0
             position: relative
             z-index: 1
-        &:nth-child( 1n )
-
-        &:nth-child( 2n )
-            margin: 0 auto
-        &:nth-child( 3n )
+        &:nth-child( 4n )
             bottom: -50%
             left: 0
             margin: 0
@@ -41,42 +38,42 @@
             transition: all 1s ease
             z-index: 0
 @media screen and ( min-height: em( 700, 16 ) )
-    #schedule_your_appointment_today_auto_banner
+    #schedule_your_appointment_today_auto_new_art_banner
         a
             right: 28%
             top: 55%
         img
-            &:nth-child( 3n )
+            &:nth-child( 4n )
                 bottom: -40%
 @media screen and ( min-height: em( 750, 16 ) )
-    #schedule_your_appointment_today_auto_banner
+    #schedule_your_appointment_today_auto_new_art_banner
         a
             right: 30%
             top: 53%
         img
-            &:nth-child( 3n )
+            &:nth-child( 4n )
                 bottom: -30%
 @media screen and ( min-height: em( 800, 16 ) )
-    #schedule_your_appointment_today_auto_banner
+    #schedule_your_appointment_today_auto_new_art_banner
         a
             right: 32%
             top: 50%
         img
-            &:nth-child( 3n )
+            &:nth-child( 4n )
                 bottom: -20%
 @media screen and ( min-height: em( 850, 16 ) )
-    #schedule_your_appointment_today_auto_banner
+    #schedule_your_appointment_today_auto_new_art_banner
         a
             right: 34%
             top: 48%
         img
-            &:nth-child( 3n )
+            &:nth-child( 4n )
                 bottom: -10%
 @media screen and ( min-height: em( 900, 16 ) )
-    #schedule_your_appointment_today_auto_banner
+    #schedule_your_appointment_today_auto_new_art_banner
         a
             right: 36%
             top: 45%
         img
-            &:nth-child( 3n )
+            &:nth-child( 4n )
                 bottom: 0
