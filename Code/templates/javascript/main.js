@@ -14,7 +14,7 @@
     var storage, deviceWidth, isPortable, typeOfDevice, touch,
         minDeviceWidth          = 320,
         maxDeviceWidth          = 960,
-        timeLapseOfCarrousel    = 80000;
+        timeLapseOfCarrousel    = 8000;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
@@ -240,7 +240,7 @@
 
                 GBSite.inicializeCarrousel( '#gallery', {
                     speed: 300,
-                    circular: false,
+                    circular: true,
                     keyboard: false,
                     items: '.items',
                     next: '#microinjerto_gallery .next',
@@ -252,14 +252,14 @@
                     indexed: false
                 }, {
                     steps: 1,
-                    interval: 10000,
-                    autoplay: false,
+                    interval: 8000,
+                    autoplay: true,
                     autopause: false
                 } );
             }
 
             //  Inicializa el carrusel de autodiagnosticate de la seccion Microinjerto
-            if ( $( '#diagnosis' ).exists() ) {
+            /*if ( $( '#diagnosis' ).exists() ) {
 
                 GBSite.inicializeCarrousel( '#diagnosis', {
                     speed: 300,
@@ -279,7 +279,7 @@
                     autoplay: false,
                     autopause: false
                 } );
-            }
+            }*/
 
             //  Inicializa el carrusel de testimoniales de la sección Microinjerto
             if ( $( '.testimonials_explained_scrollable' ).exists() ) {
