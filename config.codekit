@@ -702,6 +702,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19929,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/background.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/cliente-satisfecho.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24919e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/cliente-satisfecho.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/cliente-satisfecho.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/el-mejor-regalo-es-recuperar-el-pelo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -709,17 +731,6 @@
 		"initialSize": 15016,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/el-mejor-regalo-es-recuperar-el-pelo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/el-mejor-regalo-es-recuperar-el-pelo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/promocion-banner.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 300714,
-		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/promocion-banner.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/el-mejor-regalo-es-recuperar-el-pelo\/promocion-banner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1058,7 +1069,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10831,
+		"initialSize": 10788,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputPathIsOutsideProject": 0,
@@ -7628,6 +7639,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/mailings\/cubrete-del-frio-source\/header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337072,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/header.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/cubrete-del-frio-source\/liga.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2416,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/liga.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/liga.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/cubrete-del-frio-source\/recuadro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8024,
+		"inputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/recuadro.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/cubrete-del-frio-source\/recuadro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/Code\/mailings\/deja-la-calvicie-en-el-pasado.html": {
 		"fileType": 8192,
