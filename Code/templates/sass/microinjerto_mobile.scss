@@ -1,7 +1,8 @@
 #microinjerto{
+    display: table !important;
     height: 100% !important;
     width: 100% !important;
-    .reveal{ 
+    .reveal{
         height: auto !important;
         left: 0;
         margin: 0 !important;
@@ -14,71 +15,87 @@
             height: auto;
             width: 100%;
             .subsection{
-                height: auto;
-                a{
-                    
-                    .principal_section{
-                        clear: both;
-                        display: block;
-                        float: left;
-                        height: 145px;
-                        left: 0;
-                        margin: 0;
-                        position: relative;
-                        width: 100%;
-                        h1{
-                            clear: both;
-                            display: block;
-                            left: 50%;
-                            margin: ( -75px / 2 ) auto 0 ( -210px / 2 );
-                            position: relative;
-                            top: 50%;
-                            width: 210px;
-                        }
-                        h2{}
-                        span{ @extend .putDesktop; }
-                    }
+                height: auto !important;
+                .square{
+                    height: 250px;
+                    position: relative;
+                    width: 100%;
+                }
+                .first{
+                    background-color: $yellow;
                     .image{
-                        @extend .putDesktop;
-                        img{}
+                        background: none !important;
+                        position: relative;
+                        h1{
+                            background: none;
+                            left: 50%;
+                            margin: ( -60px / 2 ) 0 0 ( -165px / 2 );
+                            padding: 0;
+                            position: absolute;
+                            top: 50%;
+                            width: 165px;
+                            strong{ color: $text_gray; }
+                        }
+                        span{ display: none; }
                     }
                 }
-                &:nth-child( 2n ){ display: none; }
+                .second{ display: none; }
+                &:last-child{
+                    background-color: rgba(0, 0, 0, 0.7);
+                    form{
+                        background-color: none;
+                        padding: 15px 0 15px 15px !important;
+                        width: 100%;
+                        fieldset{
+                            legend{ margin: 0 auto 1em; }
+                            .text{
+                                float: none !important;
+                                position: static !important;
+                            }
+                            .submit{
+                                display: block !important;
+                                float: none !important;
+                                margin: 1em auto 0 !important;
+                                position: static !important;
+                            }
+                        }
+                    }
+                }
             }
         }
         .microinjerto_subsection{
             display: none;
             visibility: hidden !important;
             .subsection{
-                
+
                 a{
-                    
+
                     .image{
-                        
+
                         h2{
-                            
+
                             strong{}
                         }
                         .video_link{}
                         .link{ }
                     }
                     &:nth-child( n + 1 ){
-                        
+
                         .image{
-                            
+
                             h2{
-                                
+
                                 strong{  }
                             }
                             &:hover{  }
                         }   //  1º cuadro
                     }
                     &:nth-child( n + 2 ){
-                        
+
                         .image{
-                            
+
                             h2{
-                                
+
                                 strong{  }
                             }
                             &:hover{  }
@@ -86,26 +103,26 @@
                     }
                 }
                 &:nth-child( n + 2 ){
-                    
+
                     a{
-                        
+
                         &:nth-child( n + 1 ){
-                            
+
                             .image{
-                                
+
                                 h2{
-                                    
+
                                     strong{  }
                                 }
                                 &:hover{  }
                             }   //  3er cuadro
                         }
                         &:nth-child( n + 2 ){
-                            
+
                             .image{
-                                
+
                                 h2{
-                                    
+
                                     strong{  }
                                 }
                                 &:hover{  }
@@ -118,7 +135,7 @@
     }
     #microinjerto{
         height: auto;
-        margin: 30px 0 0;
+        margin: 10px 0 0;
         width: 100%;
         #sectio3gris{
             background-color: $white;
@@ -205,27 +222,27 @@
         @extend .putDesktop;
         article{ }
         .section_title{
-            
+
             .subsection_title{
-                
+
                 h3{
-                    
+
                     strong{  }
                 }
                 span{  }
             }
         }
         .content{
-            
+
             figure{
-                
+
                 .testimonial{
-                    
+
                     img{  }
                     div{
-                        
+
                         p{
-                            
+
                             strong{}
                         }
                     }
@@ -238,52 +255,52 @@
             }
         }
         .testimonials_explained{
-            
+
             .link_wrapper{
-                
+
                 &:hover{  }
                 &:first-child{  }
                 &:last-child{  }
                 .prev_testimonial,
                 .next_testimonial{}
                 .prev_testimonial{
-                    
+
                     &:hover{  }
                 }
                 .next_testimonial{
-                    
+
                     &:hover{  }
                 }
                 .disabled{  }
             }
             .testimonials_explained_scrollable{
-                
+
                 .items_testimonials{
-                    
+
                     div{
-                        
+
                         > p{
-                            
+
                             strong{}
                             &:first-child{
-                                
+
                                 strong{  }
                             }
                         }
                         a{
-                            
+
                             &:hover{  }
                         }
                         figure{
-                            
+
                             img{
-                                
+
                                 &:first-child{  }
                             }
                             figcaption{
-                                
+
                                 p{
-                                    
+
                                     strong{  }
                                     &:first-child{  }
                                 }
@@ -294,23 +311,23 @@
             }
         }
         .subsection_link{
-            
+
             a{
-                
+
                 div{
-                    
+
                     h3{
-                        
+
                         strong{}
                     }
                     .link{}
                 }
                 &:nth-child( n + 2 ){
-                    
+
                     div{
-                        
+
                         h3{
-                            
+
                             strong{}
                         }
                         .link{}
@@ -322,17 +339,17 @@
     #microinjerto_gallery{
         @extend .putDesktop;
         article{
-            
+
             .browser{}
             .prev{}
             .next{}
             .disabled{}
             .scrollable{
-                
+
                 .items{
-                    
+
                     figure{
-                        
+
                         img{}
                     }
                 }
@@ -342,38 +359,38 @@
     #microinjerto_comparative{
         @extend .putDesktop;
         .title{
-            
+
             strong{}
         }
         .text{}
         .down_triangle{}
         #methods{
-            
+
             caption{}
             thead{
-                
+
                 tr{
-                    
+
                     th{
-                        
+
                         h4{
-                            
+
                             strong{}
                         }
                         span{}
                     }
                     .fue{
-                        
+
                         h4{
-                            
+
                             strong{}
                         }
                         p{}
                     }
                     .others{
-                        
+
                         h4{
-                            
+
                             strong{}
                         }
                     }
@@ -381,26 +398,26 @@
                 }
             }
             tfoot{
-                
+
                 tr{
-                    
+
                     td{
-                        
+
                         figure{
-                            
+
                             img{}
                         }
                     }
                 }
             }
             tbody{
-                
+
                 tr{
-                    
+
                     td{
-                        
+
                         h4{
-                            
+
                             strong{}
                         }
                         p{}
@@ -412,7 +429,7 @@
                         span{}
                         &:last-child{}
                         .indicator{
-                            
+
                             strong{}
                             &.last{}
                         }
@@ -420,7 +437,7 @@
                     &.separator{  }
                 }
                 .gray{
-                    
+
                     p{}
                 }
             }
@@ -429,42 +446,42 @@
     #microinjerto_auto_diagnosis{
         @extend .putDesktop;
         article{
-            
+
             .browse{}
             a.prev{}
             a.next{}
             .disabled{}
             #auto_diagnostic{
-                
+
                 h3{
-                    
+
                     strong{}
                 }
                 .diagnosis_scrollable{
-                    
+
                     .diagnosis_items{
-                        
+
                         .levels{
-                            
+
                             img{ }
                             .profile{ }
                             .top{ }
                             > div{
-                                
+
                                 h4{
-                                    
+
                                     strong{ }
                                 }
                                 div.input_radio{
-                                    
+
                                     label{
-                                        
+
                                         strong{}
                                     }
                                     .radio{
-                                        
+
                                         span{
-                                            
+
                                             .select_level{}
                                         }
                                         .checked{}
@@ -472,17 +489,17 @@
                                 }
                             }
                             &:last-child{
-                                
+
                                 > div {
-                                    
+
                                     h4{}
                                 }
                             }
                         }
                         .V{
-                            
+
                             > div{
-                                
+
                                 h4{}
                             }
                         }
@@ -490,17 +507,17 @@
                 }
             }
             .diagnosis_budget{
-                
+
                 h4{
-                    
+
                     strong{}
                 }
                 form{
-                    
+
                     fieldset{
-                        
+
                         .text{
-                            
+
                             .error{}
                             input{}
                             &:first-child{
@@ -510,9 +527,9 @@
                             &:last-child{}
                         }
                         .submit{
-                            
+
                             input{
-                                
+
                                 &:hover{}
                             }
                         }
@@ -523,7 +540,7 @@
     .internal_navigation_menu{
         @extend .putDesktop;
         ul{
-            
+
             li{}
         }
     }

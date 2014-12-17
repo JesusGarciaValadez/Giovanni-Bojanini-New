@@ -7640,6 +7640,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/mailings\/club-nacion-source\/franja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6390,
+		"inputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/franja.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/franja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/club-nacion-source\/header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65382,
+		"inputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/header.jpg",
+		"outputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/club-nacion-source\/liga.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2171,
+		"inputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/liga.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/liga.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Code\/mailings\/club-nacion-source\/recuadro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9838,
+		"inputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/recuadro.png",
+		"outputAbbreviatedPath": "\/Code\/mailings\/club-nacion-source\/recuadro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Code\/mailings\/cubrete-del-frio-source\/header.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9842,8 +9886,8 @@
 		},
 	"\/Code\/templates\/javascript\/main.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/javascript\/main.js",
 		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9853,8 +9897,8 @@
 		},
 	"\/Code\/templates\/javascript\/plugins.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/javascript\/plugins.js",
 		"outputAbbreviatedPath": "\/assets\/js\/plugins.min.js",
 		"outputPathIsOutsideProject": 0,
