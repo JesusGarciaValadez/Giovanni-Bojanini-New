@@ -814,13 +814,19 @@ html,body{
         width: 100%;
         ::-webkit-scrollbar,:-webkit-scrollbar{ -webkit-appearance: none; width: 8px; }
     }
+    .phone{
+        &:after{
+            font-weight: bold !important;
+            width: 200px !important;
+        }
+    }
     .container{
-        
+
         .wrapper{ width: 100%; }
         #wrapper_background{
-            
+
             figure{
-                
+
                 img{}
             }
         }
@@ -875,7 +881,7 @@ html,body{
                         display: inline-block;
                     }
                     .who_are_we{
-                        
+
                         a{}
                         &:hover{ }
                     }
@@ -935,7 +941,6 @@ html,body{
                 width: em( 102, 16 );
                 img{}
             }
-            .phone{}
             .page,.phone{ z-index: 12; }
         }
         .secondary{
@@ -1102,7 +1107,7 @@ html,body{
             .controls{  }
         }
     }
-    
+
     @import "sprite_integral_treatment_mobile";
     @import "home_mobile";
     @import "who_are_whe_mobile";
