@@ -790,9 +790,9 @@ html,body{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-device-width: em( 960, 16 )) {
+@media only screen and (max-device-width: em( 1023, 16 )) {
     @import "sprite-testimonials-mobile";
-    .desktop,.putDesktop{ display: none !important; visibility: hidden; }
+    .desktop, .putDesktop{ display: none !important; visibility: hidden; }
     .mobile{ display: block; visibility: visible; }
     .link, .triangle{ @extend .putDesktop; }
     .text_for_mobile{

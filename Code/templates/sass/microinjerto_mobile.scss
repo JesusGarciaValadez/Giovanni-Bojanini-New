@@ -1,9 +1,11 @@
 #microinjerto{
     display: table !important;
     height: 100% !important;
+    overflow: none !important;
     width: 100% !important;
     .reveal{
-        height: auto !important;
+        display: block;
+        height: 100% !important;
         left: 0;
         margin: 0 !important;
         top: 120px !important;
@@ -26,6 +28,10 @@
                     .image{
                         background: none !important;
                         position: relative;
+                        height: 100% !important;
+                        max-height: 100% !important;
+                        max-width: 100% !important;
+                        width: 100% !important;
                         h1{
                             background: none;
                             left: 50%;
@@ -47,10 +53,16 @@
                         padding: 15px 0 15px 15px !important;
                         width: 100%;
                         fieldset{
-                            legend{ margin: 0 auto 1em; }
+                            legend{
+                                margin: 0 auto 1em !important;
+                                text-align: center !important;
+                            }
                             .text{
+                                display: block;
                                 float: none !important;
+                                margin: 0 auto;
                                 position: static !important;
+                                width: 295px;
                             }
                             .submit{
                                 display: block !important;
@@ -67,7 +79,6 @@
             display: none;
             visibility: hidden !important;
             .subsection{
-
                 a{
 
                     .image{

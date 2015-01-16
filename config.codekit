@@ -1296,6 +1296,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/bg_desktop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56850,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/bg_desktop.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/bg_desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/Header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10047,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/Header.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/Header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/iglesia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 843424,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/iglesia.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/iglesia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/ya_Abrimos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11489,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/ya_Abrimos.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/ya-abrimos-culiacan\/ya_Abrimos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banners\/movil\/background-en-septiembre-echanos-un-grito-treinta-porciento-de-descuento-en-tu-consulta.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1768,6 +1812,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/bg_mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14896,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/bg_mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/bg_mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/texto_mobile_Culiacan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16869,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/texto_mobile_Culiacan.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/ya-abrimos-culiacan\/texto_mobile_Culiacan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/Bojanini_imagenes\/Microinjerto\/03_R_Microinjerto_04Tesitmoniales_2.png": {
 		"fileType": 32768,
@@ -10524,6 +10590,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/we-leave-you-with-the-creeps-november-2014.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/we-leave-you-with-the-creeps-november-2014.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/Code\/templates\/sass\/banners\/whe-opened-culiacan-january-2015.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/whe-opened-culiacan-january-2015.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/whe-opened-culiacan-january-2015.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
