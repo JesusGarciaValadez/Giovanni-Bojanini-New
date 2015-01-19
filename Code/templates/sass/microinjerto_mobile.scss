@@ -1,7 +1,8 @@
 #microinjerto{
     display: table !important;
-    height: 100% !important;
-    overflow: none !important;
+    height: auto !important;
+    //overflow: none !important;
+    position: static !important;
     width: 100% !important;
     .reveal{
         display: block;
@@ -9,7 +10,10 @@
         left: 0;
         margin: 0 !important;
         top: 120px !important;
-        .slides{ height: auto !important; }
+        .slides{
+            height: auto !important;
+            section{ top:0 !important; }
+        }
     }
     #microinjerto_landing{
         width: 100%;

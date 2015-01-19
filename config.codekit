@@ -1069,7 +1069,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10788,
+		"initialSize": 10831,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputPathIsOutsideProject": 0,
@@ -9985,8 +9985,8 @@
 		},
 	"\/Code\/templates\/javascript\/GBSite.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/javascript\/GBSite.js",
 		"outputAbbreviatedPath": "\/assets\/js\/GBSite.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9996,7 +9996,7 @@
 		},
 	"\/Code\/templates\/javascript\/main.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/javascript\/main.js",
 		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",

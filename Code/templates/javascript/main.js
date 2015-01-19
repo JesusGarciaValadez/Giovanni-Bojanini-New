@@ -13,8 +13,8 @@
     //  Revisa la disponibilidad de localStorage
     var storage, deviceWidth, isPortable, typeOfDevice, touch,
         minDeviceWidth          = 320,
-        maxDeviceWidth          = 960,
-        timeLapseOfCarrousel    = 80000;
+        maxDeviceWidth          = 1024,
+        timeLapseOfCarrousel    = 8000;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
@@ -35,8 +35,8 @@
     //  When DOM is loaded
     $( function ( ) {
 
-        window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() < maxDeviceWidth ) ? 960 : $( window ).innerWidth();
-        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() < maxDeviceWidth ) ? 960 : $( window ).innerHeight();
+        window.deviceWidth  = deviceWidth   = ( $( window ).innerWidth() < maxDeviceWidth ) ? 1024 : $( window ).innerWidth();
+        window.deviceHeight = deviceHeight  = ( $( window ).innerHeight() < maxDeviceWidth ) ? 1024 : $( window ).innerHeight();
 
         ( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
 
