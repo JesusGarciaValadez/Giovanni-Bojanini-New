@@ -89,6 +89,12 @@
         top: 53px !important;
         width: 100% !important;
         z-index: 5 !important;
+        @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+            height:  90.5%;
+        }
+        @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+            height:  90.5%;
+        }
         >div{
             bottom: auto;
             display: none;
@@ -136,10 +142,89 @@
             }
         }*/
         #testimonial_banner_mobile{
-
+            .tablet{ display: none; }
             a{
-
+                text-decoration: none;
                 img{ margin: -206px 0 0 -160px; }
+            }
+            .text{
+                @include font-mask( #000, 7.8125vw, 1em, normal, $Fira_Sans_Ot_Light );
+                letter-spacing: 0.01302083333vw;
+                margin: 0 auto;
+                padding: 0;
+                text-align: left;
+                text-transform: uppercase;
+                z-index: 1;
+                &:before, &:after{ content:" "; cursor: pointer; position: absolute; }
+                &:before{
+                    background-color: $yellow;
+                    bottom: -8.203125vw;
+                    display: block;
+                    height: 8.3333333333vw;
+                    left: 50%;
+                    margin: 0 0 0 ( -8.3333333333vw / 2 );
+                    width: 8.3333333333vw;
+                    z-index: 0;
+                }
+                &:after{
+                    border-color: transparent transparent transparent black;
+                    border-style: solid;
+                    border-width: ( 4.1666666667vw / 2 );
+                    bottom: -78%;
+                    height: 0.1302083333vw;
+                    left: 52%;
+                    margin: 0 0 0 ( -4.1666666667vw / 2 );
+                    width: 0.1302083333vw;
+                    z-index: 1;
+                }
+            }
+            @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+                .tablet{ display: block !important; }
+                .mobile{ display: none; }
+                a{
+                    display: block;
+                    height: auto;
+                    left: 3.2552083333vw;
+                    position: absolute;
+                    text-decoration: none;
+                    top: 10%;
+                    width: auto;
+                }
+                .text{ transition: all 1s ease; }
+                .smiley-men{
+                    bottom: 0;
+                    left: auto;
+                    margin: 0;
+                    position: absolute;
+                    right: 0;
+                    top: auto;
+                }
+            }
+            @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+                .tablet{ display: block !important; }
+                .mobile{ display: none; }
+                a{
+                    display: inline-block;
+                    height: auto;
+                    left: 2%;
+                    text-decoration: none;
+                    top: 13%;
+                    width: auto;
+                }
+                .text{
+                    left: auto;
+                    right: 8%;
+                    transition: all 1s ease;
+                    top: 36%;
+                }
+                .smiley-men{
+                    bottom: -13.18359375vw;
+                    left: auto;
+                    margin: 0;
+                    position: absolute;
+                    right: 0;
+                    top: auto;
+                }
             }
         }
         /*#promotion_of_the_month_banner_mobile{
@@ -207,21 +292,95 @@
             }
         }*/
         #schedule_your_appointment_today_auto_new_art_banner_mobile{
-
-            img{ margin: ( -340px / 2 ) 0 0 ( -308px / 2 ); }
+            .tablet{ display: none !important; }
+            .text{
+                left: 50%;
+                margin: ( -340px / 2 ) 0 0 ( -308px / 2 );
+                position: absolute;
+                top: 50%;
+            }
+            @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+                .tablet{ display: block !important; }
+                .text{
+                    transition: all 1s ease;
+                    top: 23%;
+                    z-index: 1;
+                }
+                .auto{
+                    bottom: 0;
+                    left: 0;
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                }
+            }
+            @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+                .tablet{ display: block !important; }
+                .text{
+                    left: auto;
+                    right: 8%;
+                    transition: all 1s ease;
+                    top: 36%;
+                    z-index: 1;
+                }
+                .auto{
+                    bottom: 0;
+                    left: 0;
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                }
+            }
         }
-        #cover-yourself-from-the-cold-december-2014-mobile{
+        /*#cover-yourself-from-the-cold-december-2014-mobile{
 
             img{ margin: ( -403px / 2 ) 0 0 ( -320px / 2 ); }
-        }
-        #the-best-gift-is-to-recover-hair-banner-mobile{
+        }*/
+        /*#the-best-gift-is-to-recover-hair-banner-mobile{
             img{ margin: ( -568px / 2 ) 0 0 ( -320px / 2 ); }
-        }
-        #we-find-a-way-to-reach-you-december-2014-mobile{
+        }*/
+        /*#we-find-a-way-to-reach-you-december-2014-mobile{
             img{ margin: ( -231px / 2 ) 0 0 ( -290px / 2 ); }
-        }
+        }*/
         #whe-opened-culiacan-january-2015-mobile{
-            img{ margin: ( -294px / 2 ) 0 0 ( -243px / 2 ); }
+            .tablet{ display: none !important; }
+            img{ position: absolute; }
+            .text{
+                margin: ( -294px / 2 ) 0 0 ( -243px / 2 );
+                left: 50%;
+                top: 50%;
+            }
+            @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+                .tablet{ display: block !important; }
+                .text{
+                    transition: all 1s ease;
+                    top: 23%;
+                    z-index: 1;
+                }
+                .church{
+                    bottom: 0;
+                    left: -17%;
+                    margin: 0;
+                    position: absolute;
+                }
+            }
+            @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+                .tablet{ display: block !important; }
+                .text{
+                    left: auto;
+                    right: 8%;
+                    transition: all 1s ease;
+                    top: 36%;
+                    z-index: 1;
+                }
+                .church{
+                    bottom: 0;
+                    left: auto;
+                    margin: 0;
+                    position: absolute;
+                    right: 0;
+                }
+            }
         }
     }
     #livechat-full,#livechat-compact-container{ display: none !important; visibility: hidden; }
