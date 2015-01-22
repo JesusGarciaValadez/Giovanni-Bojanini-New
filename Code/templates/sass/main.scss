@@ -779,6 +779,7 @@ html,body{
 @import "contact";
 @import "cita";
 @import "notices";
+@import "custom-styles/desktop/gallery-branch";
 
 @media only screen and (max-width: 94.75em) {}
 
@@ -1121,6 +1122,7 @@ html,body{
     @import "platelet_rich_plasma_mobile";
     @import "clasification_mobile";
     @import "dermocosmetics_mobile";
+    @import "custom-styles/mobile/gallery-branch";
 }
 
 @media print,

@@ -1,0 +1,79 @@
+#branch-gallery
+    section
+        article
+            aside
+                background: #000
+                box-sizing: border-box
+                float: left
+                height: 446px
+                margin: 0 1px 0 0
+                width: 230px
+                h1
+                    @include font-mask( $white, em( 29, 16 ) !important, 1em !important, normal !important, $Fira_Sans_Ot_Light !important )
+                    display: block
+                    margin: 28px auto 36px !important
+                    text-transform: uppercase
+                ul
+                    box-sizing: border-box
+                    display: block !important
+                    margin: 0 !important
+                    li
+                        box-sizing: border-box
+                        display: block
+                        margin: 0 !important
+                        padding-left: 26px !important
+                        width: 100% !important
+                        a
+                            @include font-mask( #A3A3A3 !important, em( 16, 16 ) !important, 1em !important, normal !important, $Nobile_Bold !important )
+                            text-decoration: none
+                            text-transform: uppercase
+                        &.active
+                            background: $yellow
+                            height: 54px
+                            margin: 17px 0 !important
+                            position: relative
+                            width: 100% !important
+                            &:after
+                                border-color: transparent transparent transparent $yellow
+                                border-style: solid
+                                border-width: 27px
+                                content: " "
+                                height: 1px
+                                left: auto
+                                position: absolute
+                                right: -55px
+                                width: 1px
+                            a
+                                color: #000 !important
+                                line-height: 54px !important
+            div
+                figure
+                    display: inline-block
+                    float: left
+                    height: 223px
+                    overflow: hidden
+                    position: relative
+                    width: 222px
+                    img
+                        display: block
+                    a
+                        border: 2px solid $yellow !important
+                        bottom: 15px
+                        color: black
+                        display: inline-block
+                        font-size: 27px
+                        height: 27px
+                        position: absolute !important
+                        right: 12px
+                        text-decoration: none
+                        width: 31px
+                        &:after
+                            color: $yellow
+                            content: "+"
+                            font-size: 27px
+                            line-height: 27px
+                            text-align: center
+                        &:hover
+                            background: $yellow
+                            &:after
+                                color: #000

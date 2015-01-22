@@ -1,0 +1,76 @@
+[[$head]]
+
+    <body id="[[*id_section]]" class="internal_container">
+
+[[$aside]]
+
+[[$header]]
+
+        <div class="reveal clearfix">
+            <div class="slides">
+                <section>
+                    <article>
+                        <aside>
+                            <h1 class="desktop">Sucursales</h1>
+                            <h2 class="mobile">[[*pagetitle]]</h2>
+                            <ul class="desktop">
+                                [[!getResources?
+                                    &parents=`[[*parent]]`
+                                    &tplPath=`[[++assets_path]]../Code/chunks/`
+                                    &tpl=`@FILE gallery-branch-branches-tpl.html`
+                                    &showUnpublished=`0`
+                                    &showHidden=`0`
+                                    &includeContent=`1`
+                                    &includeTVs=`1`
+                                    &processTVs=`1`
+                                    &tvPrefix=``
+                                    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+                                    &depth=`1`
+                                    &limit=`0`
+                                    &tplCondition=`id`
+                                    &conditionalTpls=`{"[[*id]]":"@FILE gallery-branch-branches-active-tpl.html"}`
+                                ]]
+                            </ul>
+                        </aside>
+                        <div class="clearfix">
+                            [[!getResources?
+                                &parents=`[[*id]]`
+                                &tplPath=`[[++assets_path]]../Code/chunks/`
+                                &tpl=`@FILE gallery-branch-image-tpl.html`
+                                &showUnpublished=`1`
+                                &showHidden=`1`
+                                &includeContent=`1`
+                                &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+                                &depth=`1`
+                                &limit=`6`
+                            ]]
+                        </div>
+                        <div class="mobile">
+                            <h2>Sucursales</h2>
+                            <ul>
+                                [[!getResources?
+                                    &parents=`[[*parent]]`
+                                    &resources=`-[[*id]]`
+                                    &tplPath=`[[++assets_path]]../Code/chunks/`
+                                    &tpl=`@FILE gallery-branch-branches-tpl.html`
+                                    &showUnpublished=`0`
+                                    &showHidden=`0`
+                                    &includeContent=`1`
+                                    &includeTVs=`1`
+                                    &processTVs=`1`
+                                    &tvPrefix=``
+                                    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+                                    &depth=`1`
+                                    &limit=`0`
+                                    &where=`{"id:!=":[[*id]]}`
+                                ]]
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+
+[[$alert-box]]
+
+[[$html-end]]

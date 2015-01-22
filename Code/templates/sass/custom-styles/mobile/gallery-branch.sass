@@ -1,0 +1,78 @@
+#branch-gallery
+    display: block
+    //max-width: 568px !important
+    //min-height: 320px !important
+    height: 100% !important
+    min-width: inherit !important
+    overflow: hidden !important
+    overflow-x: hidden !important
+    overflow-y: visible !important
+    width: 100% !important
+    .reveal
+        left: 0
+        margin: 0 auto
+        top: 120px !important
+    section
+        article
+            aside
+                display: block
+                height: auto
+                width: 100%
+                h2
+                    @include font-mask( $yellow !important, em( 32, 16 ) !important, 1em !important, bold !important, $Fira_Sans_Ot_Light !important )
+                    display: block
+                    margin: 33.75vw auto 40vw
+                    text-transform: uppercase
+                ul
+                    display: none !important
+            div.clearfix
+                clear: both
+                display: block
+                margin: 0 auto 6.875vw
+                figure
+                    height: 49.6875vw
+                    overflow: hidden
+                    width: 49.6875vw
+                    img
+                    a
+                        height: 7.1875vw
+                        line-height: 7.1875vw
+                        width: 8.4375vw
+                        &:after
+                            font-size: 7.1875vw
+                            line-height: 7.1875vw
+            .mobile
+                background: #000
+                clear: both
+                display: block
+                float: left
+                width: 100%
+                h2
+                    @include font-mask( $yellow !important, 10vw !important, 1em !important, bold !important, $Fira_Sans_Ot_Light !important )
+                    display: block
+                    margin: 10.3125vw auto 8.125vw !important
+                    text-transform: uppercase
+                ul
+                    box-sizing: border-box
+                    display: block !important
+                    margin: 0 auto 26.25vw !important
+                    width: 70.9375vw
+                    li
+                        box-sizing: border-box
+                        display: block
+                        margin: 0 !important
+                        padding-left: 8.125vw !important
+                        width: 100% !important
+                        a
+                            @include font-mask( #A3A3A3 !important, 5vw !important, 1.5em !important, normal !important, $Nobile_Bold !important )
+                            text-decoration: none
+                            text-transform: uppercase
+                        &.active
+                            background: $yellow
+                            height: 16.875vw
+                            margin: 0 0 5.3125 !important
+                            position: relative
+                            width: 100% !important
+                            a
+                                color: #000 !important
+                                line-height: 16.875vw !important
