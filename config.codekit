@@ -1054,6 +1054,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/formulas-magistrales-de-aplicacion-optica.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5466,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/formulas-magistrales-de-aplicacion-optica.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/formulas-magistrales-de-aplicacion-optica.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/microinjerto-pelo-x-pelo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11508,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/microinjerto-pelo-x-pelo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/microinjerto-pelo-x-pelo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/no-es-solo-pelo-y-nosotros-lo-sabemos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1072,6 +1094,17 @@
 		"initialSize": 10831,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4072,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

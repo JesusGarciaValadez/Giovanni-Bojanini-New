@@ -14,7 +14,7 @@
     var storage, deviceWidth, isPortable, typeOfDevice, touch,
         minDeviceWidth          = 320,
         maxDeviceWidth          = 1024,
-        timeLapseOfCarrousel    = 8000;
+        timeLapseOfCarrousel    = 800000;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
