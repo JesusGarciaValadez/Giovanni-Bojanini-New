@@ -186,11 +186,11 @@
                     height: auto;
                     left: 3.2552083333vw;
                     position: absolute;
+                    transition: all 1s ease;
                     text-decoration: none;
                     top: 10%;
                     width: auto;
                 }
-                .text{ transition: all 1s ease; }
                 .smiley-men{
                     bottom: 0;
                     left: auto;
@@ -207,15 +207,12 @@
                     display: inline-block;
                     height: auto;
                     left: 2%;
+                    position: absolute;
+                    transition: all 1s ease;
                     text-decoration: none;
                     top: 13%;
                     width: auto;
-                }
-                .text{
-                    left: auto;
-                    right: 8%;
-                    transition: all 1s ease;
-                    top: 36%;
+                    z-index: 1;
                 }
                 .smiley-men{
                     bottom: -13.18359375vw;
