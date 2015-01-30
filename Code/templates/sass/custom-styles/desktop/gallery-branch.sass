@@ -89,17 +89,41 @@
         display: none
         left: 50%
         margin: ( -433px / 2 ) 0 0 ( -770px / 2 )
+        height: 433px
         transition: all 0.5s ease
         position: absolute
         top: 50%
+        width: 770px
+        z-index: 13
         &.displayed
             display: block
             transition: all 0.5s ease
         a
+            background-color: $yellow
+            color: transparent
+            display: inline-block
+            height: 40px
             position: absolute
             right: 0
             top: 0
+            width: 40px
             z-index: 1
+            &:after
+                color: $text_gray
+                content: "X"
+                font-family: $Fira_Sans_Ot_Light
+                font-size: em( 40, 16 )
+                font-weight: bold
+                left: 0
+                line-height: em( 40, 40 )
+                position: absolute
+                text-align: center
+                top: 0
+                width: 100%
         img
+            height: 100%
+            max-height: 100%
+            max-width: 100%
             position: relative
+            width: 100%
             z-index: 0
