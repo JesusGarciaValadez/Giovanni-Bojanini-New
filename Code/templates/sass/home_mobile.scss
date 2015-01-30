@@ -199,6 +199,7 @@
                     position: absolute;
                     right: -15%;
                     top: auto;
+                    z-index: 0
                 }
             }
             @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
@@ -211,7 +212,7 @@
                     position: absolute;
                     transition: all 1s ease;
                     text-decoration: none;
-                    top: 13%;
+                    top: 8.7890625vw;
                     width: auto;
                     z-index: 1;
                 }
