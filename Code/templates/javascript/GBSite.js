@@ -917,8 +917,13 @@
             var branchLocation  = _selector.attr( 'data-location' );
             var branchPhone     = _selector.attr( 'data-phone' );
             var branchMail      = _selector.attr( 'data-mail' );
+            var branchPhoto     = _selector.attr( 'data-photo' ) || '';
 
-            var _markup         = '<div class="branch_infoWindow"><p class="branch_name">'+branchTitle+'</p><p class="branch_location">'+branchLocation+'</p><p class="branch_phone">'+branchPhone+'</p><a href="mailto:'+branchMail+'" title="'+branchMail+'" class="branch_mail">'+branchMail+'</p></div>';
+            var _markup         = '<div class="branch_infoWindow"><p class="branch_name">'+branchTitle+'</p><p class="branch_location">'+branchLocation+'</p><p class="branch_phone">'+branchPhone+'</p><a href="mailto:'+branchMail+'" title="'+branchMail+'" class="branch_mail">'+branchMail+'</p>';
+            if ( branchPhoto !== undefined && branchPhoto !== '' ) {
+                _markup        += '<a href="'+branchPhoto+'" title="Fotos de sucursal">Fotos de sucursal</a>';
+            }
+            _markup            += '</div>';
             return _markup;
         },
         obtainBranchLatitude:   function ( selector ) {
