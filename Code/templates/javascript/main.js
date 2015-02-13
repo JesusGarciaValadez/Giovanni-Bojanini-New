@@ -1383,5 +1383,22 @@
                 }
             } );
         }
+
+        if ( $( '#branch-gallery' ).exists() ) {
+            $( 'figure' ).on( 'click', 'a[title="Abrir"]', function ( e ) {
+                var _clone  = $( e.currentTarget ).siblings( 'img' ).clone();
+                console.log( _clone );
+                _clone.appendTo( $( '.great-image' ) );
+                $( '.great-image' ).addClass( 'displayed' );
+            } );
+
+            $( '.great-image' ).on( 'click', 'a[title="Cerrar"]', function ( e ) {
+                console.log( 'cerrar' );
+                $( e.currentTarget ).parent()
+                                    .removeClass( 'displayed' );
+                $( e.currentTarget ).next( 'img' )
+                                    .remove();
+            } );
+        }
     } );
 })( jQuery, window, document );
