@@ -1844,7 +1844,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/BG_mobile.jpg": {
 		"fileType": 16384,
@@ -1900,6 +1900,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/promocion-recupera-tu-pelo-diciembre\/promocion-recupera-mas-que-el-pelo.bak copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22156,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-recupera-tu-pelo-diciembre\/promocion-recupera-mas-que-el-pelo.bak copy.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/promocion-recupera-tu-pelo-diciembre\/promocion-recupera-mas-que-el-pelo.bak copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banners\/movil\/promocion-recupera-tu-pelo-diciembre\/promocion-recupera-mas-que-el-pelo.bak.png": {
 		"fileType": 32768,
