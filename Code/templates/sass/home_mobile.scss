@@ -380,6 +380,33 @@
                 }
             }
         }
+        #ask-for-your-microinjerto-february-2015-mobile{
+            .tablet{ display: none !important; }
+            img{ position: absolute; }
+            .text{
+                margin: ( -568px / 2 ) 0 0 ( -320px / 2 );
+                left: 50%;
+                top: 50%;
+            }
+            @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+                .tablet{ display: block !important; }
+                .text{
+                    transition: all 1s ease;
+                    top: 23%;
+                    z-index: 1;
+                }
+            }
+            @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+                .tablet{ display: block !important; }
+                .text{
+                    left: auto;
+                    right: 8%;
+                    transition: all 1s ease;
+                    top: 36%;
+                    z-index: 1;
+                }
+            }
+        }
     }
     #livechat-full,#livechat-compact-container{ display: none !important; visibility: hidden; }
     .alert_box{
