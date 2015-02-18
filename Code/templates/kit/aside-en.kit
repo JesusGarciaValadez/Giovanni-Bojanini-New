@@ -1,0 +1,50 @@
+        <aside class="primary">
+            <a href="[[~160]]" title="Giovanni Bojanini Home" class="home_logo desktop">Giovanni Bojanini</a>
+            <a href="#" title="Menú" class="menu">Menu</a>
+            <nav class="desktop">
+                <ul class="sections">
+[[!getResources?
+    &parents=`194`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE aside-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+            </nav>
+            <nav class="mobile">
+                <ul class="sections">
+[[!getResources?
+    &resources=`195,198`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE aside-item-mobile.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+                </ul>
+            </nav>
+            <p class="phone desktop"></p>
+            <figure class="page desktop">
+                <a href="[[++site_start]]" title="Home" target="_self">
+                    <img src="[[++site_url]]assets/img/home/logo_boja_M.png" alt="Centro Dermatológico Giovanni Bojanini" width="60" height="47" class="mobile" />
+                </a>
+            </figure>
+        </aside>
+        <p class="phone mobile"></p>
+        <figure class="page mobile">
+            <a href="[[++site_start]]" title="Home" target="_self">
+                <img src="[[++site_url]]assets/img/home/logo_boja_M.png" alt="Centro Dermatológico Giovanni Bojanini" width="60" height="47" class="mobile" />
+            </a>
+        </figure>
