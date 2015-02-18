@@ -1223,7 +1223,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10788,
+		"initialSize": 10831,
 		"inputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputAbbreviatedPath": "\/assets\/img\/banners\/escritorio\/promocion-recupera-tu-pelo-diciembre\/nuevo-tratamiento-integral-mas-microinjerto-mas-formulas-magistrales.png",
 		"outputPathIsOutsideProject": 0,
@@ -1835,16 +1835,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.png": {
-		"fileType": 32768,
+	"\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile-bak.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 50546,
-		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.png",
-		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.png",
+		"initialSize": 120114,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile-bak.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile-bak.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120114,
+		"inputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/banner_Mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/banners\/movil\/pide-tu-microinjerto\/BG_mobile.jpg": {
 		"fileType": 16384,
@@ -7833,11 +7844,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/chunks\/alert_box_home-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/alert_box_home-en.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/chunks\/alert_box_home.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/alert_box_home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/aside-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/aside-en.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7941,6 +7970,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/chunks\/footer-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/footer-en.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/chunks\/footer.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -7977,11 +8015,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/chunks\/head-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/head-en.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/chunks\/head.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/header-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/header-en.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8000,6 +8056,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/header.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/html-end-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/html-end-en.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8027,6 +8092,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/image-banner-item.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/index-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/index-en.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10676,11 +10750,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/branches-section-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/branches-section-en.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/branches-section.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/branches-section.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/gallery-branch-en-tpl.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/gallery-branch-en-tpl.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10694,11 +10786,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/index-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/index-en.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/internal-section-en.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/internal-section-en.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10952,12 +11062,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/kit\/alert_box_home-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/alert_box_home-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/alert_box_home-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/kit\/alert_box_home.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/alert_box_home.kit",
 		"outputAbbreviatedPath": "\/Code\/chunks\/alert_box_home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/kit\/aside-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/aside-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/aside-en.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -10988,6 +11116,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/kit\/branches-section-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/branches-section-en.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/branches-section-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/Code\/templates\/kit\/branches-section.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -10996,6 +11133,15 @@
 		"outputAbbreviatedPath": "\/Code\/templates\/branches-section.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/Code\/templates\/kit\/footer-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/footer-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/footer-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/Code\/templates\/kit\/footer.kit": {
 		"fileType": 2048,
@@ -11006,6 +11152,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/kit\/gallery-branch-en-tpl.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/gallery-branch-en-tpl.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/gallery-branch-en-tpl.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/Code\/templates\/kit\/gallery-branch-tpl.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -11015,12 +11170,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/Code\/templates\/kit\/head-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/head-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/head-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/kit\/head.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/head.kit",
 		"outputAbbreviatedPath": "\/Code\/chunks\/head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/kit\/header-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/header-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/header-en.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -11033,6 +11206,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/kit\/html-end-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/html-end-en.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/html-end-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/kit\/html-end.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -11042,12 +11224,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/kit\/index-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/index-en.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/index-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/Code\/templates\/kit\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/index.kit",
 		"outputAbbreviatedPath": "\/Code\/templates\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/Code\/templates\/kit\/internal-section-en.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/internal-section-en.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/internal-section-en.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -11433,7 +11633,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 2,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/sass\/banners\/whe-opened-culiacan-january-2015.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/whe-opened-culiacan-january-2015.css",
