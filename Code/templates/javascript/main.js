@@ -31,6 +31,8 @@
             storage = {};
         }
     }
+    storage.setItem( 'timeLapseOfCarrousel', timeLapseOfCarrousel );
+    window.storage = storage;
 
     //  When DOM is loaded
     $( function ( ) {
@@ -1133,7 +1135,7 @@
                         $( 'footer ul li' ).eq( imageVisible ).children( 'a' ).addClass( 'current' );
                     } );
                 } );
-            }, timeLapseOfCarrousel );
+            }, storage.getItem( 'timeLapseOfCarrousel' ) );
         }
 
         //  Selecciona el primer botón de testimoniales al finalizar la carga del sitio
