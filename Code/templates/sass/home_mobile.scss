@@ -410,7 +410,12 @@
         }
         #in-spring-all-have-to-grown-2015-mobile{
             .tablet{ display: none !important; }
-            img{ position: absolute; }
+            img{
+                left: 50%;
+                margin: ( -382px / 2 ) 0 0 ( -320px / 2 );
+                position: absolute;
+                top: 55%;
+            }
             @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
                 .tablet{ display: block !important; }
                 .text{
