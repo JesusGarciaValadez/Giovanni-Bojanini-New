@@ -408,6 +408,46 @@
                 }
             }
         }
+        #in-spring-all-have-to-grown-2015-mobile{
+            .tablet{ display: none !important; }
+            img{
+                left: 50%;
+                margin: ( -382px / 2 ) 0 0 ( -320px / 2 );
+                position: absolute;
+                top: 55%;
+            }
+            @media only screen and ( min-width: em( 768, 16 ) ) and ( orientation: portrait ){
+                .tablet{ display: block !important; }
+                .text{
+                    transition: all 1s ease;
+                    top: 23%;
+                    z-index: 1;
+                }
+                .church{
+                    bottom: 0;
+                    left: -17%;
+                    margin: 0;
+                    position: absolute;
+                }
+            }
+            @media only screen and ( min-width: em( 1024, 16 ) ) and ( orientation: landscape ){
+                .tablet{ display: block !important; }
+                .text{
+                    left: auto;
+                    right: 8%;
+                    transition: all 1s ease;
+                    top: 36%;
+                    z-index: 1;
+                }
+                .church{
+                    bottom: 0;
+                    left: auto;
+                    margin: 0;
+                    position: absolute;
+                    right: 0;
+                }
+            }
+        }
     }
     #livechat-full,#livechat-compact-container{ display: none !important; visibility: hidden; }
     .alert_box{
